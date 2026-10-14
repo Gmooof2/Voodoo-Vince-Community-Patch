@@ -1,0 +1,7 @@
+LIBRARY user32.dll
+EXPORTS
+    EnumDisplaySettingsW@12
+    GetMonitorInfoW@8
+    MessageBoxW@16
+    MonitorFromWindow@8
+    SetProcessDPIAware@0

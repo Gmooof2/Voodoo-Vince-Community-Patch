@@ -64,6 +64,13 @@ static const GUID CLSID_Nonexistent = {0x0badf00d, 0x1234, 0x5678, {0x9a, 0xbc, 
 
 #define SIZE 0x42C /* XAUDIO2_DEVICE_DETAILS */
 #define VT(object) (*(void ***)(object))
+/* IXAudio2 (2.7) slots: IUnknown 0-2, GetDeviceCount 3, GetDeviceDetails 4, Initialize 5 */
+#define SLOT_RELEASE 2
+#define SLOT_GET_DEVICE_COUNT 3
+#define SLOT_GET_DEVICE_DETAILS 4
+#define SLOT_INITIALIZE 5
+#define PE_HEADER_OFFSET 0x3C              /* IMAGE_DOS_HEADER.e_lfanew */
+#define PE_IMAGE_SIZE (4 + 20 + 56)        /* from the PE signature: IMAGE_OPTIONAL_HEADER32.SizeOfImage */
 typedef HRESULT(WINAPI *CoCreateFn)(const GUID *, void *, DWORD, const GUID *, void **);
 typedef HRESULT(WINAPI *DetailsFn)(void *, DWORD, BYTE *);
 typedef HRESULT(WINAPI *CountFn)(void *, DWORD *);
@@ -72,7 +79,7 @@ typedef DWORD(WINAPI *ReleaseFn)(void *);
 
 static HRESULT details(void *engine, DWORD index, BYTE *buffer, BYTE fill) {
     for (int i = 0; i < SIZE; i++) ((volatile BYTE *)buffer)[i] = fill;
-    return ((DetailsFn)VT(engine)[4])(engine, index, buffer);
+    return ((DetailsFn)VT(engine)[SLOT_GET_DEVICE_DETAILS])(engine, index, buffer);
 }
 static int g_diffs_shown;
 static int same(const BYTE *a, const BYTE *b) {
@@ -105,8 +112,8 @@ static int same_details(const BYTE *a, const BYTE *b) {
     if (!ok && g_diffs_shown++ < 3) { out("      differs in the strings, role or format; full diff:\r\n"); g_diffs_shown--; same(a, b); }
     return ok;
 }
-static HRESULT initialize(void *engine) { return ((InitializeFn)VT(engine)[5])(engine, 0, 0xFFFFFFFFu /* XAUDIO2_DEFAULT_PROCESSOR */); }
-static void release(void *engine) { if (engine) ((ReleaseFn)VT(engine)[2])(engine); }
+static HRESULT initialize(void *engine) { return ((InitializeFn)VT(engine)[SLOT_INITIALIZE])(engine, 0, 0xFFFFFFFFu /* XAUDIO2_DEFAULT_PROCESSOR */); }
+static void release(void *engine) { if (engine) ((ReleaseFn)VT(engine)[SLOT_RELEASE])(engine); }
 
 static BYTE g_base[SIZE]; /* XAudio2's own answer (engine A, before the patch) */
 static BYTE g_ref[SIZE];  /* the first answer through VinceFix: every cached copy must match it byte for byte */
@@ -141,7 +148,7 @@ void WINAPI start(void) {
 
     HMODULE fix = GetModuleHandleW(L"X3DAudio1_7.dll");
     BYTE *fix_base = (BYTE *)fix;
-    DWORD fix_size = fix ? *(DWORD *)(fix_base + *(DWORD *)(fix_base + 0x3C) + 24 + 56) : 0;
+    DWORD fix_size = fix ? *(DWORD *)(fix_base + *(DWORD *)(fix_base + PE_HEADER_OFFSET) + PE_IMAGE_SIZE) : 0;
 #define IN_FIX(p) ((ULONG_PTR)(p) - (ULONG_PTR)fix_base < fix_size)
     long long frequency = 0, t0, t1;
     QueryPerformanceFrequency(&frequency);
@@ -158,10 +165,10 @@ void WINAPI start(void) {
     if (!a) { out("XAudio2 2.7 is not available (DirectX June 2010 runtime missing?)\r\n"); ExitProcess(100); }
     check(initialize(a) >= 0, "engine A Initialize");
     void **vtable = VT(a);
-    void *original4 = vtable[4], *original3 = vtable[3];
+    void *original4 = vtable[SLOT_GET_DEVICE_DETAILS], *original3 = vtable[SLOT_GET_DEVICE_COUNT];
     check(!IN_FIX(original4), "before any engine goes through the import, slot 4 is XAudio2's own");
     MEMORY_BASIC_INFORMATION before = {0}, after = {0};
-    VirtualQuery(&vtable[4], &before, sizeof before);
+    VirtualQuery(&vtable[SLOT_GET_DEVICE_DETAILS], &before, sizeof before);
     DWORD count = 0;
     ((CountFn)original3)(a, &count);
     BYTE base1[SIZE], buffer[SIZE];
@@ -187,17 +194,17 @@ void WINAPI start(void) {
     check(h1 < 0 && h1 == h2, "unknown CLSID: same failure through the import");
     void *unknown = 0;
     hr = CoCreateInstance(&CLSID_XAudio2, 0, 1, &IID_IUnknown, &unknown);
-    check(hr >= 0 && unknown && vtable[4] == original4, "XAudio2 asked for IUnknown: created, nothing patched");
+    check(hr >= 0 && unknown && vtable[SLOT_GET_DEVICE_DETAILS] == original4, "XAudio2 asked for IUnknown: created, nothing patched");
     release(unknown);
     void *aggregated = 0;
     hr = CoCreateInstance(&CLSID_XAudio2, a /* any live IUnknown as outer */, 1, &IID_IXAudio2, &aggregated);
-    check(vtable[4] == original4, "XAudio2 with an outer object: nothing patched");
+    check(vtable[SLOT_GET_DEVICE_DETAILS] == original4, "XAudio2 with an outer object: nothing patched");
     if (hr >= 0) release(aggregated);
     hr = CoCreateInstance(&CLSID_XAudio2, 0, 1, &IID_IXAudio2, 0);
-    check(hr < 0 && vtable[4] == original4, "XAudio2 with a NULL out pointer: fails, nothing patched");
+    check(hr < 0 && vtable[SLOT_GET_DEVICE_DETAILS] == original4, "XAudio2 with a NULL out pointer: fails, nothing patched");
     void *enumerator = 0;
     hr = CoCreateInstance(&CLSID_MMDeviceEnumerator, 0, 1, &IID_IMMDeviceEnumerator, &enumerator);
-    check(hr >= 0 && enumerator && vtable[4] == original4, "another class (MMDeviceEnumerator): created, nothing patched");
+    check(hr >= 0 && enumerator && vtable[SLOT_GET_DEVICE_DETAILS] == original4, "another class (MMDeviceEnumerator): created, nothing patched");
     release(enumerator);
 
     /* 3. engine B through the import */
@@ -207,9 +214,9 @@ void WINAPI start(void) {
     if (!b) ExitProcess(100 + (DWORD)failures);
     check(initialize(b) >= 0, "engine B Initialize");
     check(VT(b) == vtable, "B shares A's vtable");
-    check(IN_FIX(vtable[4]), "slot 4 (GetDeviceDetails) now points into VinceFix");
-    check(vtable[3] == original3, "slot 3 (GetDeviceCount) untouched");
-    VirtualQuery(&vtable[4], &after, sizeof after);
+    check(IN_FIX(vtable[SLOT_GET_DEVICE_DETAILS]), "slot 4 (GetDeviceDetails) now points into VinceFix");
+    check(vtable[SLOT_GET_DEVICE_COUNT] == original3, "slot 3 (GetDeviceCount) untouched");
+    VirtualQuery(&vtable[SLOT_GET_DEVICE_DETAILS], &after, sizeof after);
     out("      vtable page protection before "); out_hex(before.protect); out(", after "); out_hex(after.protect); out("\r\n");
     check(after.protect == before.protect, "vtable page protection restored");
 
@@ -244,7 +251,7 @@ void WINAPI start(void) {
     HMODULE xaudio = GetModuleHandleW(L"xaudio2_7.dll");
     check(xaudio != 0, "xaudio2_7.dll still loaded after both engines are released and CoFreeUnusedLibrariesEx (pinned)");
     if (!xaudio) ExitProcess(100 + (DWORD)failures);
-    check(IN_FIX(vtable[4]), "its vtable is still patched");
+    check(IN_FIX(vtable[SLOT_GET_DEVICE_DETAILS]), "its vtable is still patched");
     void *c = 0;
     hr = CoCreateInstance(&CLSID_XAudio2, 0, 1, &IID_IXAudio2, &c);
     check(hr >= 0 && c && VT(c) == vtable, "engine C through the import reuses the patched vtable");

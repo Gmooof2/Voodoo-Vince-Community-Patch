@@ -1,0 +1,71 @@
+# VinceFix 1.3: every Windows function X3DAudio1_7.dll imports, and why. build.ps1 reads the built DLL's import table
+# (llvm-objdump -p) and fails the build on any import missing from this list, or listed but no longer imported.
+# Format: dll!function, one per line; # starts a comment. No network, registry, process-creation or privilege functions.
+
+# The log (VinceFix.log) and the settings (VinceFix.ini), both in the game folder (the log falls back to %TEMP%)
+kernel32.dll!CreateFileW                 # open VinceFix.log to append a line, VinceFix.ini to read it
+kernel32.dll!WriteFile                   # append a line to VinceFix.log
+kernel32.dll!CloseHandle
+kernel32.dll!GetPrivateProfileStringW    # read the [VinceFix] values of VinceFix.ini
+kernel32.dll!GetFileAttributesExW        # LiveReload=1: VinceFix.ini's last-write time and size
+kernel32.dll!GetModuleFileNameW          # this DLL's folder (the game folder)
+kernel32.dll!GetTempPathW                # where the log goes if the game folder is not writable
+kernel32.dll!GetLocalTime                # each log line's time
+kernel32.dll!GetCurrentProcessId         # each log line's process id
+kernel32.dll!GetLastError                # error numbers in the log
+kernel32.dll!GetThreadId                 # the log line for each ignored SetThreadAffinityMask call
+
+# Forwarding the audio calls to the real X3DAudio1_7.dll in the Windows system folder
+kernel32.dll!GetSystemDirectoryW
+kernel32.dll!LoadLibraryW
+kernel32.dll!GetProcAddress              # see the run-time list below
+user32.dll!MessageBoxW                   # an error box if the system copy is missing, then:
+kernel32.dll!ExitProcess                 # the game would not start without it either
+
+# Patching the game in memory (only its own process; no file on disk is changed)
+kernel32.dll!GetModuleHandleW            # Vince.exe, kernel32, ole32, user32 (already loaded)
+kernel32.dll!GetModuleHandleExW          # keep xaudio2_7.dll loaded while its vtable slot points at VinceFix
+kernel32.dll!VirtualProtect              # make an import slot, the Present call or XAudio2's vtable slot writable for the patch
+kernel32.dll!FlushInstructionCache       # after patching the Present call
+kernel32.dll!GetCurrentProcess
+kernel32.dll!DisableThreadLibraryCalls   # VinceFix needs no per-thread setup
+kernel32.dll!GetProcessAffinityMask      # thread unpinning: what the no-op SetThreadAffinityMask returns
+kernel32.dll!AcquireSRWLockExclusive     # locks: the XAudio2 cache, handing live-reloaded settings to the render thread
+kernel32.dll!ReleaseSRWLockExclusive
+kernel32.dll!TryAcquireSRWLockShared     # the render thread takes reloaded settings only if that never waits
+kernel32.dll!ReleaseSRWLockShared
+
+# Frame timing: the present hold and the frame cap
+kernel32.dll!QueryPerformanceCounter
+kernel32.dll!QueryPerformanceFrequency
+kernel32.dll!CreateWaitableTimerExW      # a high-resolution timer for the waits
+kernel32.dll!SetWaitableTimer
+kernel32.dll!WaitForSingleObject         # waits on that timer, and on the folder-change notification below
+user32.dll!MonitorFromWindow             # the game's display, for its refresh rate
+user32.dll!GetMonitorInfoW
+user32.dll!EnumDisplaySettingsW
+
+# Live reload (LiveReload=1 only): a thread that watches the game folder for changes to VinceFix.ini
+kernel32.dll!CreateThread
+kernel32.dll!FindFirstChangeNotificationW
+kernel32.dll!FindNextChangeNotification
+kernel32.dll!Sleep
+
+# The setup report in the log (power: line) and DPI awareness
+kernel32.dll!GetSystemPowerStatus        # AC or battery, battery saver
+user32.dll!SetProcessDPIAware            # DPI fix on Windows older than 10 1703 (newer: see below)
+
+# ---- Resolved at run time with GetProcAddress (not in the import table) ----------------------------------------------
+#   X3DAudio1_7.dll (system copy)!X3DAudioInitialize    the game's audio calls are forwarded to the real functions
+#   X3DAudio1_7.dll (system copy)!X3DAudioCalculate
+#   user32.dll!SetProcessDpiAwarenessContext            DPI fix: per-monitor awareness (Windows 10 1703 and later only,
+#   user32.dll!GetThreadDpiAwarenessContext             so looked up rather than imported); the two others report the
+#   user32.dll!GetAwarenessFromDpiAwarenessContext      awareness actually in effect to the log
+#   kernel32.dll!SetThreadAffinityMask                  only its address, to find Vince.exe's import slot; never called
+#   ole32.dll!CoCreateInstance                          the real function behind Vince.exe's patched import: every call
+#                                                       is passed on to it unchanged
+# Also read without a function call: Windows' version numbers from the read-only shared page every process has
+# (KUSER_SHARED_DATA), for the log's os: line. COM methods are called only on the game's own objects: its swap chain
+# (Present, GetDevice, GetDesc, GetContainingOutput), D3D11 device (QueryInterface, GetImmediateContext), immediate
+# context (Flush), DXGI device/adapter/output (GetAdapter, GetDesc, CheckInterfaceSupport, GetParent) and XAudio2 engine
+# (GetDeviceDetails, which VinceFix wraps).
