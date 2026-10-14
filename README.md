@@ -1,5 +1,5 @@
 <img width="1920" height="1080" alt="Banner" src="https://github.com/user-attachments/assets/0b109fe0-716f-40e2-81d4-9253bbc2d30a" />
-# VinceFix
+
 
 Smoother frame pacing for **Voodoo Vince Remastered** on PC. VinceFix is a small drop-in DLL that:
 
