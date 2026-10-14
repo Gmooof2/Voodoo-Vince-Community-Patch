@@ -1,0 +1,4 @@
+LIBRARY user32.dll
+EXPORTS
+    MessageBoxW@16
+    SetProcessDPIAware@0
