@@ -61,7 +61,6 @@ Open `VinceFix.log` in the game folder. You should see lines like `SetThreadAffi
 
 ## Good to know
 
-- **Speedrunners:** the cap and hold change frame timing. Check your leaderboard's rules first, or set `FrameCap=0` and `PresentHold=0`.
 - **Safety:** VinceFix uses no network, registry or admin rights, and only patches the game in memory. The build is reproducible; see [BUILDING.md](BUILDING.md).
 - **AMD/Intel:** the hold and flush are untested there. If anything feels worse, set `PresentHold=0` and open an issue with your log.
 - **Limits:** it can't fix stalls caused by other programs, the driver, or the game's own loading hitches.
