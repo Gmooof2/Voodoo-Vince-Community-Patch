@@ -35,8 +35,6 @@ Measured on one PC (Ryzen 7 5800X3D, RTX 5070 Ti, 1440p 280 Hz G-SYNC) while str
 
 **Uninstall:** delete `X3DAudio1_7.dll`, `VinceFix.ini` and `VinceFix.log`.
 
-**Requirements:** Steam version 1.14.2.0, Windows 10 (1703+), and the DirectX June 2010 runtime the game already needs.
-
 ## Settings
 
 Edit `VinceFix.ini` with Notepad and restart the game. The defaults are recommended:
