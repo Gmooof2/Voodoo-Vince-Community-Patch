@@ -1,5 +1,4 @@
 <img width="1920" height="1080" alt="674037262-bb2d0131-daf7-401c-ad75-d86fe0b4eaf9" src="https://github.com/user-attachments/assets/5168e260-1958-451e-9249-8d5a9427a0ed" />
-Voodoo Vince Community Patch
 
 One patch for **Voodoo Vince Remastered** that puts the community fixes together: graphics, sound, frame pacing,
 crashes and a few look-and-feel touches. An installer applies them, lets you pick three optional parts, change your mind
