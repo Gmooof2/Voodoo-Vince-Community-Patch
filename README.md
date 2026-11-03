@@ -11,28 +11,28 @@ get the original game back exactly as it was.
 
 ---
 
-## ✨ What it fixes
+## What it fixes
 
-### 🎮 Performance
+### Performance
 - Runs at your real resolution when Windows scaling is above 100 %.
 - Threads are no longer pinned to the first CPU cores causing stuttering when background application's are running (Discord and OBS a particular example).
 - A 60 fps cap with an enhanced frame limiter gives steadier frame pacing (some physics breaks above 60 like the boat race obstacles).
 
-### 🔊 Sound
+### Sound
 - Stereo fix, and audio device caching fixing stutters.
 - Sound survives an audio device change and no longer cuts out.
 - The power icon pickup sound plays again (percentage chance of it not activating).
 - Volume is set to half by default (adjustable in Settings).
 - The loud Kosmobot fan and the Land o' Rides cat noises are turned down.
 
-### 🎬 Crashes and cutscenes
+### Crashes and cutscenes
 - No crash when skipping the end of the Janice bossfight cutscene.
 - Charmaine's cut third line in Main Tunnel.
 - Vince's eye animation in the first Janice cutscene (pupil fix by **Chameleon2606**).
 - Bulldozer cutscene fix.
 - Vince walks out of warps again.
 
-### 🎨 Graphics
+### Graphics
 - Updated Vince texture and normal map to resemble the Xbox Original Vince.
 - Water shader and visuals restored, plus the puddle in the main tunnel.
 - Crypt City lights glow, and the urns reflect properly.
@@ -47,14 +47,14 @@ get the original game back exactly as it was.
 - Camera FOV fix in the harp puzzle.
 - Particle texture stretch fixed.
 
-### 🖥️ Ultrawide
+### Ultrawide
 - 21:9 and 32:9 screens fill without black bars. The HUD and menus stay 16:9 in the middle.
 - By **Chameleon2606**.
 - If you change resolution or display mode during play, return to the main menu to fix the picture's shape.
 
 ---
 
-## 📦 Install
+## Install
 
 1. **Close the game.**
 2. **Unzip** `VoodooVinceCommunityPatch-2.0.0.zip` into its own folder, not the game folder. **Keep this folder**, as
@@ -72,7 +72,7 @@ get the original game back exactly as it was.
 | `firebug` | New material for the firebug's shell. |
 | `retexture` | Updated Vince texture and normal map by **[Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7)**. |
 
-### ⚠️ If Windows blocks the installer
+### If Windows blocks the installer
 
 - **"Windows protected your PC":** click **More info**, then **Run anyway**.
 - **No such button (Smart App Control):** right-click the zip, open *Properties*, tick **Unblock**, click OK, and unzip again.
@@ -82,7 +82,7 @@ doesn't touch the registry, and only writes inside the game folder.
 
 ---
 
-## 🔁 Change, check or uninstall
+## Change, check or uninstall
 
 Run `Install.cmd` again. Its first lines show what is installed, then:
 
@@ -92,7 +92,7 @@ Run `Install.cmd` again. Its first lines show what is installed, then:
 
 ---
 
-## ⚙️ Settings
+## Settings
 
 `VinceAIO.ini`, next to `Vince.exe`, is read when the game starts. Every line is explained inside. The main settings:
 
@@ -106,7 +106,7 @@ Your edits are kept when you change options or reinstall. An edited `VinceAIO.in
 
 ---
 
-## 🧩 What it changes
+## What it changes
 
 The patch replaces `Vince.exe` and some game data files, and adds `X3DAudio1_7.dll`, `d3d11.dll` and `VinceAIO.ini`.
 
@@ -124,7 +124,7 @@ and the `VinceSteam.ini` from VinceSteam AIO v7. There is no need to remove them
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 If the installer refuses, it names the file and changes nothing. Common causes:
 
@@ -136,7 +136,7 @@ If the installer refuses, it names the file and changes nothing. Common causes:
 
 ---
 
-## 💻 Command line
+## Command line
 
 Run these from the `installer` folder:
 
@@ -153,7 +153,7 @@ Install.cmd uninstall
 
 ---
 
-## 🙏 Credits and licence
+## Credits and licence
 
 - Vince retexture, Janice cutscene pupil fix, and the ultrawide fix with its particle shape fix by
   **[Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7)**, included with permission.
