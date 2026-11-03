@@ -15,7 +15,7 @@ get the original game back exactly as it was.
 
 ### 🎮 Performance
 - Runs at your real resolution when Windows scaling is above 100 %.
-- Threads are no longer pinned to the first CPU cores causing stuttering when background application's we're running (Discord and OBS a particular example).
+- Threads are no longer pinned to the first CPU cores causing stuttering when background application's are running (Discord and OBS a particular example).
 - A 60 fps cap with an enhanced frame limiter gives steadier frame pacing (some physics breaks above 60 like the boat race obstacles).
 
 ### 🔊 Sound
