@@ -15,42 +15,45 @@ get the original game back exactly as it was.
 
 ### Performance
 - Runs at your real resolution when Windows scaling is above 100 %.
-- Threads are no longer pinned to the first CPU cores causing stuttering when background application's are running (Discord and OBS a particular example).
+- Threads are no longer pinned to the first CPU cores causing stuttering when background applications are running (Discord and OBS a particular example).
 - A 60 fps cap with an enhanced frame limiter gives steadier frame pacing (some physics breaks above 60 like the boat race obstacles).
 
 ### Sound
 - Stereo fix, and audio device caching fixing stutters.
 - Sound survives an audio device change and no longer cuts out.
-- The power icon pickup sound plays again (percentage chance of it not activating).
-- Volume is set to half by default (adjustable in Settings).
+- The power icon pickup sound plays every time again (it used to fail some of the time).
+- Volume is set to half by default (adjustable in `VinceAIO.ini`, see Settings).
 - The loud Kosmobot fan and the Land o' Rides cat noises are turned down.
 
 ### Crashes and cutscenes
 - No crash when skipping the end of the Janice bossfight cutscene.
-- Charmaine's cut third line in Main Tunnel.
+- Charmaine's cut third line in Main Tunnel restored.
 - Vince's eye animation in the first Janice cutscene (pupil fix by **Chameleon2606**).
-- Bulldozer cutscene fix.
 - Vince walks out of warps again.
 
 ### Graphics
-- Updated Vince texture and normal map to resemble the Xbox Original Vince.
+- Updated Vince texture and normal map to resemble the Xbox Original Vince (optional, see below).
 - Water shader and visuals restored, plus the puddle in the main tunnel.
 - Crypt City lights glow, and the urns reflect properly.
 - Heat shimmer over steam and fire, including the propeller room.
 - Smoke in Kosmo's cabin after hitting the barriers, and the fog at the Crypt City gate.
 - Lightmap fix in the bog.
 - Bumper car fog increased, with obstacle animations from the prototype restored.
-- Bone Goliath (dino boss) lightning flashing UI icons at higher resolutions.
+- Vince's shadow no longer shows under his bumper car (by **Chameleon2606**).
+- Bone Goliath (dino boss) lightning no longer makes the UI icons flash at higher resolutions.
 - Butler ghost field of view fixed; the Zombie Guidance Counselor's ball look from the Xbox.
-- Camera near plane moved from 0.1 to 0.05, which reduces flickering on surfaces that sit very close together, like
-  Vince's pupils.
-- Camera FOV fix in the harp puzzle.
+- Evil Vince is no longer cut off when he lies defeated in the House o' Mirrors (by **Chameleon2606**).
+- Camera near plane raised from the stock 0.01 to 0.05, which reduces flickering on surfaces that sit very close
+  together, like Vince's pupils.
+- Cameras placed in levels, like the harp puzzle's, keep the original Xbox framing outside cutscenes (by
+  **Chameleon2606**).
 - Particle texture stretch fixed.
 
 ### Ultrawide
 - 21:9 and 32:9 screens fill without black bars. The HUD and menus stay 16:9 in the middle.
+- The picture keeps its shape straight away when you change the resolution, display mode or window size.
+- Full-screen fades and the pause dim cover the whole screen.
 - By **Chameleon2606**.
-- If you change resolution or display mode during play, return to the main menu to fix the picture's shape.
 
 ---
 
@@ -68,7 +71,7 @@ get the original game back exactly as it was.
 
 | Option | What it adds |
 | --- | --- |
-| `voodoopowerfix` | New materials for the power icon, power skull, beads and firebug. |
+| `voodoopowerfix` | New materials for the power icon, power skull and beads. |
 | `firebug` | New material for the firebug's shell. |
 | `retexture` | Updated Vince texture and normal map by **[Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7)**. |
 
@@ -155,8 +158,9 @@ Install.cmd uninstall
 
 ## Credits and licence
 
-- Vince retexture, Janice cutscene pupil fix, and the ultrawide fix with its particle shape fix by
-  **[Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7)**, included with permission.
+- Vince retexture, Janice cutscene pupil fix, the ultrawide fix with its particle shape fix, the live aspect fix, the
+  full-screen fill fix, the level camera field of view fix, the bumper car shadow fix and the Evil Vince depth fix by
+  **[Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7)**, all included with permission.
 - The patch is MIT-licensed. See [LICENSE](LICENSE).
 - Third-party parts and their licences are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Full licence
   texts are in the `licences` folder.
