@@ -1,2 +1,3 @@
 build/
-*.zip
+.run/
+__pycache__/

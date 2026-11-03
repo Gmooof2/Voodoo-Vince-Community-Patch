@@ -1,0 +1,6 @@
+# Pinned Python packages for the AIO; installed into PY from PyPI wheels (not the developer-local copies).
+# Install: PY -m pip install --only-binary=:all: -r aio/requirements.txt
+# Checked by: PY aio/toolchain.py check (docs/ops/toolchain.md)
+pefile==2024.8.26
+unicorn==2.1.4
+capstone==5.0.9

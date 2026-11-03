@@ -1,0 +1,19 @@
+Upstream: https://github.com/TsudaKageyu/minhook
+Release: v1.3.4
+Source archive: https://codeload.github.com/TsudaKageyu/minhook/zip/refs/tags/v1.3.4
+Archive SHA256: 172708123daa0c98d20d3a980b16a50be14af243dc95dee6f79c24193ad010e4
+Only include/, src/ and LICENSE.txt were copied.
+Local change (1.3 T6, S-water-01): trampoline blocks are never
+PAGE_EXECUTE_READWRITE at rest. src/buffer.c: GetMemoryBlock allocates a new
+block PAGE_READWRITE, builds the slot list, then sets PAGE_EXECUTE_READ;
+AllocateBuffer write-enables the block (PAGE_EXECUTE_READWRITE, never plain RW:
+it may hold another live trampoline) and leaves it so for the caller's
+trampoline write; new ProtectBuffer(LPVOID) re-protects PAGE_EXECUTE_READ and
+flushes the instruction cache; FreeBuffer write-enables around its list
+updates (also the previous block's pNext) and re-protects unless the block is
+VirtualFree'd. src/buffer.h declares ProtectBuffer. src/hook.c MH_CreateHook
+calls ProtectBuffer right after CreateTrampolineFunction succeeds. Why: an RWX
+region at rest is a writable+executable target for any memory-corruption bug
+in the host process. Hook, fallback and API behaviour are unchanged.
+The LLVM-only build supplies a local __movsb compatibility routine in its own
+build output, rather than modifying upstream MinHook source.

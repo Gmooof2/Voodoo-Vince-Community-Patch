@@ -1,0 +1,23 @@
+// area settings (override settings found in Maya file)
+
+Version = 1;
+
+[Fog]
+{
+	[Distance]
+	{
+		// Use the values below instead of the level's (1 m -> 80 m, which blacks out the tent).
+		// The remaster also puts the far clip plane at FogFar + 20 m.
+		FogOverride = true;
+		// Distance to start of fog in meters
+		FogNear = 1;
+		// Distance to fully opaque fog in meters
+		FogFar = 200;
+		// Fog Color
+		FogColor = 0 0 0;
+	}
+	// Fog zone (outerpit / bottomlesspit) strength. Region fog zones use 2x this value,
+	// so 0.5 gives the original Xbox opacity (depth through zone / zone thickness).
+	// Was 1 (the game's own default, so a no-op); 4 chosen by the developer in game (1.8 T10).
+	FogZoneDensity = 4;
+}

@@ -1,6 +1,32 @@
 # Changelog
 
-## 1.3 (2026-10-14)
+## 2.0.0 Voodoo Vince Community Patch (2026-11-02)
+
+VinceFix becomes the Voodoo Vince Community Patch: one installer for all the community fixes, with three
+options. The repository's earlier releases (VinceFix 1.2, 1.3) are kept below.
+
+- **New: one package for all the fixes.** VinceFix, VinceAudio, VinceWaterFix, VinceSteam and the other community
+  fixes (graphics, sound, crashes, ultrawide; full list in README.md) in one zip, with an installer
+  (`installer\Install.cmd`).
+- **New: three options** asked at install: `voodoopowerfix` (power icon, power skull and bead materials), `firebug`
+  (firebug shell material), `retexture` (updated Vince texture and normal map). Change them any time; only the files
+  that differ are rewritten.
+- **New: the patch changes game files**, unlike VinceFix 1.3. `Vince.exe` and some `vincedata` files are patched;
+  every original is kept in `VinceAIO.backup` and uninstall restores them byte for byte. Every file is hashed before
+  and after it is written; anything unrecognised is refused before a byte is written; an interrupted run can be
+  finished or rolled back.
+- **New: one settings file, `VinceAIO.ini`**, with sections `[VinceFix]`, `[VinceAudio]` and `[VinceSteam]`. The
+  settings in an earlier `VinceFix.ini`, `VinceAudio.ini` or `VinceSteam.ini` are carried over once.
+- **Upgrades** over VinceFix 1.3, VinceAudio 1.1.0 and 1.3.0, VinceWaterFix v7.10 and 0.7.10.2-experimental;
+  uninstall puts the earlier release back.
+- **Credits:** Vince retexture by [Chameleon2606](https://www.nexusmods.com/voodoovinceremastered/mods/7), the Janice cutscene pupil fix by
+  Chameleon2606 and the ultrawide and particle shape fix by Chameleon2606, all with permission.
+- Includes VinceFix's unreleased security fixes (the log stays in the game folder; SafeSEH).
+- Steam Voodoo Vince Remastered 1.14.2.0 only; any other `Vince.exe` is refused.
+
+# VinceFix (earlier releases)
+
+## VinceFix 1.3 (2026-10-14)
 
 Frame pacing. The 1.2 fixes are unchanged.
 
@@ -17,7 +43,7 @@ Frame pacing. The 1.2 fixes are unchanged.
 - **Trust:** the README now lists what VinceFix does and doesn't do, the Windows functions it uses and how to rebuild the DLL and compare its SHA256.
 - `PresentHold`, `FrameCap` and `HoldFlush` change frame timing: speedrunners should check their leaderboard's rules first.
 
-## 1.2 (2026-10-14)
+## VinceFix 1.2 (2026-10-14)
 
 First public release.
 
@@ -25,7 +51,7 @@ First public release.
 - Thread unpinning, per-monitor DPI awareness and 3D-audio forwarding, unchanged from 1.1.
 - `VinceFix.log` reports the audio cache (the vtable it patched and each real query).
 
-## 1.1 (not released)
+## VinceFix 1.1 (not released)
 
 - The game's `SetThreadAffinityMask` import becomes a no-op, so its threads are no longer pinned to CPUs 0 to 4.
 - Per-monitor DPI awareness before the game creates its window (native resolution with Windows scaling).

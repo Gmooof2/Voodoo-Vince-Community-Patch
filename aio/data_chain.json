@@ -1,0 +1,454 @@
+{
+ "schema": 1,
+ "note": "aio/build.py data: steps run in order on stock bytes in memory; fn = <repo path>:<function> (pure entry, called fn(input, *extra bytes, *args), result[0] is the output) or copy; input is game-relative unless from=repo",
+ "water": {
+  "sha256": "c5d94e0431f7e4bbb9da8d3a73f5174b8501f0243773e63eaf7f60bca112b134",
+  "reference": "VinceWaterFix/installer/release.json:41; 1.3 T6 two LLVM 23.1.3 /Brepro builds, 118,784 B"
+ },
+ "steps": [
+  {
+   "component": "gateanim",
+   "input": "vincedata/levels/carnival/area_bumpercarbumpoff/modelsAndAnims.hot",
+   "input_sha256": "3fcb7e5f01891d70e383ccf9575ebfee011493d2e5b19d36ee236d1820a56fde",
+   "output": "vincedata/levels/carnival/area_bumpercarbumpoff/modelsAndAnims.hot",
+   "fn": "VinceGateAnimFix/gate_anim_fix.py:patch_models_hot",
+   "pin": {
+    "sha256": "974f39fab825b9faeeb7000bd41772b751599c841a0f8e6049b3bf7ebdb2d797",
+    "zlib": "1.3.1.zlib-ng",
+    "entries": {
+     "models.hot/bumperswitch_base.gator": "39eb34c4f63dd63e637e7435ce87258b4982c64115b3e5caf173711fffd9fe6c"
+    },
+    "reference": "installed file 974f39fa (VinceGateAnimFix/COMBINED_PATCH.md:4); FIXED_SHA256 gate_anim_fix.py:36"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/bayou/area_belowdecks/world.hot",
+   "input_sha256": "72757fc3fc4d6b05d984b0f1ab5ecbddc16cd22947b2553d45209a91e26b444b",
+   "output": "vincedata/levels/bayou/area_belowdecks/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/bayou/area_belowdecks/textures.hot"
+   ],
+   "args": [
+    "bayou/area_belowdecks"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0003.bog": "5939cbecc1c9205deb2863daf5f0bca28b8e1c139e3d9d3bb93055f2b95e5025"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['bayou/area_belowdecks'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/bayou/area_crawdadjimmys/world.hot",
+   "input_sha256": "986b23d3d6cc99213a1a96d693946ef5b013facdda73aff13c494943b16ab622",
+   "output": "vincedata/levels/bayou/area_crawdadjimmys/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/bayou/area_crawdadjimmys/textures.hot"
+   ],
+   "args": [
+    "bayou/area_crawdadjimmys"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0001.bog": "8a4736f837aaaa1d0ac0d914d7492117a7d481e2237f77196e24c3f7aa8710f5"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['bayou/area_crawdadjimmys'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/bayou/area_earthwoodandwater/world.hot",
+   "input_sha256": "262d053c678c76cf00666023edadfa62c960784b962299b22f78ffd6abf1584b",
+   "output": "vincedata/levels/bayou/area_earthwoodandwater/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/bayou/area_earthwoodandwater/textures.hot"
+   ],
+   "args": [
+    "bayou/area_earthwoodandwater"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0004.bog": "89071ad6893fb7ee8e10bbf3a173cd97b4594c12f69bd8a5b2b41ab1a9a5c34a"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['bayou/area_earthwoodandwater'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/bayou/area_hurricanehannah/world.hot",
+   "input_sha256": "d057cefa9d49943c74f35dd9976070b0a8e8d59ea6894d925ec7ac04f43beba8",
+   "output": "vincedata/levels/bayou/area_hurricanehannah/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/bayou/area_hurricanehannah/textures.hot"
+   ],
+   "args": [
+    "bayou/area_hurricanehannah"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0008.bog": "7086037b9ffda83d0ca84284bcf958efc2da755c7fa0afee1472e74c85ffe6a5"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['bayou/area_hurricanehannah'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/bayou/area_thebogwallow/world.hot",
+   "input_sha256": "c4da04e32dc573937ab9cf67dafec2a08474d283c5ce92c0fc1c30cc96f4fa6d",
+   "output": "vincedata/levels/bayou/area_thebogwallow/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/bayou/area_thebogwallow/textures.hot"
+   ],
+   "args": [
+    "bayou/area_thebogwallow"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0006.bog": "86251add99ffd5d5e605d19315953062fb38602cd6cee65812a03f1759fc7d5c"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['bayou/area_thebogwallow'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/carnival/area_landorides/world.hot",
+   "input_sha256": "080825db43780389860139c439dd7414a3d875137bacd1b741b205af2d2e2049",
+   "output": "vincedata/levels/carnival/area_landorides/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/carnival/area_landorides/textures.hot"
+   ],
+   "args": [
+    "carnival/area_landorides"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0002.bog": "64ff15ff4a57fd5c626d26a8cd9aba6ff05c1998f7e80439c8ca5bc982dc9ac0"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['carnival/area_landorides'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/cryptcity/area_gatekeeperjam/world.hot",
+   "input_sha256": "4fe4c63ab2924042dc668f59f9e05e24ab72c47658b9375c59179eab99224629",
+   "output": "vincedata/levels/cryptcity/area_gatekeeperjam/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/cryptcity/area_gatekeeperjam/textures.hot"
+   ],
+   "args": [
+    "cryptcity/area_gatekeeperjam"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0001.bog": "b0c893010504ddf558a1cf3c4982aa60286862b4d774c67d20dae60bc203b3ea"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['cryptcity/area_gatekeeperjam'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/world.hot",
+   "input_sha256": "ae8f36720cd83d705f2f1f28f13b4b6241b9f1d6f0a698ddc3249eaf2f6df415",
+   "output": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.hot"
+   ],
+   "args": [
+    "cryptcity/area_gwistlethorpemausoleum"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0004.bog": "8b1035f7a0d62eb2d3b0169020fcc85015850725caf257d444403ee5851c54bd"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['cryptcity/area_gwistlethorpemausoleum'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/cryptcity/area_sarcophagushustle/world.hot",
+   "input_sha256": "7fbd7151710496751012ed5bd764724d8ec59d648052f2fdeeae654316e3f828",
+   "output": "vincedata/levels/cryptcity/area_sarcophagushustle/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/cryptcity/area_sarcophagushustle/textures.hot"
+   ],
+   "args": [
+    "cryptcity/area_sarcophagushustle"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0002.bog": "4999b7fd20fd5bf11eaab113da7b305487c96e05dc46c9081d707213de9593c1"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['cryptcity/area_sarcophagushustle'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/cryptcity/area_zombieguidancecounselor/world.hot",
+   "input_sha256": "2915a8564e2e0d92f88e73ef5fb915a2ae9fb36f0d2ba3856be02421e7c74105",
+   "output": "vincedata/levels/cryptcity/area_zombieguidancecounselor/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.hot"
+   ],
+   "args": [
+    "cryptcity/area_zombieguidancecounselor"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0003.bog": "790913ed181ec4d26906ad8b655156c7d9ab8f2af17153110317c690f42c44b2"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['cryptcity/area_zombieguidancecounselor'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/frenchquarter/area_bigpig/world.hot",
+   "input_sha256": "e1da2393bcf47282a2ba116a95daefe4567c81d83d9351407514e9dfb41d48b6",
+   "output": "vincedata/levels/frenchquarter/area_bigpig/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/frenchquarter/area_bigpig/textures.hot"
+   ],
+   "args": [
+    "frenchquarter/area_bigpig"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0003.bog": "1c8205b7545e53792c74e1391eef5df587b8860bdd778bf2286701f75ad575a5"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['frenchquarter/area_bigpig'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/frenchquarter/area_courtyard/world.hot",
+   "input_sha256": "fc35ca756a8117aaf9e255bdd1de7023a5bf1b97c5b09ce8146dc327fe163711",
+   "output": "vincedata/levels/frenchquarter/area_courtyard/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/frenchquarter/area_courtyard/textures.hot"
+   ],
+   "args": [
+    "frenchquarter/area_courtyard"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0001.bog": "dfbec2d1d5a539affe34ce2ea0ee88e00e89e7e01802daebd786300cd5252c67"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['frenchquarter/area_courtyard'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/manorhouse/area_frontporch/world.hot",
+   "input_sha256": "ef19e01b5371ae48b4036475f8f3dd1f91ad440320d7679152d0eff6e76b68fb",
+   "output": "vincedata/levels/manorhouse/area_frontporch/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/manorhouse/area_frontporch/textures.hot"
+   ],
+   "args": [
+    "manorhouse/area_frontporch"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0001.bog": "cc89a2a0905a7950f9bad0360bd5ceed718f74c38fc4d1c3a8281c7dadd6f3fd"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['manorhouse/area_frontporch'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "boglightmap",
+   "input": "vincedata/levels/manorhouse/area_playroom/world.hot",
+   "input_sha256": "51d70af62aeaece4833734e5657b187ab68399b18564a88bec5be9184e4c0f86",
+   "output": "vincedata/levels/manorhouse/area_playroom/world.hot",
+   "fn": "VinceBogLightmapFix/bake_bog_lightmaps.py:patch_world_hot",
+   "extra": [
+    "vincedata/levels/manorhouse/area_playroom/textures.hot"
+   ],
+   "args": [
+    "manorhouse/area_playroom"
+   ],
+   "pin": {
+    "entries": {
+     "verts.hot/zone0006.bog": "af57a77308fc7b1ec18180c9720558ff98f538d03950c169b3b53367505297d6"
+    },
+    "report": {
+     "matches_reference": true
+    },
+    "reference": "BOG_HASHES['manorhouse/area_playroom'][2] bake_bog_lightmaps.py:43-72"
+   }
+  },
+  {
+   "component": "charmainefix",
+   "input": "vincedata/strings/en/vincestrings.blob",
+   "input_sha256": "c99099735f607c1419a7e46a679713c4dc86947a4088906070c1924b3ab3580a",
+   "output": "vincedata/strings/en/vincestrings.blob",
+   "fn": "Charmainefix/tools/patch_subtitles.py:build_patch",
+   "pin": {
+    "sha256": "eb343cd61e560b105914d51990074bb67907f5aeb52c30411f078773a551d9d3",
+    "reference": "Charmainefix/tests/test_subtitle_patch.py EXPECTED_PATCHED"
+   }
+  },
+  {
+   "component": "protoball",
+   "input": "vincedata/settings.tdf",
+   "input_sha256": "f17521ec2cbabe6931a0bb8bae76aa00d31fe53a167e1b513986f83ea5db6595",
+   "output": "vincedata/settings.tdf",
+   "fn": "protoball/settings_line.py:apply",
+   "pin": {
+    "sha256": "db9c76af11326cbb1e36bad460625e6db742ce916e8528c8a3f0e05851f79898",
+    "reference": "protoball.py --light 0.3 installed file db9c76af (settings_line.py:9); = protoball.zip:protoball.py scale_light(stock, 0.3) (1.5 T1.c1)"
+   }
+  },
+  {
+   "component": "protoball",
+   "input": "vincedata/levels/cryptcity/area_zombieguidancecounselor/modelsAndAnims.hot",
+   "input_sha256": "72c531b66992195f104134d9a63e600863f74000331406e85ffce695bb53fc99",
+   "output": "vincedata/levels/cryptcity/area_zombieguidancecounselor/modelsAndAnims.hot",
+   "fn": "protoball/ball_hot.py:hide_ball_mesh",
+   "pin": {
+    "sha256": "a3fe010742e970178800f1ef0f6c3b596c9468e098a3013813dcb0b28ada5872",
+    "zlib": "1.3.1.zlib-ng",
+    "entries": {
+     "models.hot/gbcml_base.gator": "002b6c4ac7cb70dd83c151ab93c67a7c1eab4c8242e8825dcca378001faff2d8"
+    },
+    "reference": "protoball.zip:protoball.py hide_ball_mesh(stock) under Python 3.15 (1.5 T9); whole file differs only in the end pad (hot.repack NUL+align 4, protoball align 4), models.hot stored bytes equal"
+   }
+  },
+  {
+   "component": "protoball",
+   "input": "vincedata/levels/cryptcity/common/particles.hot",
+   "input_sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78",
+   "output": "vincedata/levels/cryptcity/common/particles.hot",
+   "fn": "protoball/ball_hot.py:tone_particles",
+   "args": [
+    0.15,
+    0.6,
+    true
+   ],
+   "pin": {
+    "sha256": "8adcf235dc72175709a9bedfa26765b63810588a109432f4bf286d9e6a92b48f",
+    "zlib": "1.3.1.zlib-ng",
+    "entries": {
+     "gbcml.fly": "224033ca0a849c509823916180c4b37ed6296a7b192d9975ca73066473286fc7"
+    },
+    "reference": "protoball.zip:protoball.py apply --purple 0.15 --cyan 0.6 --spark-slot (README.md:24-27) under Python 3.15 (1.5 T9); gbcml.fly stored raw, edited in place"
+   }
+  },
+  {
+   "component": "bumpercar-fog",
+   "input": "bumpercarbumpoff(1).tdf",
+   "from": "repo",
+   "input_sha256": "d8e2741acefd5810469e122e8a8261b7131ad452a5420871e837e5b1429470d0",
+   "output": "config/bumpercarbumpoff.tdf",
+   "fn": "copy",
+   "pin": {
+    "sha256": "d8e2741acefd5810469e122e8a8261b7131ad452a5420871e837e5b1429470d0",
+    "reference": "components.json bumpercar-fog input"
+   }
+  },
+  {
+   "component": "catfix",
+   "input": "vincedata/levels/carnival/area_landorides/sounds.hot",
+   "input_sha256": "9519add00e507d63302309cadd317c22563bcce532dc66eac4cb258b34cdb12b",
+   "output": "vincedata/levels/carnival/area_landorides/sounds.hot",
+   "fn": "CatFix/catfix.py:patch_sounds_hot",
+   "extra": [
+    "vincedata/levels/carnival/area_landorides/sounds.lst"
+   ],
+   "pin": {
+    "sha256": "4551176fafcfcdb9879b81b2cf7daa831a16a03cc86152f10a04712dfa4a1acd",
+    "entries": {
+     "clr_ride01.wav": "aeb2ee27c3b14bb87e71e49c8d97c045f94adf3068f041d3d4653f5c4f716ee9",
+     "clr_ride02.wav": "e1f15f0c19b05b5dbac27a39b17cfc2d26b95c1923f9b591986c2d51892e8161",
+     "clr_ride03.wav": "baa44105f592ab5389ccce6daaacb13b7cb4be8b5027f51af729411be5dbc17c",
+     "clr_ride05.wav": "8edfe2c486fe9cc9985828ec95bd2d3d4a9596903f9a2f8484f15f5e3f27d416",
+     "clr_ride07.wav": "35ed3da4ed7d3ae797420ee274625e029c8a05fe65dc4e2852ce747e37b09727"
+    },
+    "reference": "APPROVED_ON_SHA256 CatFix/catfix.py:37 (catfix.py on, -10 dB)"
+   }
+  },
+  {
+   "component": "pupilfix",
+   "input": "vincedata/levels/sewers/area_wrathofjanice/modelsAndAnims.hot",
+   "input_sha256": "67b3805b74105976a794e8c4506dba84fadba4328706821fe5310f8dbd9d21f3",
+   "output": "vincedata/levels/sewers/area_wrathofjanice/modelsAndAnims.hot",
+   "fn": "VinceJanicePupilFix/pupilfix.py:patch_models_hot",
+   "pin": {
+    "sha256": "df61502f7f3e5ca8c581ded4669256c31c41c206bd0c0861841e12f0887924fa",
+    "zlib": "1.3.1",
+    "entries": {
+     "anims.hot/vince_janiceintro001.anim": "51766d2873a23ce84e9d0684e6f01a25c2b0029510a37e26e3062e10f67e0a77"
+    },
+    "reference": "area_wrathofjanice_pupilfix.zip a6f0c952 modelsAndAnims.hot df61502f and .anim 51766d28 (README.md:14-15); Python 3.13 classic zlib 1.3.1 rebuilds df61502f whole-file (1.5 T5)"
+   }
+  },
+  {
+   "component": "noise-overload",
+   "input": "vincedata/levels/carnival/area_insidekosmobot/sounds.hot",
+   "input_sha256": "19eb2e6815b666a7640ad346f11a2f9cd7f38976dafa5f9777f4e3a71cde7722",
+   "output": "vincedata/levels/carnival/area_insidekosmobot/sounds.hot",
+   "fn": "Noise overload/kosmobot.py:patch_sounds_hot",
+   "pin": {
+    "sha256": "3768eab330677b9cd99a303833584257f09bae244991927df195efd4dda0bd3d",
+    "entries": {
+     "kik_objectswing.wav": "7e48e6e214d2ab51963aa67f182ac1e138740fda0f0b6799b374577979e358ba",
+     "kik_platformhover.wav": "68ce6fa214287a8f9939f056f523167361d56477669353845c37dbb3329b12d8",
+     "kik_rotatingplatform.wav": "badd6d43eb4b45c7ae097fb8e26c6a095298654c17e95b90e5cef2f175ad9c33"
+    },
+    "reference": "PATCHED_SHA256 Noise overload/kosmobot.py (formula vs stock, test_kosmobot.py); 1.8 T11 build (+6 dB)"
+   }
+  }
+ ]
+}

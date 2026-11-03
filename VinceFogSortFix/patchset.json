@@ -1,0 +1,92 @@
+{
+ "format": 1,
+ "name": "VinceFogSortFix",
+ "version": "1.1.0",
+ "backup": "Vince.exe.fogsort-backup",
+ "requires": "Vincesmokefix particle order (0x4A390E-0x4A39D0 reordered)",
+ "section": {
+  "name": ".vfogz",
+  "characteristics": 1610612768,
+  "link_va": 13377536,
+  "payload_hex": "e927000000e900000000e8000000005881e80f208c0081c000308c008038007406c60000c20400e924b97dff6083ec7089cfe8000000005b81eb37208c00c7442450ffff7f7fc7442454000000008b87000200008b70308b683439ee0f83dc0000008b4e2c85c90f84c90000008d4110508d54240452e8257176ff58f30f104054f30f584060f30f104858f30f584864f30f10505cf30f585068ba0000003f660f6ef2f30f59c6f30f59cef30f59d631c9f30f105c8c30f30f10e0f30f59248cf30f58dcf30f10e1f30f59648c10f30f58dcf30f10e2f30f59648c20f30f58dcf30f115c8c404183f90372c5f30f107c2440f30f597f2cf30f105c2444f30f595f3cf30f58fbf30f105c2448f30f595f4cf30f58fbf30f587f5cba00000080660f6eda0f57fbf30f5d7c2450f30f117c2450ff44245483c64ce91cffffff837c2454000f848c0000008bb7480100008baf4c010000f30f107c245089f139e9730b0f2f7928760583c14cebf139f17465894c2454898f480100006a016a006a0189f9e8a9347eff89b7480100008b870002000083c03050e8b4b77dff8b44245489874c0100006a016a006a0189f9e87d347eff89af4c010000e8000000005881e8be218c0081c000308c00c6000183c47061c20c0083c47061e952347eff",
+  "payload_sha256": "f54f79b5d95f5fd5d634544860807ef029c946d2b8fa75fbc9243ac08407ffe4",
+  "fixups": [
+   {
+    "offset": 18,
+    "kind": "base"
+   },
+   {
+    "offset": 24,
+    "kind": "base"
+   },
+   {
+    "offset": 40,
+    "kind": "text"
+   },
+   {
+    "offset": 58,
+    "kind": "base"
+   },
+   {
+    "offset": 119,
+    "kind": "text"
+   },
+   {
+    "offset": 387,
+    "kind": "text"
+   },
+   {
+    "offset": 408,
+    "kind": "text"
+   },
+   {
+    "offset": 431,
+    "kind": "text"
+   },
+   {
+    "offset": 449,
+    "kind": "base"
+   },
+   {
+    "offset": 455,
+    "kind": "base"
+   },
+   {
+    "offset": 474,
+    "kind": "text"
+   }
+  ]
+ },
+ "data": {
+  "name": ".vfogd",
+  "characteristics": 3221225536,
+  "size": 4,
+  "rva_offset": 4096
+ },
+ "sites": [
+  {
+   "patch": "fog-sort",
+   "va": 4864291,
+   "before": "e8081d0000",
+   "after": "{call:+0x0}"
+  },
+  {
+   "patch": "fog-sort",
+   "va": 4864320,
+   "before": "e80ba0ffff",
+   "after": "{call:+0x5}"
+  },
+  {
+   "patch": "fog-sort",
+   "va": 4864405,
+   "before": "e8961c0000",
+   "after": "{call:+0x0}"
+  },
+  {
+   "patch": "fog-sort",
+   "va": 4864427,
+   "before": "e8a09fffff",
+   "after": "{call:+0x5}"
+  }
+ ]
+}

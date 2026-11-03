@@ -1,0 +1,1368 @@
+{
+ "schema": 1,
+ "note": "aio/build.py options: exe variants = fn(composed exe, *args) (copy = composed), pinned apply_sha256 (fn output) and sha256 (after CheckSum), ranges = aio/components.json range pins (<component>.<key path>[:<name>]), unchanged = ranges equal to the composed exe's; steps = data steps built for the set `options`, same keys as data_chain.json plus named (fn(input path, input) -> bytes) and over (the set whose output on the same path is the input; else stock, or the always-on data_chain output on that path)",
+ "exe": {
+  "base_sha256": "9a21196576f38d557eeac7dc7a5fb7cb8141aa140cc939ccc2b3e8799aa6edcc",
+  "variants": [
+   {
+    "options": [],
+    "component": "exe_chain",
+    "fn": "copy",
+    "reference": "aio/build.py exe output (1.6 T4); base/apply/sha (was 6f4417a8…, 1.8 T10 beam payload)",
+    "apply_sha256": "9a21196576f38d557eeac7dc7a5fb7cb8141aa140cc939ccc2b3e8799aa6edcc",
+    "sha256": "9a21196576f38d557eeac7dc7a5fb7cb8141aa140cc939ccc2b3e8799aa6edcc"
+   },
+   {
+    "options": [
+     "voodoopowerfix"
+    ],
+    "component": "voodoopowerfix",
+    "fn": "VoodooPowerFix/vpf_apply.py:apply",
+    "ranges": [
+     "voodoopowerfix.ranges"
+    ],
+    "reference": "vpf_apply.apply(composed) (1.6 T1); ranges = components.json voodoopowerfix.pins.ranges; apply/sha (was 2becd8c3…/a26d6f5d…, 1.8 T10 beam payload)",
+    "apply_sha256": "4492e4441a55724995b08773360a534684b69b6429089b7f7bf26b74cad948f4",
+    "sha256": "cfada145e7d09c95cd3773936a9c4482c9e37917f1dea19c4487a60010bfaac3"
+   },
+   {
+    "options": [
+     "firebug"
+    ],
+    "component": "firebug",
+    "fn": "Vincematerialchange/firebug_apply.py:apply_exe",
+    "args": [
+     "stock"
+    ],
+    "ranges": [
+     "firebug.bases.stock.ranges"
+    ],
+    "unchanged": [
+     "voodoopowerfix.ranges:SpookyPS9"
+    ],
+    "reference": "firebug_apply.apply_exe(composed, 'stock') (1.6 T2); ranges = firebug.pins.bases.stock, SpookyPS9 = composed; apply/sha (was e98f44f9…/9f070301…, 1.8 T10 beam payload)",
+    "apply_sha256": "5433f85752406fec881938d429b2bb9ae45af1e1e4f03c4eda5acc1373903f4f",
+    "sha256": "2b9ad8c7efc707c0e2799aa12bf3e46fe1c61e26b582556379ca1cd6ade02016"
+   },
+   {
+    "options": [
+     "voodoopowerfix",
+     "firebug"
+    ],
+    "component": "firebug",
+    "fn": "Vincematerialchange/firebug_apply.py:apply_exe",
+    "args": [
+     "vpf"
+    ],
+    "ranges": [
+     "firebug.bases.vpf.ranges",
+     "voodoopowerfix.ranges:SpookyPS9"
+    ],
+    "reference": "firebug_apply.apply_exe(composed, 'vpf') (1.6 T2); ranges = firebug.pins.bases.vpf + voodoopowerfix SpookyPS9; apply/sha (was 822e9c7b…/04ab9987…, 1.8 T10 beam payload)",
+    "apply_sha256": "bc129e03a7614092e163e6bbb0ea8819b2b3f2dee8da34a52342ad37bfd45537",
+    "sha256": "2e5c1d8211336b5930d53e23557ed456e32543c9d4f2437d0930bbc0f5750bfd"
+   }
+  ]
+ },
+ "steps": [
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/bayou/area_crawdadjimmys/modelsAndAnims.hot",
+   "input_sha256": "699bc70dbc744897028046aac83ee2102cb5f2d355e1ec39ab04db568b52ce1e",
+   "output": "vincedata/levels/bayou/area_crawdadjimmys/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "cea89d1ea2137d28a26fc956ff0a3c8f5a454156bf31ba221eadc86407d4ac78",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/bayou/area_earthwoodandwater/modelsAndAnims.hot",
+   "input_sha256": "d0baa696f46ab295dc111388def1c639d64e561bc057860255efd634d6fa252c",
+   "output": "vincedata/levels/bayou/area_earthwoodandwater/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "8872911c49f6c92ef1a76f6a0e3c0254b0635fa5345d9d860ec8edc39d54e9c5",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/bayou/common/modelsAndAnims.hot",
+   "input_sha256": "7c6e66b554ba731bc179bf36d28786deb9f04047f8ae2cc9791843b0967fe1e4",
+   "output": "vincedata/levels/bayou/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "591ceee9947830b3a1b639187d85a07a82781823b7a9f3c915d67f64e5a68d1e",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/carnival/area_landorides/modelsAndAnims.hot",
+   "input_sha256": "8eb697b8fd46989429056bdf112a81f88499cc92e9a31c8740332d3f4dcd65ee",
+   "output": "vincedata/levels/carnival/area_landorides/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "2f5df1738e3e24a4704af016dae31a52a4186b99465f1388902a659e03f1ec3a",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/carnival/common/modelsAndAnims.hot",
+   "input_sha256": "69575fb9a4d44e6943d014f2931fbf75f4de743dce1a456e274013d60e84bc69",
+   "output": "vincedata/levels/carnival/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "cc4a6dd4a73a57f6b564a4e961247213c83a6289689a916f7541af9d342f6cb3",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/modelsAndAnims.hot",
+   "input_sha256": "b86db99e27635d424fafd3b6d3bba974b7f88b6780e2315735a428b2000c27f4",
+   "output": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "b424fbd3115ad45560f4724c229be0d84925e951e40372a56a843ceed47709c2",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/cryptcity/area_sarcophagushustle/modelsAndAnims.hot",
+   "input_sha256": "b2cef9351da96e4b6abfdbedf1e9df5f56021372110f2011ff214b1f66972d34",
+   "output": "vincedata/levels/cryptcity/area_sarcophagushustle/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "6c1c7a8ebb2a15f3ca09f4b8a4ca36581bad88bbabf5b33dfe9a4daa7e7cfeb4",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/cryptcity/common/modelsAndAnims.hot",
+   "input_sha256": "c247631d4028e4edbd2c62d118bdd11fa992f534b8b3f518c512077dd70e07ee",
+   "output": "vincedata/levels/cryptcity/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "fc0985d2d9bebd44ba998b3f3c2b4a1aba14665a421df86d356ef2d419d06fa0",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "input_sha256": "e1b14255ee32763e6cb149b5540f387e1f4c16ca617f3567af81d48c1ebf372e",
+   "output": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "b6b0da44b473fabc78e9a6a0bebb9ce41b5d35e650d1b42647afadef16bcc376",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "input_sha256": "d626b641ecb24080f10c53b6669c587760740fc36a7c2a9ec614d5bb6c5bef2f",
+   "output": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "b6bfeec2f53281e1c4ec5be19f5d5fb0f4dbeafa6234ea003d59bf77138ef765",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/frenchquarter/common/modelsAndAnims.hot",
+   "input_sha256": "1126f02125c3c8885f1dfc91645ecfcb8935d69df788040c50a366ad95401d87",
+   "output": "vincedata/levels/frenchquarter/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "77d1dd911ebdbd1bb3373ffcb9cd3eb025941026e4f8376a013f81dc00d418cb",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/manorhouse/area_glowberrytangle/modelsAndAnims.hot",
+   "input_sha256": "4fbdd34418f7ab0e93c297f6a6435e989db83b2777dd1db12ac4275b53d5f538",
+   "output": "vincedata/levels/manorhouse/area_glowberrytangle/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "617222ab1d9ea3966e1f3b8f9fa8400a3eb39665202a8549072e61f66e1db020",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/manorhouse/common/modelsAndAnims.hot",
+   "input_sha256": "493bd040d8829445b7cb357e08eeb334b6238853efbef0009b531fdd165d538c",
+   "output": "vincedata/levels/manorhouse/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "dd9e34a613336f5365d8b7cc7d04b87b9960313ff338214bac6eaef6e4e05765",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/sewers/area_stealthroom/modelsAndAnims.hot",
+   "input_sha256": "85eb526b057d7cfb0623cef7af91360e3fcea820fa3150a2cf69fde43be76075",
+   "output": "vincedata/levels/sewers/area_stealthroom/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "5aa99b04c223320858a2b47b88b63ca672c73965243e0e08231b56db3acf606b",
+    "entries": {
+     "models.hot/goldenjunebug_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf",
+     "models.hot/mysterybox_base.gator": "3ee6e83546872621e91f3333635adb179beb3a1adbd45e5393384f9666b419bf"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "input_sha256": "e791e66565bedbc9680e3156adc238a0a8ceafca1ef585d01212f736fa758e35",
+   "output": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "2e1a0dcdb951f192f0db86baa0247d3e4e8bbd094d755f6b7e3527d58e9cbc41",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix"
+   ],
+   "component": "voodoopowerfix",
+   "input": "vincedata/levels/voodooshop/area_voodooshop/modelsAndAnims.hot",
+   "input_sha256": "db67a56aa12cc387b0ee7350e380667cde7a0e006bbaa4f2a09abc4bf497e3ec",
+   "output": "vincedata/levels/voodooshop/area_voodooshop/modelsAndAnims.hot",
+   "fn": "VoodooPowerFix/vpf_data.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "061a8c7cdf2efd16b83e5574c9b8bef33c15665b85656875e9efdc6485e321d8",
+    "entries": {
+     "models.hot/bead2_base.gator": "e2162feab48536ba848f131f348d5a2fa35606332d207480b9b2b62bf6fcb4a2",
+     "models.hot/bead3_base.gator": "3af3c82aa02afa2280d95f4217fb9ee837d4bc524732c5d773db89535f291256",
+     "models.hot/bead_base.gator": "b28b320261ae499623c65039d9c17af7b9ee3ee09dbe763ab8cca1952f3f9b2a",
+     "models.hot/interfacegoldenjunebug_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/interfacemysterybox_base.gator": "988f4adab501431a4bd342dadf71e9ac054888a73273d9ca299182c8e77f19bf",
+     "models.hot/powericon_base.gator": "952bd87eb11115bd092d8c304d249c0b2f93c2c856a420938080786e804ac94a"
+    },
+    "zlib": "1.3.1.zlib-ng",
+    "reference": "aio/components.json voodoopowerfix.pins.models output_sha256 (1.6 T3.c1)"
+   }
+  },
+  {
+   "options": [
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "input_sha256": "e1b14255ee32763e6cb149b5540f387e1f4c16ca617f3567af81d48c1ebf372e",
+   "output": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "9ee42ee699cbd661d2eef42e8be716c666ac798f0a7d395d0f95d8ef56de7b8d",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "aio/components.json firebug.pins.models output_sha256 (1.6 T2.c1)"
+   }
+  },
+  {
+   "options": [
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "input_sha256": "d626b641ecb24080f10c53b6669c587760740fc36a7c2a9ec614d5bb6c5bef2f",
+   "output": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "4832fa06f626cb790bc3e0b094aa26f77e55f54035518b5a94eb6b9bbf65279c",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "aio/components.json firebug.pins.models output_sha256 (1.6 T2.c1)"
+   }
+  },
+  {
+   "options": [
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "input_sha256": "e791e66565bedbc9680e3156adc238a0a8ceafca1ef585d01212f736fa758e35",
+   "output": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "45133028090fadfa349fccb7a42cb86189e21fbd45c1912659d7f5c137f8716e",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "aio/components.json firebug.pins.models output_sha256 (1.6 T2.c1)"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix",
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "input_sha256": "b6b0da44b473fabc78e9a6a0bebb9ce41b5d35e650d1b42647afadef16bcc376",
+   "over": [
+    "voodoopowerfix"
+   ],
+   "output": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "297aa572525b6075602bb2368ec5915d0c7fa26e2bd359cc14b1de16c955e736",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "1.6 T5.c1 build: firebug apply_models over the voodoopowerfix output; entries = firebug on stock"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix",
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "input_sha256": "b6bfeec2f53281e1c4ec5be19f5d5fb0f4dbeafa6234ea003d59bf77138ef765",
+   "over": [
+    "voodoopowerfix"
+   ],
+   "output": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "b30cc553ffa8b7608535f29b798884a6f9f33650c37b14977796b262f16093c3",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "1.6 T5.c1 build: firebug apply_models over the voodoopowerfix output; entries = firebug on stock"
+   }
+  },
+  {
+   "options": [
+    "voodoopowerfix",
+    "firebug"
+   ],
+   "component": "firebug",
+   "input": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "input_sha256": "2e1a0dcdb951f192f0db86baa0247d3e4e8bbd094d755f6b7e3527d58e9cbc41",
+   "over": [
+    "voodoopowerfix"
+   ],
+   "output": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "fn": "Vincematerialchange/firebug_apply.py:apply_models",
+   "named": true,
+   "pin": {
+    "sha256": "babdd250806997491a70cb5afe7f24e3147a56334cf049c5ec0d4f0898445f00",
+    "entries": {
+     "models.hot/roach_base.gator": "c35a87240fa7b6c1ba971c654274d56b50d717d48fea5e1afb91c74df80b652d",
+     "models.hot/roach_cuthorizontal_base.gator": "cfe8448586d1493056058c19020d8f09e63a28d8ddeff81cffbe8c0bc4e2fd84",
+     "models.hot/roach_cutvertical_base.gator": "b67feb93fce04cd2ac728c26a42e1bab8fe8c45be8d02c023ad45f5d5e117af7"
+    },
+    "reference": "1.6 T5.c1 build: firebug apply_models over the voodoopowerfix output; entries = firebug on stock"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_belowdecks/textures.hot",
+   "input_sha256": "fe64a2fa8917a39169cc802401601373dfa85718cf60762c0afd5cbc71155c2e",
+   "output": "vincedata/levels/bayou/area_belowdecks/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_belowdecks"
+   ],
+   "pin": {
+    "sha256": "1a1a8a09e22866137a5224cc400fc651783e528b6871d254f0336ec6906ee310",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_belowdecks/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_crawdadjimmys/textures.hot",
+   "input_sha256": "ae60a57ffa965262e295d701e9fca66be7e76d5166bf3fce2f11d34fb9b14e16",
+   "output": "vincedata/levels/bayou/area_crawdadjimmys/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_crawdadjimmys"
+   ],
+   "pin": {
+    "sha256": "098d58a100b5e9c84a560203576ebfba6437de6c6042651e02bff6989d47f3e4",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_crawdadjimmys/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_earthwoodandwater/textures.hot",
+   "input_sha256": "4da3e1bc9620ccadfc06928d743b1b464a7bd16e9c677709ef3e3d3ad415bd22",
+   "output": "vincedata/levels/bayou/area_earthwoodandwater/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_earthwoodandwater"
+   ],
+   "pin": {
+    "sha256": "409318fd08f672968f2e071f2c072fcbde246297296ca66db05a2036755879cc",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_earthwoodandwater/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_hurricanehannah/textures.hot",
+   "input_sha256": "b4ac9c2d5ea6b79ababd1be34fbb2745a95f0fb45e79e4730220664be8e503f5",
+   "output": "vincedata/levels/bayou/area_hurricanehannah/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_hurricanehannah"
+   ],
+   "pin": {
+    "sha256": "d404afc6c8f2d2f3e0c3c3ae64baa7a342730242a9a3736b221f753aa5dec3a3",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_hurricanehannah/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_jeanlafittesship/textures.hot",
+   "input_sha256": "a34a4f15bcf19cf74ec27075042b692c4aa60b6b60a991495dc689971bd5ef86",
+   "output": "vincedata/levels/bayou/area_jeanlafittesship/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_jeanlafittesship"
+   ],
+   "pin": {
+    "sha256": "b98b67dfd52c3f8609362bf8d49210ef9cf18d01217db76492f8295e4ecf34ad",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_jeanlafittesship/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_jimmysfanboat/textures.hot",
+   "input_sha256": "055498b6ddb78b19a39054de6cdf14a24126ecaec467819d16ec30948485de96",
+   "output": "vincedata/levels/bayou/area_jimmysfanboat/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_jimmysfanboat"
+   ],
+   "pin": {
+    "sha256": "01dfb38f07e7e24c6fa77d00ae9972eef5e5a05cba6c30dd55c81da3227f11b8",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_jimmysfanboat/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_thebogwallow/textures.hot",
+   "input_sha256": "6803fbb7e8a4328c64f86567ce4ad22890e6587874956cadf2f49c0babe7a65b",
+   "output": "vincedata/levels/bayou/area_thebogwallow/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_thebogwallow"
+   ],
+   "pin": {
+    "sha256": "890835a32001ab1841306b5081d9c5f71000a9ab52f895b18cb58c66257abd78",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_thebogwallow/textures.hot (download, untracked); skin entries identical; the reference itself differs from oracle stock in 1 other entries (DDS header byte 120, dwCaps4), ours keeps stock there (1.5 T6)"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/bayou/area_thesausageworks/textures.hot",
+   "input_sha256": "2a403289e303db2cdbfea8f162f70e0ee79aa30e1a3d2c6dabe8f8719f6581aa",
+   "output": "vincedata/levels/bayou/area_thesausageworks/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "bayou/area_thesausageworks"
+   ],
+   "pin": {
+    "sha256": "d5eabfc740fcaaecfb2f0e5936c7aa4d9b3f13d92ce9cea8c9baa7584ce40447",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/bayou/area_thesausageworks/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_bumpercarbumpoff/textures.hot",
+   "input_sha256": "fc4e653631d4edc0f2863d40ae5a2a9518ed166036645e80d29d556dd8487bd2",
+   "output": "vincedata/levels/carnival/area_bumpercarbumpoff/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_bumpercarbumpoff"
+   ],
+   "pin": {
+    "sha256": "a5e6f3c32abced42191c5ad72d86e7563311ed7994a964e4a7a35377872b3d04",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_bumpercarbumpoff/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_houseomirrors/textures.hot",
+   "input_sha256": "0f9f291bc9b3586c0441323bf3c5a64203fbe4b643845b5727dec66bc93a7ff8",
+   "output": "vincedata/levels/carnival/area_houseomirrors/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_houseomirrors"
+   ],
+   "pin": {
+    "sha256": "2c3a94c2f31f04d7e3da701508f05ce829fd00031ef18bce6e057a116e779b37",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_houseomirrors/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_insidekosmobot/textures.hot",
+   "input_sha256": "55796010058bb8b551b5394bbaf1cde83f1e339ccf14b029525cbd0e69bda167",
+   "output": "vincedata/levels/carnival/area_insidekosmobot/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_insidekosmobot"
+   ],
+   "pin": {
+    "sha256": "a480e7f2fbd9bf6006ee0463939a528745641c52caaf2a38875c178258e820c5",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_insidekosmobot/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_landorides/textures.hot",
+   "input_sha256": "3a7b80146760bd70751c3db5730d58106a5882da37ea915e9912f6e04a124571",
+   "output": "vincedata/levels/carnival/area_landorides/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_landorides"
+   ],
+   "pin": {
+    "sha256": "1a608d8bad2301767a1c3cf93ef6a902e359cd5de7b1ae7fbb38487d6f789eb5",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_landorides/textures.hot (download, untracked); skin entries identical; the reference itself differs from oracle stock in 105 other entries (DDS header byte 120, dwCaps4), ours keeps stock there (1.5 T6)"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_midway/textures.hot",
+   "input_sha256": "eb1ff4ff2993e3755625790d7e58fe410d3c50cc10661bba431f957e6295bcfc",
+   "output": "vincedata/levels/carnival/area_midway/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_midway"
+   ],
+   "pin": {
+    "sha256": "13f2ed0710d059a37be62ff0e458b272955474e4c7bcd105419ba9c5afdff839",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_midway/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/carnival/area_scarehouse/textures.hot",
+   "input_sha256": "462175f1f6a77ff6b25d7e21037c951ca0da08e4a33ee35d5576bcf1ac40bc6e",
+   "output": "vincedata/levels/carnival/area_scarehouse/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "carnival/area_scarehouse"
+   ],
+   "pin": {
+    "sha256": "c591a8fbbc4257974a1168b5c344a419722d290618502bb5804d50c54f96e793",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/carnival/area_scarehouse/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/cryptcity/area_gatekeeperjam/textures.hot",
+   "input_sha256": "3afe12a7945a161a24452b18069ac72147a1df14f7ffa4bc1f02f5bce6eeec4a",
+   "output": "vincedata/levels/cryptcity/area_gatekeeperjam/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "cryptcity/area_gatekeeperjam"
+   ],
+   "pin": {
+    "sha256": "55a5f107e1cd068290428817a7987f191a9ec733ebab4f76221767a57a41d0b0",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/cryptcity/area_gatekeeperjam/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.hot",
+   "input_sha256": "1d34102c9840b1cd8d53ff616e56a168b16d58c7ed761c84383737d279610b5c",
+   "output": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "cryptcity/area_gwistlethorpemausoleum"
+   ],
+   "pin": {
+    "sha256": "e94687013ef7de1e0f1370141cd29e3b897ee5e51fe5e30085346ecbecd39ea8",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/cryptcity/area_ratracerodeo/textures.hot",
+   "input_sha256": "2d1e99c23f1988eff3d6a8d05ffedc69238174af15372893bdf4e45c0b905478",
+   "output": "vincedata/levels/cryptcity/area_ratracerodeo/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "cryptcity/area_ratracerodeo"
+   ],
+   "pin": {
+    "sha256": "d9e9ecf0a2a3a7a8468466903b3d913eb30012f05114b8cb68dae4eea6f2890c",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/cryptcity/area_ratracerodeo/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/cryptcity/area_sarcophagushustle/textures.hot",
+   "input_sha256": "5eae7346fbb915c71980f921ff7d446bb25f0318aa71d1c4e3a20b52348f4033",
+   "output": "vincedata/levels/cryptcity/area_sarcophagushustle/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "cryptcity/area_sarcophagushustle"
+   ],
+   "pin": {
+    "sha256": "e40c50d1c14382210b850e212644b0fdb9ee339fca351ce516cb00fc1447fb1b",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/cryptcity/area_sarcophagushustle/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.hot",
+   "input_sha256": "27455eaf628df7a504d132e276c5985b4393d674fd589e0059bd5ae9003ac447",
+   "output": "vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "cryptcity/area_zombieguidancecounselor"
+   ],
+   "pin": {
+    "sha256": "2624dbc2af174d8a93a6ca51c719f7a1a017db2b93db3c9d4c78af77c2275d61",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/frenchquarter/area_bigpig/textures.hot",
+   "input_sha256": "96c5e917ba7d23b7e7172b11c4705c46f9c961e2c9e0cb775d699f34bdc05efa",
+   "output": "vincedata/levels/frenchquarter/area_bigpig/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "frenchquarter/area_bigpig"
+   ],
+   "pin": {
+    "sha256": "3be2ec686edc83b1ff0178921a5df37d639982119d99bebc198a7380489d9c1f",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/frenchquarter/area_bigpig/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/frenchquarter/area_courtyard/textures.hot",
+   "input_sha256": "c23911bef73d01222fe1c39a2e7c3e9fdba84b838d6d1c079057ce17d084a1b4",
+   "output": "vincedata/levels/frenchquarter/area_courtyard/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "frenchquarter/area_courtyard"
+   ],
+   "pin": {
+    "sha256": "69b5d19de7c00f9fdbf19ed33384757d6d6fa13bde889156338e251814e09dea",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/frenchquarter/area_courtyard/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/frenchquarter/area_mainstreet/textures.hot",
+   "input_sha256": "085387ee3576ec9200dfe54bc37627da7386e57d76aeb9d6b6f02bfffd9f93a6",
+   "output": "vincedata/levels/frenchquarter/area_mainstreet/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "frenchquarter/area_mainstreet"
+   ],
+   "pin": {
+    "sha256": "05cf699d70a096383eb2f5bc9a446e1ee8c1fa64f1aa297a5658894e04955191",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/frenchquarter/area_mainstreet/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/frenchquarter/area_museum/textures.hot",
+   "input_sha256": "3cbe95faca7b02829236f0a1397e0dc1b50e375011e112ca82eca17865e4d533",
+   "output": "vincedata/levels/frenchquarter/area_museum/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "frenchquarter/area_museum"
+   ],
+   "pin": {
+    "sha256": "34669b22c19d44e15591c50e43dbb8a1d0a231a80f5edcf957f470ffb9c0e396",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/frenchquarter/area_museum/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/frenchquarter/area_thesquare/textures.hot",
+   "input_sha256": "8be1a196aca36e8328999409f60a9c8c358497b3a49110e3d5a3f728b95ae7ae",
+   "output": "vincedata/levels/frenchquarter/area_thesquare/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "frenchquarter/area_thesquare"
+   ],
+   "pin": {
+    "sha256": "fdeb5df1a5b33a5e495c580899db0fd61ddd2afa53e9f2bd27fc29b902cf412e",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/frenchquarter/area_thesquare/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_boltroidbattle/textures.hot",
+   "input_sha256": "330ff07e9065d0e68e0af1a999bcd5be2a3935e030d4288a4c13e6a0e550573f",
+   "output": "vincedata/levels/manorhouse/area_boltroidbattle/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_boltroidbattle"
+   ],
+   "pin": {
+    "sha256": "8661cb04ddb301130495a01362a249eb44b1360f02b57d06bd7c237c6ba54963",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_boltroidbattle/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_captainsroom/textures.hot",
+   "input_sha256": "643412e428527f94c98cceda91252821b2adf529b7d14ded374d124a9633bb2c",
+   "output": "vincedata/levels/manorhouse/area_captainsroom/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_captainsroom"
+   ],
+   "pin": {
+    "sha256": "8cf17127f59cabcbc8c2a9d2555bc02c71741ace421dfd91a8c34fbe38b57e7e",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_captainsroom/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_frontporch/textures.hot",
+   "input_sha256": "b8638d69920d82d5dccf93ea7372d03b86aa28af0d13a6fe356244f7bf60c0ae",
+   "output": "vincedata/levels/manorhouse/area_frontporch/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_frontporch"
+   ],
+   "pin": {
+    "sha256": "0e34dde6c4136d4142754a3dfc8c1531f98aa19e90a423fa9d6e8b6835969c0a",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_frontporch/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_glowberrytangle/textures.hot",
+   "input_sha256": "f6f2c88300095f33117374896afb7366a94d0bc5da823605faf32d8475ac56dc",
+   "output": "vincedata/levels/manorhouse/area_glowberrytangle/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_glowberrytangle"
+   ],
+   "pin": {
+    "sha256": "f05e0c776b08443f406a380ad0846151cd01c0933c4a98d756b58b4957fec59c",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_glowberrytangle/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_playroom/textures.hot",
+   "input_sha256": "a3c43430537e48a22681fa9d0a957674c95ddcbc800a9facca5f1b6b77c6e15f",
+   "output": "vincedata/levels/manorhouse/area_playroom/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_playroom"
+   ],
+   "pin": {
+    "sha256": "238df6ae4e753aee56993ed5799a33328b8246e3d24c9e65f5d46bcaf9b71165",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_playroom/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_tintoyterror/textures.hot",
+   "input_sha256": "eda84f176f528360c0641f1558e491ce45aefb3f6826ca90570008bc57124708",
+   "output": "vincedata/levels/manorhouse/area_tintoyterror/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_tintoyterror"
+   ],
+   "pin": {
+    "sha256": "e79be72605f7bf862b430a873d91848da548dba8c639138d21a8201c45bcd8c9",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_tintoyterror/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/manorhouse/area_tumblerroom/textures.hot",
+   "input_sha256": "e959b328b274d196b62fdfc4581138ecbe6cf4ccf0a740d6123f15aec5f7d7cd",
+   "output": "vincedata/levels/manorhouse/area_tumblerroom/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "manorhouse/area_tumblerroom"
+   ],
+   "pin": {
+    "sha256": "298a078ac9434f345dbbb8b64196415b971a2cd0aad8346509c0effc3ddaaeda",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/manorhouse/area_tumblerroom/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_basketcase/textures.hot",
+   "input_sha256": "d6b15d61f71c5ea7e08a98b77a939801d2ccaa46f698703594f666d9912a75ae",
+   "output": "vincedata/levels/sewers/area_basketcase/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_basketcase"
+   ],
+   "pin": {
+    "sha256": "faa33661be4abcd4909011ff827d456bd441dff833c1acee9001c4cb032e4e6f",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_basketcase/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_maintunnel/textures.hot",
+   "input_sha256": "8031bf3c3d6a154a443244acce8dcdce4046d953a6f8aa660eef8639d3c6c24c",
+   "output": "vincedata/levels/sewers/area_maintunnel/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_maintunnel"
+   ],
+   "pin": {
+    "sha256": "907aef7dc75234c5d849efda0300f848a292dec03e56030068577879790c44ae",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_maintunnel/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_propellerroom/textures.hot",
+   "input_sha256": "521d449f099547a46e8107e11d15c6776afcbf8d7ac8ec72c39c01978ee4e962",
+   "output": "vincedata/levels/sewers/area_propellerroom/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_propellerroom"
+   ],
+   "pin": {
+    "sha256": "7a00c04d15a7406b1c2b7fd88993c1a0bc20724268cd5da8c21e6d39c13b88e9",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_propellerroom/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_rocketlab/textures.hot",
+   "input_sha256": "5dd78ea543f5feca9dee9baba2b4e8e59659df2cd044d98c8c9b561e4bbcbccd",
+   "output": "vincedata/levels/sewers/area_rocketlab/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_rocketlab"
+   ],
+   "pin": {
+    "sha256": "b4a8412418a1fad258803b70a4c20c9cbfc494351c6f1c096dd053424356ce57",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_rocketlab/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_stealthroom/textures.hot",
+   "input_sha256": "830c9d2de09faf7adaa8072320c46c81b4b340f7c528b169a4cdee5c0efa9426",
+   "output": "vincedata/levels/sewers/area_stealthroom/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_stealthroom"
+   ],
+   "pin": {
+    "sha256": "bcebb25f07f09e980079a5e3df9e95c7ca5fc4756465299e21bcde70a226bbdc",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_stealthroom/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_throttleup/textures.hot",
+   "input_sha256": "560d1275bf16fc61afe6cc03ef2116033e83228aae5414352361591058b18c3c",
+   "output": "vincedata/levels/sewers/area_throttleup/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_throttleup"
+   ],
+   "pin": {
+    "sha256": "a2bc29e33b90c89623ead1b978139ed747ea00060ec720c5af08316da59b69ca",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_throttleup/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/sewers/area_wrathofjanice/textures.hot",
+   "input_sha256": "5a89ca249e12a3320646789d4ec5490fa45df8fd192958468de2e47cf612dad3",
+   "output": "vincedata/levels/sewers/area_wrathofjanice/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "sewers/area_wrathofjanice"
+   ],
+   "pin": {
+    "sha256": "e2182325cc45b379a5fb7c399a7d31cc5d41c5055b8ca65e9fa87519ce520bb9",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/sewers/area_wrathofjanice/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  },
+  {
+   "options": [
+    "retexture"
+   ],
+   "component": "skintexture",
+   "input": "vincedata/levels/voodooshop/area_voodooshop/textures.hot",
+   "input_sha256": "a43287939bee8f9121cd56801d2e08d1ffcc8430b0d2f9193681ef6d382f6591",
+   "output": "vincedata/levels/voodooshop/area_voodooshop/textures.hot",
+   "fn": "VinceSkinTexture/skintexture.py:patch_textures_hot",
+   "args": [
+    "voodooshop/area_voodooshop"
+   ],
+   "pin": {
+    "sha256": "56c6faf1f91122542699bfe5a9803d25fa46e49cc6d46dc10f99e28a937b2154",
+    "entries": {
+     "vinceskin.dds": "2124ddfa5a06d4f03c89530ec146251834e708fca68dcdd4094efb234c481c29",
+     "vinceskinn.1.00.dds": "ea34ce6a20a2f133367997a8ee2eff219ae2dfc9578fdd225c6a0edf48c12f9a"
+    },
+    "reference": "db2bf1da-803a-42ee-92f6-64f967c1c876/vincedata/levels/voodooshop/area_voodooshop/textures.hot (download, untracked); 1.5 T6 writer output whole-file identical"
+   }
+  }
+ ]
+}

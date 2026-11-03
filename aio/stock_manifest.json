@@ -1,0 +1,4318 @@
+{
+ "schema": 1,
+ "version_txt": "1 1.14.2.0",
+ "steam_build": 2049258,
+ "generated_by": "aio/inventory.py manifest",
+ "files": [
+  {
+   "path": "Vince.exe",
+   "size": 8329728,
+   "sha256": "f7e08e9bae9656de98b75fffc74bfc5960af8648f0a947ac65343934e5a35489"
+  },
+  {
+   "path": "config/artsettings.tdf",
+   "size": 2084,
+   "sha256": "cab86bfd9f6bdbc0b62acd4b711239d2328850d89a8e72627549b23caede2c75"
+  },
+  {
+   "path": "config/belowdecks.tdf",
+   "size": 823,
+   "sha256": "1e2ecff8f511245850ce3f6344b0cc980e0446fdb9763f5e75ec0aa5057e05bf"
+  },
+  {
+   "path": "config/bigpig.tdf",
+   "size": 754,
+   "sha256": "44ff02ba645f54a5a542c26f719d2a464ae547c5f8ccedc801bf626929ebd010"
+  },
+  {
+   "path": "config/courtyard.tdf",
+   "size": 160,
+   "sha256": "a4f749c2ea54e0fbb8cd16de81f8f70b04cef67324078c50fadd8f058a480035"
+  },
+  {
+   "path": "config/crawdadJimmys.tdf",
+   "size": 755,
+   "sha256": "7f35ea27dfbc8b4bdc2e4107592e78ffd7feac2a39c52199eb80cbc90ca8f85f"
+  },
+  {
+   "path": "config/earthWoodandWater.tdf",
+   "size": 746,
+   "sha256": "242c32d2253224d193ccac929f6b2e47ef3770916d9dc82459ef619b0992cc23"
+  },
+  {
+   "path": "config/hurricaneHannah.tdf",
+   "size": 662,
+   "sha256": "f974efe440e311b5f90d966fb5affa5f65930b6f0bb5ea7635ecba0dc78854b4"
+  },
+  {
+   "path": "config/jeanLafittesShip.tdf",
+   "size": 669,
+   "sha256": "6e2a0145f937443be30435465606ebc3a25776dffea244c6ac3eed3d3eda0b2d"
+  },
+  {
+   "path": "config/jimmysFanboat.tdf",
+   "size": 664,
+   "sha256": "6be23ba17b711135417263027a60e13c36957b845667edc87c0c0ab10341b372"
+  },
+  {
+   "path": "config/mainstreet.tdf",
+   "size": 125,
+   "sha256": "c401460e3dbd8ead25986dabbe1835fba0e699fe7ab5579efcab5d339ccaf038"
+  },
+  {
+   "path": "config/maintunnel.tdf",
+   "size": 802,
+   "sha256": "736acaacc43255e592e399bdfa8f14ef43d29917dc6d049f6b69887379f6be72"
+  },
+  {
+   "path": "config/midway.tdf",
+   "size": 877,
+   "sha256": "e96e6b494182e363796f02918e07e8a6dfd7d6175f32688b4a119aac42deba2d"
+  },
+  {
+   "path": "config/museum.tdf",
+   "size": 390,
+   "sha256": "0668afbda42d22107709e454fbdcb54b1a6ece546e3131bd3d4d1720d6233252"
+  },
+  {
+   "path": "config/propellerroom.tdf",
+   "size": 801,
+   "sha256": "f320c9f39d9e65f8a653cc4ae508af406862673ac89a237cd972258f2c186b1f"
+  },
+  {
+   "path": "config/ratracerodeo.tdf",
+   "size": 803,
+   "sha256": "adf8e25b036ff337d8813bf8ee4a839e8ab663f4a4b58a36be4e4c70d9f8f53a"
+  },
+  {
+   "path": "config/shaders.tdf",
+   "size": 3647,
+   "sha256": "84dd75c4f39fb4e04905ecc123175d7f6f594969c74479c244233bf84c2d366f"
+  },
+  {
+   "path": "config/theSquare.tdf",
+   "size": 703,
+   "sha256": "c801a3bff24a4cc98c10b954470b43524a0b23cb15f0472ef334b45bfe2250cb"
+  },
+  {
+   "path": "config/thebogwallow.tdf",
+   "size": 653,
+   "sha256": "552e3d96dc2cde347491da07ac7590eda58ccb64e01861107e3c59cd9b27eabf"
+  },
+  {
+   "path": "config/tintoyterror.tdf",
+   "size": 824,
+   "sha256": "73c88e7e451bf42efc61656f63587cb64bd0ea4bef16b1317d6409ed78b2a18e"
+  },
+  {
+   "path": "config/voodooshop.tdf",
+   "size": 1157,
+   "sha256": "48d9ad1eeb8651004b81b331e336167799468bac295e5a5e067668a578eda017"
+  },
+  {
+   "path": "config/wrathOfJanice.tdf",
+   "size": 1061,
+   "sha256": "9a0bbe0dc36c34e0573ff2d08eada1873717da3fdc7b5782a2c51e180028151e"
+  },
+  {
+   "path": "config/zombieguidancecounselor.tdf",
+   "size": 264,
+   "sha256": "6690d3d5aeb8e96d9531d2f4b22726155ff949faae18b382a39391a3e115ca35"
+  },
+  {
+   "path": "steam_api.dll",
+   "size": 221984,
+   "sha256": "fe302b9cf000b5b56b8f48df9a6737fc43b1c225db91306e92c779cae0d2908d"
+  },
+  {
+   "path": "version.txt",
+   "size": 14,
+   "sha256": "cd65f208fa32fe3c928546c4f3f04c3f6e00fe6a75b706e6a2bcadee51a78afc"
+  },
+  {
+   "path": "vincedata/artsettings.tdf",
+   "size": 2084,
+   "sha256": "cab86bfd9f6bdbc0b62acd4b711239d2328850d89a8e72627549b23caede2c75"
+  },
+  {
+   "path": "vincedata/belowdecks.tdf",
+   "size": 823,
+   "sha256": "1e2ecff8f511245850ce3f6344b0cc980e0446fdb9763f5e75ec0aa5057e05bf"
+  },
+  {
+   "path": "vincedata/bigpig.tdf",
+   "size": 754,
+   "sha256": "44ff02ba645f54a5a542c26f719d2a464ae547c5f8ccedc801bf626929ebd010"
+  },
+  {
+   "path": "vincedata/chapterssummary.tdf",
+   "size": 4998,
+   "sha256": "3a97bbcc7381d097503db81b5c87e51565b8dc0ba0b5116b7cd42cb8ec51359d"
+  },
+  {
+   "path": "vincedata/chapterwhammys.tdf",
+   "size": 25633,
+   "sha256": "57b6f57af449b2cde5689a5fde67d95227843bdfebe4a226eb94ce56e52acb49"
+  },
+  {
+   "path": "vincedata/courtyard.tdf",
+   "size": 160,
+   "sha256": "a4f749c2ea54e0fbb8cd16de81f8f70b04cef67324078c50fadd8f058a480035"
+  },
+  {
+   "path": "vincedata/crawdadjimmys.tdf",
+   "size": 755,
+   "sha256": "7f35ea27dfbc8b4bdc2e4107592e78ffd7feac2a39c52199eb80cbc90ca8f85f"
+  },
+  {
+   "path": "vincedata/damage.tdf",
+   "size": 53787,
+   "sha256": "7884d5bdb4385dbe8126cffc063a0edbb7ea59809dcbcf02920a5bf0410bd940"
+  },
+  {
+   "path": "vincedata/earthwoodandwater.tdf",
+   "size": 746,
+   "sha256": "242c32d2253224d193ccac929f6b2e47ef3770916d9dc82459ef619b0992cc23"
+  },
+  {
+   "path": "vincedata/envmap.dds",
+   "size": 49280,
+   "sha256": "380b47d916b1b9852c093a837966830f7f06224c0db69709fa073adf0a0d6b5c"
+  },
+  {
+   "path": "vincedata/hurricanehannah.tdf",
+   "size": 662,
+   "sha256": "f974efe440e311b5f90d966fb5affa5f65930b6f0bb5ea7635ecba0dc78854b4"
+  },
+  {
+   "path": "vincedata/jeanlafittesship.tdf",
+   "size": 669,
+   "sha256": "6e2a0145f937443be30435465606ebc3a25776dffea244c6ac3eed3d3eda0b2d"
+  },
+  {
+   "path": "vincedata/jimmysfanboat.tdf",
+   "size": 664,
+   "sha256": "6be23ba17b711135417263027a60e13c36957b845667edc87c0c0ab10341b372"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/anims.lst",
+   "size": 2371,
+   "sha256": "7fd0f16227860cfe866344eb0c9bc06eb76447bcfd146bb0154af2d7294b23d8"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/data.lst",
+   "size": 163,
+   "sha256": "db0af9425ec15798cabcd51ba93a0bcbd9d172726ae3266318d2d13cb98596d6"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/models.lst",
+   "size": 487,
+   "sha256": "72ac758f47f16f008380180fdf67963937562805325ccee880167763a161aeae"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/modelsAndAnims.hot",
+   "size": 716800,
+   "sha256": "e1b4ca706f0714ffa9c34b0639dd7fe7acf14cda135409a726c97d2564c78f86"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/modelsAndAnims.lst",
+   "size": 107,
+   "sha256": "37d491665efd72f5066be2a023bd2f9344729e59b986ac9b32627ed21b5fc32b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/sounds.hot",
+   "size": 2766960,
+   "sha256": "a86f32fd86167868f063b35498f0326fb3da3efc64fd07ae70edaf13ca1382b2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/sounds.lst",
+   "size": 1380,
+   "sha256": "146ba281b96b58ebac13e8a8fd896e966482ae47c2b5b0d431129cd80d179a1a"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/textures.hot",
+   "size": 24845184,
+   "sha256": "fe64a2fa8917a39169cc802401601373dfa85718cf60762c0afd5cbc71155c2e"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/textures.lst",
+   "size": 26494,
+   "sha256": "e125ebed7d7025a25334323b9a2a1fd69cfbeec076fdeb02b59bb1ee553a2cd2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/verts.lst",
+   "size": 171,
+   "sha256": "7bb70bc6abd57dcf08b2dfdb65ee6e9d9889bc684c39e886630050808d8582b5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/world.hot",
+   "size": 4799844,
+   "sha256": "72757fc3fc4d6b05d984b0f1ab5ecbddc16cd22947b2553d45209a91e26b444b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_belowdecks/world.lst",
+   "size": 105,
+   "sha256": "5bea1416ecb968c8972c92310774432aaa3bd3031636fda320eae1cea7fa53f6"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/anims.lst",
+   "size": 5739,
+   "sha256": "f1aea3a6a23272773d43193f3dc5c611de41c087bb66458e6db85e7ac044bc03"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/data.lst",
+   "size": 172,
+   "sha256": "6dea998706831be378f3914501278b9f325f9a91e76c72d3d6ca81046d21c244"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/models.lst",
+   "size": 1064,
+   "sha256": "965f2a53e86da64f71de9b0d63504de8c9ea7f2340a8941d82baf7510adbbbc2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/modelsAndAnims.hot",
+   "size": 2220548,
+   "sha256": "699bc70dbc744897028046aac83ee2102cb5f2d355e1ec39ab04db568b52ce1e"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/modelsAndAnims.lst",
+   "size": 113,
+   "sha256": "37c07195d838144960eb5d05ce24ca60a49b4d92318aea0bb4d676cebccc7505"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/sounds.hot",
+   "size": 2179152,
+   "sha256": "82f4765f48528ef1f13a0fcc91efc7be5a71440b9160887cd59f93a27cb328ce"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/sounds.lst",
+   "size": 650,
+   "sha256": "36dc3b6d9fed595f31eb5877ce00f5b53c7a6c669407ec8120f3a6eaee636144"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/textures.hot",
+   "size": 30861952,
+   "sha256": "ae60a57ffa965262e295d701e9fca66be7e76d5166bf3fce2f11d34fb9b14e16"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/textures.lst",
+   "size": 33882,
+   "sha256": "7644c6a8ec4f42826c2d1876f00b9c76896033ca0358258c2e210ae34428aa6e"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/verts.lst",
+   "size": 180,
+   "sha256": "cdbd32af76bb8c863812aad7d7530f59798c50ac5460059abe4de59996be51a2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/world.hot",
+   "size": 5142512,
+   "sha256": "986b23d3d6cc99213a1a96d693946ef5b013facdda73aff13c494943b16ab622"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_crawdadjimmys/world.lst",
+   "size": 111,
+   "sha256": "673045178db9e4c2a1e557d45f79608b1737c787f396f3380d2f06ca99d3ba04"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/anims.lst",
+   "size": 4219,
+   "sha256": "80b6b9fceb76d44b03fc8ffc5e9e4b6acb847ba5236af69977c42a1c44316767"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/data.lst",
+   "size": 184,
+   "sha256": "ac51efc27c61042b6b67a8ba4469ba10f939f2028a3140214725612f34f3a60a"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/models.lst",
+   "size": 1367,
+   "sha256": "db8652c2c3360cca6ccc4bbf628308566acfbd57565e93763db552fccef15504"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/modelsAndAnims.hot",
+   "size": 1936904,
+   "sha256": "d0baa696f46ab295dc111388def1c639d64e561bc057860255efd634d6fa252c"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "4b71ec1eeb9af785981c74edf47c201b0758e5c12473ef15add8133ea75838a5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/sounds.hot",
+   "size": 3519576,
+   "sha256": "84973eb1b725cf24657ad7f340da0d70db64d2127d3fa42ec4b22694e963b037"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/sounds.lst",
+   "size": 1607,
+   "sha256": "8511c793781a340ec914e14a58784305fa3500230fee48974fed412ee0b105c5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/textures.hot",
+   "size": 24724480,
+   "sha256": "4da3e1bc9620ccadfc06928d743b1b464a7bd16e9c677709ef3e3d3ad415bd22"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/textures.lst",
+   "size": 30449,
+   "sha256": "249c41579ead3f89bc74637f8369a7b328902508139962beda308f4091d678ff"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/verts.lst",
+   "size": 192,
+   "sha256": "5a5b4ec6f2a59343881bfd7afc46fb85d1926d4cb8aa2f8d884557ef709f6df2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/world.hot",
+   "size": 4821500,
+   "sha256": "262d053c678c76cf00666023edadfa62c960784b962299b22f78ffd6abf1584b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_earthwoodandwater/world.lst",
+   "size": 119,
+   "sha256": "1f78870e6232b8f09c8d2ccc005f9de4ebdbcb1e4158ac30e52cb4d93581efb1"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/anims.lst",
+   "size": 1306,
+   "sha256": "0bc12587542c2145451f79a91aecb063403366de9595a92d86bf9b2d16342a07"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/data.lst",
+   "size": 178,
+   "sha256": "2100871cd41be58e55239e005aa3b9f75101d403caf7de9f48aec3303af15a5a"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/models.lst",
+   "size": 1355,
+   "sha256": "31db6cbd4c101ec953097cefbb9661d35d34c0f1e2c8fb13fa464f3d91e1c5e3"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/modelsAndAnims.hot",
+   "size": 812112,
+   "sha256": "0208f0ab5de9339ce5722e5fe93c8571950125fa96a64844e7334ec6582f3634"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/modelsAndAnims.lst",
+   "size": 117,
+   "sha256": "db1cf8906bba86d41684f298f40bb8181eb2e9816d36649e80d4dc4139c275fc"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/sounds.hot",
+   "size": 4588596,
+   "sha256": "b6773d92a542bc310f326fe08dc24503a6476a0086438f8a141647610b58b520"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/sounds.lst",
+   "size": 937,
+   "sha256": "58aa319c053fdc94166ad3cc129f4b2ed6bef52dd8606856bafb56df77d1ea73"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/textures.hot",
+   "size": 27949568,
+   "sha256": "b4ac9c2d5ea6b79ababd1be34fbb2745a95f0fb45e79e4730220664be8e503f5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/textures.lst",
+   "size": 26298,
+   "sha256": "b4878775309bdbdf104bd2125d880133faaedafe646ae218b9b88fbfd336e552"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/verts.lst",
+   "size": 186,
+   "sha256": "ac76c4cbbc2865dc0c5d38000ddd625e53eca948e2051af61a31faf40bf42e2f"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/world.hot",
+   "size": 3662288,
+   "sha256": "d057cefa9d49943c74f35dd9976070b0a8e8d59ea6894d925ec7ac04f43beba8"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_hurricanehannah/world.lst",
+   "size": 115,
+   "sha256": "1d2634b6bc205a193e388240bfff41476ab41070414404390d7380d4dd83d78a"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/anims.lst",
+   "size": 4720,
+   "sha256": "ce66aee7cfaa2063626ebd04977abbbd7aae2eb1251aeb4b18adb295565d6e5f"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/data.lst",
+   "size": 181,
+   "sha256": "2640277d3d56a6eb388dc8cab0489c0b6190a5a45e88344aea05badc59c443ba"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/models.lst",
+   "size": 537,
+   "sha256": "198081bee32ff5efff226bcedc0e685b9ce178bdb2cc90d77eba78e3ce3189b2"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/modelsAndAnims.hot",
+   "size": 662984,
+   "sha256": "5999720ed4e1a59894ad5e0123dffc3331c35b2d4e3d21ecd68aff22043aa11c"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/modelsAndAnims.lst",
+   "size": 119,
+   "sha256": "1456a33c73ad5f9e1560fa35b5a3b6774f57c6da8a421ea4ac7eddf2ea8de225"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/sounds.hot",
+   "size": 6221628,
+   "sha256": "9bf3e3d9309e22d59bad4b3ff1bbb694cf67f52cbfba09687e0aac59f654ea5b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/sounds.lst",
+   "size": 2157,
+   "sha256": "3345e178cf1bd6e05d724e590988041a8aa1626961f28ac76982a4e38364309d"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/textures.hot",
+   "size": 26659968,
+   "sha256": "a34a4f15bcf19cf74ec27075042b692c4aa60b6b60a991495dc689971bd5ef86"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/textures.lst",
+   "size": 28754,
+   "sha256": "555f3df6b44910148ef6f5fe06217024bcbbe02a1ce7417c6adcddbfd2da198b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/verts.lst",
+   "size": 189,
+   "sha256": "01ba32dffc9441b3a840d47377948867887cc112a7c7c9b4f33f24307f41d0b1"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/world.hot",
+   "size": 3721040,
+   "sha256": "5d35ae45e4bc501d254bd124bde1f79fa6be991df29e7812eef06d4a1c2b4026"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jeanlafittesship/world.lst",
+   "size": 117,
+   "sha256": "23574ac47feaffa53706a71d56c844669a61419ba8c9994227148bdd16e77376"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/anims.lst",
+   "size": 2229,
+   "sha256": "8e5f3423770890e451b6628fc4ecbb6c4b689b99cd73aeab9d9c65d1b34624c3"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/data.lst",
+   "size": 172,
+   "sha256": "a1cd4ee2669061f88bbc0b18d87e32e631529c16f7cb43244f5f360a866f2895"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/models.lst",
+   "size": 1264,
+   "sha256": "1d4e110c0d58063fd05b7b13e71bc93c4522b8cef3dfedb19f69a5b2727492d3"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/modelsAndAnims.hot",
+   "size": 782508,
+   "sha256": "45d92e1c8f6b47e34036e4bb025f6c6c9b47c1025c28d5cfdee6dd5f6eaea2ce"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/modelsAndAnims.lst",
+   "size": 113,
+   "sha256": "7b5c1e7724321a2d24caa9d72c276f01c2fbaf4e8ee65441980f76ce53797acf"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/sounds.hot",
+   "size": 3362400,
+   "sha256": "ea196b96e8f3dc2632ba5762b049155b7a7a38aa0a42ad6e9c0b7db4a2ee6908"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/sounds.lst",
+   "size": 1514,
+   "sha256": "8609509dd449e925ac14c3673072f4338e346dd1efc43de2542370ab28185ef1"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/textures.hot",
+   "size": 22078592,
+   "sha256": "055498b6ddb78b19a39054de6cdf14a24126ecaec467819d16ec30948485de96"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/textures.lst",
+   "size": 25936,
+   "sha256": "92c850dcaa99e27aa76069971a066715ad89455c7487faf3d1c2d2489e6a0cba"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/verts.lst",
+   "size": 180,
+   "sha256": "354fcbca2d3fa72ccab4bf1928e54db320cacfd82f66c18ae6dd077e63317719"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/world.hot",
+   "size": 4251304,
+   "sha256": "80b4a4cc00c13291b07972b58b1a28acf9960bc9ef23f34c7b9fa13334c72827"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_jimmysfanboat/world.lst",
+   "size": 111,
+   "sha256": "91c850c573d0984ca94dd9d47fc4caa26e86aaf062af99e56374267f9b230c4a"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/animatedTextures.hot",
+   "size": 996,
+   "sha256": "efadcb8bc92bee205d7b2e31d23766a9df7be7c020c394c5da5ee591c6ecca2e"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/animatedTextures.lst",
+   "size": 291,
+   "sha256": "1052c066a0c1555c414d2f5d2e3245b34d09cacf03bcbe535a19363328e8f4c5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/anims.lst",
+   "size": 3987,
+   "sha256": "676eeb386305ae18915588f3b967d84a56e626b3088b7e3c41900ea863cf05c9"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/data.lst",
+   "size": 169,
+   "sha256": "905a320cf963f08bcfb9f134a4a0122a6626180e2bb1d195e60bc0b7ee1c3359"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/models.lst",
+   "size": 1985,
+   "sha256": "d63139eaccf4b2f8ed4b3e9ed23790a5dcea1e8d58952d4f18df29ca99addca5"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/modelsAndAnims.hot",
+   "size": 1120484,
+   "sha256": "71ce2c6a48ad2c787c307548b8e336a3b602f284e5b48d3e152e1ca0c9e0b382"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/modelsAndAnims.lst",
+   "size": 111,
+   "sha256": "76a89159a8f7e1d4c3f4729eb7b27df061021c4e18c318be3a46ba0298a89916"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/sounds.hot",
+   "size": 6396912,
+   "sha256": "e2c9934c54ed631da6e23d0c6978fa52619de50dd10d5d946730a1b9f8243f0e"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/sounds.lst",
+   "size": 1747,
+   "sha256": "ba861e692a0ac14dd60c6b1e13eacad0539688a5e914cd8b59b2a43d20631d10"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/textures.hot",
+   "size": 27113984,
+   "sha256": "6803fbb7e8a4328c64f86567ce4ad22890e6587874956cadf2f49c0babe7a65b"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/textures.lst",
+   "size": 32213,
+   "sha256": "0b94a511059059fa47b9e1e6acfc11d839968d08804c2a60c3bc95c4f3f755ae"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/verts.lst",
+   "size": 177,
+   "sha256": "487011473a4cfbcc938eef42d5dba5e54162151a9acde7e3bd21ccd8d2540865"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/world.hot",
+   "size": 3043684,
+   "sha256": "c4da04e32dc573937ab9cf67dafec2a08474d283c5ce92c0fc1c30cc96f4fa6d"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thebogwallow/world.lst",
+   "size": 109,
+   "sha256": "3a124b27cf512aa372627c32a50a815b4f8f39d93fbfccd721b9264b9d41a0c7"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/anims.lst",
+   "size": 1623,
+   "sha256": "c3bc5f5f050660e839776d5d360987620d1577e781a50f03dc1e9b1e6c9c3832"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/data.lst",
+   "size": 178,
+   "sha256": "fd511e95da4eb13994a46d1d8ba00c1166f937fce6444dadc8c02b31f267b698"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/models.lst",
+   "size": 1029,
+   "sha256": "d1c5c3944bb13da88d67e532f679b18fb8c7c7a402063fe7a6500f8b82e8fbc7"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/modelsAndAnims.hot",
+   "size": 714004,
+   "sha256": "c4721e6a9bfaac118ca3cf523838a388239c6b7b4386a3645fda18d504dbe4ac"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/modelsAndAnims.lst",
+   "size": 117,
+   "sha256": "24715f4fb8ef5da9e99f745ce8147bcfc2d165053724be4b9bd6b41419f44bcb"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/sounds.hot",
+   "size": 4265388,
+   "sha256": "664731a702cecdfb3de346de90f582172717f1e8d48a4f26e334cfd2b5d6be61"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/sounds.lst",
+   "size": 2192,
+   "sha256": "38550d90843de724195c79777a27a44868e1d5be8267c1dd24a4a21f8ebdcec9"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/textures.hot",
+   "size": 20105216,
+   "sha256": "2a403289e303db2cdbfea8f162f70e0ee79aa30e1a3d2c6dabe8f8719f6581aa"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/textures.lst",
+   "size": 24714,
+   "sha256": "fb8b450e45c40d6b713f1016f964781c6318e12c81c9e3ee9e66bb4eb63c2be1"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/verts.lst",
+   "size": 124,
+   "sha256": "c611a67d0d2e66412bcf09f863187ac07c47260c7cc62eafac08c073144c0bdb"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/world.hot",
+   "size": 1116000,
+   "sha256": "8be2a32712c8296b414c669b149cf8c03057877f0512c6b76cba01accf61104d"
+  },
+  {
+   "path": "vincedata/levels/bayou/area_thesausageworks/world.lst",
+   "size": 115,
+   "sha256": "bb0d79bb5d82c2c7c039cfde1aafdd02cacb70bd5614c2f2cc140799def5d171"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/anims.lst",
+   "size": 14994,
+   "sha256": "3016da3c5e3b0651ed3c5208999dcf09e0afd67720bbdde061e1770e95fe34ee"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/models.lst",
+   "size": 4636,
+   "sha256": "f732493b39c361ab972243ed9b1405568cd161a258b5eb52c99e90d766a97ebf"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/modelsAndAnims.hot",
+   "size": 6198704,
+   "sha256": "7c6e66b554ba731bc179bf36d28786deb9f04047f8ae2cc9791843b0967fe1e4"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/modelsAndAnims.lst",
+   "size": 89,
+   "sha256": "e6193ca1cad8c704e610f7b7e49d8468efbbaeba5db5e8396efd9f2ed5fa0bb5"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/sounds.hot",
+   "size": 15114384,
+   "sha256": "b43f08618aba66d23ecbd966f641e0d9de7ad75d0a0f374b86c2ebca5b7954ff"
+  },
+  {
+   "path": "vincedata/levels/bayou/common/sounds.lst",
+   "size": 10253,
+   "sha256": "a25a2b7018b42448beb505683849d7043f786003b5dc512d07cf03428e900798"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/anims.lst",
+   "size": 5234,
+   "sha256": "28a2aca0dadf9c74524fb477e37c6188fda8149116b7d42d04035abcbad53e49"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/data.lst",
+   "size": 181,
+   "sha256": "b1c0d81bc5fcc46618aa01e0b39515604fcb740b0f314d6a84f2d9d1c7104ba2"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/models.lst",
+   "size": 957,
+   "sha256": "989774be1c46662364d9fbf3d51fccd58cd412d3b62b29a6d75eea16aa559f93"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/modelsAndAnims.hot",
+   "size": 6079868,
+   "sha256": "3fcb7e5f01891d70e383ccf9575ebfee011493d2e5b19d36ee236d1820a56fde"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/modelsAndAnims.lst",
+   "size": 125,
+   "sha256": "338c2cdbba41e640916971b7c52793173892f6322e8350af9d0a57c1a365663e"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/sounds.hot",
+   "size": 3780612,
+   "sha256": "c72a78ea362066eca1325dc90f634572d7e25c35e5688b647d80df75ce55435d"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/sounds.lst",
+   "size": 1901,
+   "sha256": "49a699c1c0238ea92f73f4f8d0b91459cca670719d743569fd9e7d8c4c8d0818"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/textures.hot",
+   "size": 26794624,
+   "sha256": "fc4e653631d4edc0f2863d40ae5a2a9518ed166036645e80d29d556dd8487bd2"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/textures.lst",
+   "size": 25045,
+   "sha256": "325c9db3954950c30cd0548fc3390f4280a7f61b484304194c787de9936098c9"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/verts.lst",
+   "size": 126,
+   "sha256": "f8caaefcc0ad42475e806ff5d4e70fc8e848133d52bf3dcba23bc0c0c41a00dc"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/world.hot",
+   "size": 1364676,
+   "sha256": "7590d6a9c4a440ca26b82aada711f2d78d113160b4afee4d813a473ba1f2997f"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_bumpercarbumpoff/world.lst",
+   "size": 123,
+   "sha256": "a601bf3b3d882c585f068f79cec016e7070b87ba0d5d7f3d224d866acd63043a"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/anims.lst",
+   "size": 9604,
+   "sha256": "ab695b02d4449024395d7cc181dade887e9499db4e888a604027e5576ea0f57b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/data.lst",
+   "size": 172,
+   "sha256": "e5aa6a89e08dd843b3348017818cdb81882db52e28c7aa4e241d515053377839"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/models.lst",
+   "size": 1595,
+   "sha256": "39b4b781a2624d323ea1c0c8fd9f12f6c90df9534a83a957c7101ce4fdbfb53b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/modelsAndAnims.hot",
+   "size": 3724412,
+   "sha256": "23a7bae16545331e137c129fdda5434f2699e79d30def4d59f5cc03c59db03a4"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/modelsAndAnims.lst",
+   "size": 119,
+   "sha256": "ff95977a8f812f82bf8ece6580b9d777f67f4226b54f20454dfb287c3f1c1123"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/sounds.hot",
+   "size": 5313600,
+   "sha256": "be36d0da3698bd6decfefcef0e6406e13c88d672e2649406ce4113b26d86b629"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/sounds.lst",
+   "size": 2704,
+   "sha256": "06d2700e96883cc5b8d1eb4bf618c28d2161a78f0a7fcc5b8b9b38b7e9be28a5"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/textures.hot",
+   "size": 22818048,
+   "sha256": "0f9f291bc9b3586c0441323bf3c5a64203fbe4b643845b5727dec66bc93a7ff8"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/textures.lst",
+   "size": 26841,
+   "sha256": "fdcf547b0615279a36fde4ea1072fe64359e8dbef3dcf952dc2e757097a4f015"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/verts.lst",
+   "size": 120,
+   "sha256": "3ffc60a189c10ad824947d1064943c9f45f65581a2015d8054bb714fede3ee4d"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/world.hot",
+   "size": 3846220,
+   "sha256": "bae6738cd2859599ba60f8c063e75cbc0f23d532eea912e2b75b58d7b4af199d"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_houseomirrors/world.lst",
+   "size": 117,
+   "sha256": "feebe6bb559763615647671b07ca5d6bdeb098990c56b73184aea92ce5bd3bad"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/anims.lst",
+   "size": 6815,
+   "sha256": "05f68a370fcbd692254bbfa7c47d2afac753e06fd6c832354d1d3b96ea3ea2c6"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/data.lst",
+   "size": 175,
+   "sha256": "65028563499d1e7ae515c3c00aae7381d129837c92b7214e1c4286100967e08c"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/models.lst",
+   "size": 1410,
+   "sha256": "1caa6b8509ca0beba31f891002f43439b91c1328015abf50a9119cb3d098b293"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/modelsAndAnims.hot",
+   "size": 4683396,
+   "sha256": "b8669600d0ca37ca4ecc858a2ad98ef0a04f4ef92e99dbddc1dfd2effd4105d9"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "36bf52034bdb1e2a3a0c8392c0d91da5bdde83d3901b94ee3e80b25c55f74e30"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/sounds.hot",
+   "size": 3914388,
+   "sha256": "19eb2e6815b666a7640ad346f11a2f9cd7f38976dafa5f9777f4e3a71cde7722"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/sounds.lst",
+   "size": 893,
+   "sha256": "e8b7b19d10f8a0cc0275267122d98732a2a1180a45599f146e7bd6ea620dcadb"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/textures.hot",
+   "size": 31598464,
+   "sha256": "55796010058bb8b551b5394bbaf1cde83f1e339ccf14b029525cbd0e69bda167"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/textures.lst",
+   "size": 27673,
+   "sha256": "edae8c6e43af280fd4eda8b6f370b13a8fa650580131f09dfb4de733f4a24094"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/verts.lst",
+   "size": 122,
+   "sha256": "c954844fa373892b72b728d04445ce6ce4e3760a47cdcbc0fe40f8b32b55fa72"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/world.hot",
+   "size": 4424828,
+   "sha256": "f48219cba8918529eb1e7f07e3bae7640a5c1d3806b0aa75c31c44f0385fed97"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_insidekosmobot/world.lst",
+   "size": 119,
+   "sha256": "6652c779d9e3c0260c1d22cd582dd830a2a09da4674f528a0be9dc8087981119"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/GoodZipper/zipper_idle.anim",
+   "size": 5072,
+   "sha256": "03ef31e6f01fb164aa1afa81ce8ca589e3e3dca4c96adfe9323a76f07ffac8b0"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/anims.lst",
+   "size": 8335,
+   "sha256": "11a9de83f662d9c8aa719568449bda6091b9d08a1719bcce8f9d26283ea646be"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/data.lst",
+   "size": 163,
+   "sha256": "d8cbe4799a7492ade48654808e40635312bdded212b70ae2e5207e37bba63d98"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/models.lst",
+   "size": 2381,
+   "sha256": "b4269ad95d9bb689870cfd5940531725f1a488d5429118b8c05ed27c73bb5464"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/modelsAndAnims.hot",
+   "size": 4612936,
+   "sha256": "8eb697b8fd46989429056bdf112a81f88499cc92e9a31c8740332d3f4dcd65ee"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/modelsAndAnims.lst",
+   "size": 113,
+   "sha256": "ef5a3c20e891655a5af70663f808f11bcb1dda8655ab740df4ce5c74ac290044"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/sounds.hot",
+   "size": 6891336,
+   "sha256": "9519add00e507d63302309cadd317c22563bcce532dc66eac4cb258b34cdb12b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/sounds.lst",
+   "size": 3058,
+   "sha256": "62beb1c7df008140fbcae4dd3ec3b8a1381e7c8aa292f59409a24df132859609"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/textures.hot",
+   "size": 30519040,
+   "sha256": "3a7b80146760bd70751c3db5730d58106a5882da37ea915e9912f6e04a124571"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/textures.lst",
+   "size": 28644,
+   "sha256": "571bef8637aec6ffcc00b78d148a3d1779c2468597d31a6ff30ae6f054beb643"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/verts.lst",
+   "size": 171,
+   "sha256": "302057e15cfa5f6dc16b0f98db173d35ddb08d638a9bd1632a0d33236b5cdaa7"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/world.hot",
+   "size": 2399216,
+   "sha256": "080825db43780389860139c439dd7414a3d875137bacd1b741b205af2d2e2049"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_landorides/world.lst",
+   "size": 111,
+   "sha256": "d686a2fcf9416b96a8a260e12174e0866f8ea529ce776ab338b6e0e5d0dfad91"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/anims.lst",
+   "size": 11232,
+   "sha256": "998d46a20dd2d8f5aa7b03898d1459a7007e124431e5885fc7d7a37fa99fad13"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/data.lst",
+   "size": 151,
+   "sha256": "8768d2d8eba4073e2db07dbcb1be2d8fb7c44615cf5099114d48debccc7d50bf"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/models.lst",
+   "size": 3058,
+   "sha256": "7a981e062d55953c7ac8ae86081cb82db7338755643a3b8ea446fd1a9a2bb8c7"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/modelsAndAnims.hot",
+   "size": 4817272,
+   "sha256": "57be02f778ccfd1a1306358ab916e3f49379bc9d7e5337ea429a087c191e5054"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/modelsAndAnims.lst",
+   "size": 105,
+   "sha256": "dc6a5203a1d9d08834eb2de662e4bd52230b423eb12b4ab8457359a3e8d900fd"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/sounds.hot",
+   "size": 6956244,
+   "sha256": "7748c315d43520c7dd3558db903bbfa18ada0213160568606c86b1768766c7ef"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/sounds.lst",
+   "size": 3032,
+   "sha256": "93be9e2e095ff37844fa849c16259f58d361a4b377de60475461681534c2de05"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/textures.hot",
+   "size": 34910080,
+   "sha256": "eb1ff4ff2993e3755625790d7e58fe410d3c50cc10661bba431f957e6295bcfc"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/textures.lst",
+   "size": 30186,
+   "sha256": "16eb14d82c7e9f5476b4420b371799afbb564efa0ec99ab47155805b64d4a6de"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/verts.lst",
+   "size": 159,
+   "sha256": "30c6e7208a89740126de4ff59afd997437a30d6569d3b085d796f9ec4a75b493"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/world.hot",
+   "size": 4325008,
+   "sha256": "5052b4e3239756c44b53664f8537f2d387e787e416d12e200a1192480e830303"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_midway/world.lst",
+   "size": 103,
+   "sha256": "2c70e852baf3a370fe864254548157449eb32d73c1c2f0e519df887ff2cc6677"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/anims.lst",
+   "size": 1545,
+   "sha256": "75cf27415cca832bacee31f02c41374c495e1f2745de8f5cf7bc3256be730146"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/data.lst",
+   "size": 163,
+   "sha256": "469c940811b378ec1ddb4f6a89286fc8acf6194780afc924253b9d1b03aaa297"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/models.lst",
+   "size": 779,
+   "sha256": "b8b97f4cc77ba84fd9985df3b5541f0b7ea6833db20361b60c58ed4a8a4800e6"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/modelsAndAnims.hot",
+   "size": 535620,
+   "sha256": "3dadd4dbb27f7f49c033fe714c6d673e053c7e12b52b25051fc2b302ce0ba587"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/modelsAndAnims.lst",
+   "size": 113,
+   "sha256": "0556aa87977e5773c7682a899feae1bd55f4d47c2be72c0e2f1e7184ae71d2ac"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/sounds.hot",
+   "size": 3449484,
+   "sha256": "4abfce38b30effc62cd7b4d5474be715bb910295dc7006d12dc9a292af40c4a2"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/sounds.lst",
+   "size": 1190,
+   "sha256": "1ebc1b4cab62e934cc9f97b0fd431ae08f353c209117f3e18e05f646bb7cb679"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/textures.hot",
+   "size": 27709056,
+   "sha256": "462175f1f6a77ff6b25d7e21037c951ca0da08e4a33ee35d5576bcf1ac40bc6e"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/textures.lst",
+   "size": 24316,
+   "sha256": "46e421620a0f94b01a1b64030ca4280df2b7d1cc13a450c2e7aca26d68440f12"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/verts.lst",
+   "size": 114,
+   "sha256": "b1800faea572845277e01da27cdca805be95895671eac7e004553882b15dc3ca"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/world.hot",
+   "size": 3490272,
+   "sha256": "d32f0a3ca7ac06fa3792cc207bbbca4804f1335263ccefbf68a3789ca2bf7f49"
+  },
+  {
+   "path": "vincedata/levels/carnival/area_scarehouse/world.lst",
+   "size": 111,
+   "sha256": "b210b6b3af26a02bfb28690c9eb8d9ba8dc757ff3ac9086b0263712142f7676c"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/anims.lst",
+   "size": 8819,
+   "sha256": "35e04de4be586f99450c9dd66b209b23fb3cb2417fc420647d2b89e76b0c823d"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/models.lst",
+   "size": 2108,
+   "sha256": "4676791e6f4b5a3305dd22201c67489ade10c26bf763dc367e8a67111b4097f0"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/modelsAndAnims.hot",
+   "size": 4069276,
+   "sha256": "69575fb9a4d44e6943d014f2931fbf75f4de743dce1a456e274013d60e84bc69"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/modelsAndAnims.lst",
+   "size": 95,
+   "sha256": "e2739622ffd844abe63063f8c48840bfc3622f02c2712613cb9ecc8596326c5a"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/sounds.hot",
+   "size": 15603228,
+   "sha256": "bb99a782251fd2b0a8c9ce1a7e5f809a03e2093d1f0245134fba1b03ed656e58"
+  },
+  {
+   "path": "vincedata/levels/carnival/common/sounds.lst",
+   "size": 10353,
+   "sha256": "43ea6c2474ab3e24c1fb6a22414918242079b7db4588a6bd636f27c6c9d7a7f4"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/anims.lst",
+   "size": 3967,
+   "sha256": "106c52fed659aedc819da23430de21595f6f91ad60caed67943866efb15bba65"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/data.lst",
+   "size": 172,
+   "sha256": "eb51167c90656234624d7b39df8184af07a309ab05f3ae642ace64a154fe8166"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/models.lst",
+   "size": 1232,
+   "sha256": "692160a4b82ceafb56d63901d0e3f1e7ad815079ebb355be42f314c307b20810"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/modelsAndAnims.hot",
+   "size": 1205488,
+   "sha256": "357ac5f8918063da771265b8d6b503c910063f5bbf403958e0a1e433f8e80111"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "aa58e79e79b6bf2cf2d9ac29eeca45f78c54648b1def2a252af71857ddb2108a"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/sounds.hot",
+   "size": 2023308,
+   "sha256": "4285651ab812d6d136f669622a91892b7c3be737f0b2273616df2216593a0644"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/sounds.lst",
+   "size": 732,
+   "sha256": "b2bf31c8b42c27500e486a284dd7e5179fbda7a2752a7bad599b68d29352bd4c"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/textures.hot",
+   "size": 29697280,
+   "sha256": "3afe12a7945a161a24452b18069ac72147a1df14f7ffa4bc1f02f5bce6eeec4a"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/textures.lst",
+   "size": 29734,
+   "sha256": "c22609f160d92e7ce7f305ab09223be11887f1d4d2a3ce5799a34ab215cb6e8f"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/verts.lst",
+   "size": 180,
+   "sha256": "ad9bc6d9c723e943a1017e16a9986fd51fbdda98bfa91027a06de032321e3231"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/world.hot",
+   "size": 2126288,
+   "sha256": "4fe4c63ab2924042dc668f59f9e05e24ab72c47658b9375c59179eab99224629"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gatekeeperjam/world.lst",
+   "size": 119,
+   "sha256": "8abb476ee2164ea1e78aae762e59843c8f55f8f61c963cfe7b0d5e2a858824d2"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/anims.lst",
+   "size": 3745,
+   "sha256": "74083d4d86d9c811153faddf04006669d0dd9ade2ae72c0d6d715aff88380473"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/data.lst",
+   "size": 199,
+   "sha256": "fccaa70433e59b5969f971b2d645d99f47dfa56d067e4e7f8a7d9913f9e681bc"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/models.lst",
+   "size": 1280,
+   "sha256": "f6afa03539b8efaa9616b2193d8e31bf6a9a5242c282e2765d61b3a1a6f4ef00"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/modelsAndAnims.hot",
+   "size": 600100,
+   "sha256": "b86db99e27635d424fafd3b6d3bba974b7f88b6780e2315735a428b2000c27f4"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/modelsAndAnims.lst",
+   "size": 139,
+   "sha256": "85d85af410a44491eaf9bd00d3d9a40619331d938c6033adf51baf287e59ec0b"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/sounds.hot",
+   "size": 2721564,
+   "sha256": "a615bb76051d636b87932773aba9c541037e1e25efcd8e50ad6529b786cc445d"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/sounds.lst",
+   "size": 813,
+   "sha256": "c1ea268fdd81e90d01e2d85673c58bbbf76a2b206e6bfa91946513940c47142a"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.hot",
+   "size": 28587392,
+   "sha256": "1d34102c9840b1cd8d53ff616e56a168b16d58c7ed761c84383737d279610b5c"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/textures.lst",
+   "size": 32087,
+   "sha256": "213c32001ec8884a67f1711f005de32d93e614df2088cbb5ef9f38f8bbfc52d4"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/verts.lst",
+   "size": 207,
+   "sha256": "0272d042293792ea2464b5aa1f10f163fadf68a21ce8f4b5e7fbfa781504a3bf"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/world.hot",
+   "size": 5086008,
+   "sha256": "ae8f36720cd83d705f2f1f28f13b4b6241b9f1d6f0a698ddc3249eaf2f6df415"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_gwistlethorpemausoleum/world.lst",
+   "size": 137,
+   "sha256": "83eddd547ce4f394df50d769c7b8c29b1558f33274f853a620d7b4430c9a427f"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/anims.lst",
+   "size": 4613,
+   "sha256": "7c6c6f8c8bb3cb41e25c4b4845046b51bf358053085c1863c6853462410929d3"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/data.lst",
+   "size": 169,
+   "sha256": "7a923e7977a533abeb9a86ec06eec4564f5e47703a15e344292315f570aa5f11"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/models.lst",
+   "size": 3054,
+   "sha256": "96cecee1aa67bc5b5e8e49198db52c1b0b55464ab282531648b53dc52ad8dbd6"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/modelsAndAnims.hot",
+   "size": 1955788,
+   "sha256": "a57089f7aada28d2096430e78b399df9f85fb879ad053f7a0575cd6169a0d562"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/modelsAndAnims.lst",
+   "size": 119,
+   "sha256": "79db13f115a25a8f92ca74993fc4a4c98195c20f8909af61bb9d211e3d927387"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/sounds.hot",
+   "size": 3374712,
+   "sha256": "2e4f0a4242fafc0be81927cda53da9b0e815ae66e4eb64a303b7a52b24b9eee3"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/sounds.lst",
+   "size": 1299,
+   "sha256": "840946d0122d3adba3182c76a77fae24a57b122563b622403585a2baaa615b1b"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/textures.hot",
+   "size": 23459200,
+   "sha256": "2d1e99c23f1988eff3d6a8d05ffedc69238174af15372893bdf4e45c0b905478"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/textures.lst",
+   "size": 23757,
+   "sha256": "2a2bc9ad88c2edf382b0c444507bdaa9a8ab60f131300709b9aeebf191924acd"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/verts.lst",
+   "size": 118,
+   "sha256": "50de3a3402767ac3ebe04b9fda35bebc5c8713990834aed9bdc8682c467f256e"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/world.hot",
+   "size": 3006676,
+   "sha256": "21d350ae30524d1a4a94bc58b99f27a9debeda3569ad18a67581fc3e4aeee594"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_ratracerodeo/world.lst",
+   "size": 117,
+   "sha256": "a989206993f9ddd258ec55b076835e3023054fe8afea61e42525230e8765459b"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/anims.lst",
+   "size": 4009,
+   "sha256": "afd261e94dfa207310663cc382676e2670ece5614efa384abe94b04dbbd88d47"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/data.lst",
+   "size": 184,
+   "sha256": "6dc546c246dc32b1224fce98ae59bf01e5144f81d36f9cdbe93ae389435a17c7"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/models.lst",
+   "size": 581,
+   "sha256": "27b77f914cfe59192265f9f2f6286bc6993c9411a362b39ffaf25b2f7771286d"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/modelsAndAnims.hot",
+   "size": 960528,
+   "sha256": "b2cef9351da96e4b6abfdbedf1e9df5f56021372110f2011ff214b1f66972d34"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/modelsAndAnims.lst",
+   "size": 129,
+   "sha256": "34c0ebe406e598fbe2d02115a28b1f59f40a37c3b001f26804f5bbe377ab8f4f"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/sounds.hot",
+   "size": 2493864,
+   "sha256": "20ceb4217ab7c7a65b8cba6bdcbcc25a155e68348f2d9d3e66648d44b40b4585"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/sounds.lst",
+   "size": 975,
+   "sha256": "9174dccc5823e5d6a9f1cbae912db2d8a266d96d2ad6bcb2678bcdf3b2af67fa"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/textures.hot",
+   "size": 31445504,
+   "sha256": "5eae7346fbb915c71980f921ff7d446bb25f0318aa71d1c4e3a20b52348f4033"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/textures.lst",
+   "size": 35706,
+   "sha256": "07b9af7d2f9d85ed726497dd9d487af8d45a71a5e35e6f601adfe0f6d3c701ec"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/verts.lst",
+   "size": 192,
+   "sha256": "08a04da87be819b4aa3ea9a372c8545068275a3de13ccb1d93050931163c4911"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/world.hot",
+   "size": 5270708,
+   "sha256": "7fbd7151710496751012ed5bd764724d8ec59d648052f2fdeeae654316e3f828"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_sarcophagushustle/world.lst",
+   "size": 127,
+   "sha256": "97ad3e1bcdbc0aeeb81ab23af6faa46d9e431cc56c8fcd16d5ea90ea5be83c12"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/anims.lst",
+   "size": 3337,
+   "sha256": "579bd7f77c1242d144795d86becc8b68b2a8396975c142023cd7aa663c677a7b"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/data.lst",
+   "size": 202,
+   "sha256": "3eecaf35cbecfffcd5e64313df8ed8fc92981fc84bde84c329ab26650ba45afc"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/models.lst",
+   "size": 982,
+   "sha256": "d973b7a7c54fd8cd2d41b4aa0d5b563afddb9dd6789e64e38a7d5232e5ad26cf"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/modelsAndAnims.hot",
+   "size": 1365804,
+   "sha256": "72c531b66992195f104134d9a63e600863f74000331406e85ffce695bb53fc99"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/modelsAndAnims.lst",
+   "size": 141,
+   "sha256": "f928ae88fcdfa9c59da0744a2b91b5fa379ead8b16f89fe3672b452a79bc2180"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/sounds.hot",
+   "size": 3851820,
+   "sha256": "2b2c6d7f9614bcfc4f224105db892b3789b7aaecc303d2db8e03026e5118530a"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/sounds.lst",
+   "size": 641,
+   "sha256": "4cdbc45e338c7163abfb8c0b0de86af679cfa6611d59c3af61acb884a0ceff1b"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.hot",
+   "size": 25122048,
+   "sha256": "27455eaf628df7a504d132e276c5985b4393d674fd589e0059bd5ae9003ac447"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/textures.lst",
+   "size": 28757,
+   "sha256": "6a7a7da34cf27fb94d172c3e5b85c7d64fc69dbf373e5be607c813c80404fa76"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/verts.lst",
+   "size": 210,
+   "sha256": "55ee3f410bb8434369f1bf69a99e7c60ef7cb29d0f987597f3cfe20982bcdb59"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/world.hot",
+   "size": 2157408,
+   "sha256": "2915a8564e2e0d92f88e73ef5fb915a2ae9fb36f0d2ba3856be02421e7c74105"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/area_zombieguidancecounselor/world.lst",
+   "size": 139,
+   "sha256": "ac43dbfeede92bcd9b32737afc577748b3ae8de0c29f15094424cdc3fbaa0b2e"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/anims.lst",
+   "size": 13407,
+   "sha256": "b0d81b596d6b734d0f442074003e80f9babde623519cee4ea04f17684d363bab"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/models.lst",
+   "size": 3140,
+   "sha256": "e1f6aa2e50be22341254e3f13ea8e6f2b9516d3acd8bfc32d6e02891a8f94844"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/modelsAndAnims.hot",
+   "size": 5120832,
+   "sha256": "c247631d4028e4edbd2c62d118bdd11fa992f534b8b3f518c512077dd70e07ee"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/modelsAndAnims.lst",
+   "size": 97,
+   "sha256": "ec9439e67c80a3f68a5423c3a8a14d58edf57701c15d17537740b207004d0013"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/sounds.hot",
+   "size": 14977404,
+   "sha256": "6872b62cfbbe985969985a2353ccb048cbdf6696a9a5930065d9bf612c68dec9"
+  },
+  {
+   "path": "vincedata/levels/cryptcity/common/sounds.lst",
+   "size": 10042,
+   "sha256": "80e0304de518d8d2511f13f233772c40bb1623a107b13444819cbdc663d54953"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/anims.lst",
+   "size": 3881,
+   "sha256": "47c4f66cce92307416dec15c454a8973646a4e9da45ae2af3dded5cc6f664eb6"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/data.lst",
+   "size": 151,
+   "sha256": "0bfa8f55dd85f3599bd5fffdc34f874c3f1f7c0396b4a9e99761e6db793697a2"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/models.lst",
+   "size": 753,
+   "sha256": "6cc095eef53b9da0b9f8d76853e180b52bc5bb69e7d2e886d4a414866a02bb8a"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/modelsAndAnims.hot",
+   "size": 1983820,
+   "sha256": "10298ebf434f091dbf9522a2498b48cd22c989c48017ee23ba6b4388c898132a"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/modelsAndAnims.lst",
+   "size": 115,
+   "sha256": "f68c3d8fe1a0b312ce899975215f0ab41c72702e5f1b111b43bdb775c1cfcbcc"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/sounds.hot",
+   "size": 6044328,
+   "sha256": "08b59c601183c27c272948d3b315140457573510e1268fa5e12489a12f148e25"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/sounds.lst",
+   "size": 2158,
+   "sha256": "369ba67febdf9f356817ac7189b5516860b5c519d2e42014150f5194de3ae1bd"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/textures.hot",
+   "size": 29671552,
+   "sha256": "96c5e917ba7d23b7e7172b11c4705c46f9c961e2c9e0cb775d699f34bdc05efa"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/textures.lst",
+   "size": 28799,
+   "sha256": "03255363eb46da135216cd86e1e64d00d69bd31edb69717f65795e330da327f2"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/verts.lst",
+   "size": 159,
+   "sha256": "c61f5d53984c216eefa2a506611480eb462e6ce8955057b5a7ed772cadebdb1d"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/world.hot",
+   "size": 1479500,
+   "sha256": "e1da2393bcf47282a2ba116a95daefe4567c81d83d9351407514e9dfb41d48b6"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_bigpig/world.lst",
+   "size": 113,
+   "sha256": "6f06349195238ac610985fb050d5f1971af6590b395cad26c0f96ed10f43bdd9"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/anims.lst",
+   "size": 4599,
+   "sha256": "b2a59eab6f461b171d281ff0d064822d89a1c2e5a6d8041b6d5487faace0587a"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/data.lst",
+   "size": 216,
+   "sha256": "12353fcdc19b4f66d4b42dfe6ad04a3667e76e3f68f9490e3d21a10b64025cde"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/models.lst",
+   "size": 809,
+   "sha256": "bab674dfa5b8f84d65f01a5875097ba25c11df7104ef8ebb725e798d45a1e878"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/modelsAndAnims.hot",
+   "size": 2211352,
+   "sha256": "ef8583c40a7660659ba20db4c4ea5c09263c8ef8ecf71c4d4c4116023453028d"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "b5d0dd94cf59ff560ad759fecb63efe30ec311526f10d1fe79159ff898c4d134"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/sounds.hot",
+   "size": 5350068,
+   "sha256": "3457a27226cec9f1ab55604318377342eacbf21a40fe1ceb9318ffa21e7e9aa7"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/sounds.lst",
+   "size": 1699,
+   "sha256": "bfed4e9671248c30493f216806a09ccb19bcbdf50da690bef10faa9869e3e342"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/textures.hot",
+   "size": 62961664,
+   "sha256": "c23911bef73d01222fe1c39a2e7c3e9fdba84b838d6d1c079057ce17d084a1b4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/textures.lst",
+   "size": 33902,
+   "sha256": "4e72430519ed8300f7afa7cbfd420c9abf6d72e7bae900a38e8c94be4bc295a8"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/verts.lst",
+   "size": 168,
+   "sha256": "88bba94966ba18ecd8bccc9ee6db92ab215acfa0e7d213f186a5bb7ad63e1fcc"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/world.hot",
+   "size": 4234912,
+   "sha256": "fc35ca756a8117aaf9e255bdd1de7023a5bf1b97c5b09ce8146dc327fe163711"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_courtyard/world.lst",
+   "size": 119,
+   "sha256": "dd5ecf63ae111e50433200a69b38e0800edcad38b60727a8eab9f6c336064732"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/anims.lst",
+   "size": 7098,
+   "sha256": "9d2048eedf251102b86bc0bfa469964ef9d746c8d921d535b1f2e1e904f0b511"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/data.lst",
+   "size": 163,
+   "sha256": "8d316836712114365605353508f6b798df8ef1b34e9d3adee8f0d40e6f541d30"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/models.lst",
+   "size": 1681,
+   "sha256": "4299ef465610d797cd05f839c1582927a9f39860b74d0d4214f153221da9d9cb"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.hot",
+   "size": 2291724,
+   "sha256": "e1b14255ee32763e6cb149b5540f387e1f4c16ca617f3567af81d48c1ebf372e"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/modelsAndAnims.lst",
+   "size": 123,
+   "sha256": "9644504e2549592d8b1e82ba3970b5906679ec566aacaf8a70d051b78a7179a2"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/sounds.hot",
+   "size": 3931488,
+   "sha256": "f829a77ba1e70d4c84b3fe36be4286403463a7151224b45f13a203d5c8b9a3f6"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/sounds.lst",
+   "size": 2036,
+   "sha256": "f7145dfdab1989f57ef123b8f14a85c2783b179c40f6cb7ab99e83a5060d27da"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/textures.hot",
+   "size": 48272000,
+   "sha256": "085387ee3576ec9200dfe54bc37627da7386e57d76aeb9d6b6f02bfffd9f93a6"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/textures.lst",
+   "size": 33328,
+   "sha256": "a938522070a939cb6f2d778168cada800b407f87b30c9d21919adb7e6cbe2258"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/verts.lst",
+   "size": 114,
+   "sha256": "a3470479d5623dac7a454adc5a8c4b8aebee5a97dd27c9386ed284834ad09a96"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/world.hot",
+   "size": 5643004,
+   "sha256": "2830a9271661f2059429e428500032fc066ebaf5481074a30274acba3e08b837"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_mainstreet/world.lst",
+   "size": 121,
+   "sha256": "6b1c37b9f121ef8e161efc5034df17a86ea05225a1a6345954d0122b3ef1cb73"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/anims.lst",
+   "size": 3003,
+   "sha256": "3d89fd6d315826360670431c903f8783afee6df1685cd5a7d58757fc381fa1ab"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/data.lst",
+   "size": 151,
+   "sha256": "4ce81837edb2f33c120e189e38fa8be8b7670a79d6156e8ffd35ae5e5d5446bf"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/models.lst",
+   "size": 2952,
+   "sha256": "cac54ae2222e81124cd017704756c3174d948ee4311ee2c8992b080b5fb9af70"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/modelsAndAnims.hot",
+   "size": 1702516,
+   "sha256": "cd30766a9799aba80b38dbc122255b28f0fd4c6ec0b27e99482e7147d941725b"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/modelsAndAnims.lst",
+   "size": 115,
+   "sha256": "6298fb8abf9d2200344b645abe6562b461cf20785597fc993e38bde9f403c961"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/sounds.hot",
+   "size": 6294456,
+   "sha256": "3faa932f98659b36d01a5ea803f1c22e1a478d9c7fd54bbf95be1f695aad0ac4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/sounds.lst",
+   "size": 1146,
+   "sha256": "d1294aa06b9ec419443f144e5c96e3e8e57a2388fab472293710bdc02b0ee98e"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/textures.hot",
+   "size": 23780736,
+   "sha256": "3cbe95faca7b02829236f0a1397e0dc1b50e375011e112ca82eca17865e4d533"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/textures.lst",
+   "size": 22406,
+   "sha256": "adbf871cac57741b65cf99a4950768221b010fa5adab2ce8e2887a3d2c007e64"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/verts.lst",
+   "size": 106,
+   "sha256": "c40a13828a003e432e1a53c64e7535c29d964f3ea8d502afd6a52591d906718b"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/world.hot",
+   "size": 2018300,
+   "sha256": "e4e989a480c0b150ae2bbabd38aec7f8c19fb822d0bc019840c1cd31c98da408"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_museum/world.lst",
+   "size": 113,
+   "sha256": "06ab950ecd8221b51d1fb394721d66d8719ba00452efd301c08df49e9b33c8cb"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/anims.lst",
+   "size": 6091,
+   "sha256": "9a0740fa4d2a6eed839f887170c2cd599eeb8007a4dbc972466f21db188c7ce4"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/data.lst",
+   "size": 160,
+   "sha256": "b82ac8bd9aa20d53fe6fbbfc4ec4d35ba5b2383b16877a36a21ac026d9a4e59a"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/models.lst",
+   "size": 1973,
+   "sha256": "d4628608c1b544ffb8fd7ab5843f03eb5ddc04792862bcdb31881a3d022ec224"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.hot",
+   "size": 2080872,
+   "sha256": "d626b641ecb24080f10c53b6669c587760740fc36a7c2a9ec614d5bb6c5bef2f"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "710bbb0c64854a3f83050c6a7e92ac6e3ec9d8fd8f7339ad16568a5d15f0d3bc"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/sounds.hot",
+   "size": 8217972,
+   "sha256": "2d94bb86782e731ddfa84686de0fa773b26fd3fb80f63e38ebe0ff35eae823a8"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/sounds.lst",
+   "size": 2012,
+   "sha256": "2beb9ff03de03a56e475f2e7357e619f09cca6b78c8318ef1237152eed6c6085"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/textures.hot",
+   "size": 48444288,
+   "sha256": "8be1a196aca36e8328999409f60a9c8c358497b3a49110e3d5a3f728b95ae7ae"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/textures.lst",
+   "size": 34376,
+   "sha256": "0f70b1ee1ec883b16861dd79cffe077d2eb8768c614323dc73613a0f89f57204"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/verts.lst",
+   "size": 112,
+   "sha256": "9ac6e2a1cc6f437b510179b202d86f794c73fc691e479d08479f92c4301741e3"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/world.hot",
+   "size": 5058108,
+   "sha256": "2281ca59f296f0d6a3a4c05c46b34ac1dc37095cdba69cda3fe6604a629c49be"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/area_thesquare/world.lst",
+   "size": 119,
+   "sha256": "de02f271cf69246920ef51d78d66b5e1fed8188d2ba786090a36b269acb3ede5"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/anims.lst",
+   "size": 12880,
+   "sha256": "9ac0af49c50b057d0af9bce175927822206f95afd365b43c487867cd16a8e0e9"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/models.lst",
+   "size": 4145,
+   "sha256": "84519ad9bf0ac1ebff84707744d6599d9bdeeaeedc477ad6f55f20ec4767d469"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/modelsAndAnims.hot",
+   "size": 5105968,
+   "sha256": "1126f02125c3c8885f1dfc91645ecfcb8935d69df788040c50a366ad95401d87"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/modelsAndAnims.lst",
+   "size": 105,
+   "sha256": "5db025dbd3f5862c950b0699d10d8eaeea5cf7da929a08b73bb58a8c4c989e24"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/sounds.hot",
+   "size": 17632332,
+   "sha256": "9f2210c1edc5a92083eeff225989bfdca4d1dd349236cf648cc344b642c79beb"
+  },
+  {
+   "path": "vincedata/levels/frenchquarter/common/sounds.lst",
+   "size": 10925,
+   "sha256": "018deaa7a9b5664e3c1db949b5bcb2d71538564448c7d7c3843cc9901de25c46"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/anims.lst",
+   "size": 5411,
+   "sha256": "141c8011dd30d9f3a710104057774fab1eb7c6a453b126393ba31fa2672deeef"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/data.lst",
+   "size": 175,
+   "sha256": "7de6bb2f2d84f075184653cfc85d26941c82248f96c03d7c010935c37ba36bd4"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/models.lst",
+   "size": 3005,
+   "sha256": "a648e91f124e8cfcc3dac77747884612b5b1f8bc47e6322384ddd48357b2030f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/modelsAndAnims.hot",
+   "size": 2655512,
+   "sha256": "73fbddcf80dd970fc0b0b2505ed00bca0785a57e58f39fee5e539bae1a9bc8e7"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/modelsAndAnims.lst",
+   "size": 125,
+   "sha256": "69dbf2d2c9a0db21c6d5407fb40930f35fa36619992eb6c64d0c962eba55b9fe"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/sounds.hot",
+   "size": 4201632,
+   "sha256": "ba8bedbca0e59663a9c56a732cf40faa5cf828f7511983757045340b9af03991"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/sounds.lst",
+   "size": 1502,
+   "sha256": "e9bec66f30107e547f69c862ccbc930f382589b7f29d46e9f46c246410ce001e"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/textures.hot",
+   "size": 25442688,
+   "sha256": "330ff07e9065d0e68e0af1a999bcd5be2a3935e030d4288a4c13e6a0e550573f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/textures.lst",
+   "size": 25098,
+   "sha256": "192e2a1571303fb007740afcd87a3b9426d5997db3800c4d1f148a82bc3dfa17"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/verts.lst",
+   "size": 122,
+   "sha256": "85f410809c8da1acf99fe517a725450ab816393b4d75f75ef699f216cbb525ed"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/world.hot",
+   "size": 1565788,
+   "sha256": "d15ddf782492c2884fb84d18397be046f530b20e4200a399e74a674ff1ebf1f3"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_boltroidbattle/world.lst",
+   "size": 123,
+   "sha256": "278653955b9af62ee8cd5f2e4a5013bc97770962405490fc7962f99952e137a6"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/animatedTextures.hot",
+   "size": 512,
+   "sha256": "c5f848962db2475f0d2361fbd1fe3a6595e83b234a08fd37aef706299a8608b3"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/animatedTextures.lst",
+   "size": 136,
+   "sha256": "fc047d6aeade08a929f413b1677090a40713b0ed0cefc964f1cac5e215b271ab"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/anims.lst",
+   "size": 3903,
+   "sha256": "841b65bf2e484d3948b29c67fe5f918f5674831bf4144342d5d3a11f0e9db32f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/data.lst",
+   "size": 169,
+   "sha256": "e81df339199342c02d5791c81b96fa46e75523996ee5198ad162fe11f8f1d487"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/models.lst",
+   "size": 451,
+   "sha256": "cfb11990158cd532e595699f5ed47a71ecf6958c84d2ce80c1436a9de5c048fa"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/modelsAndAnims.hot",
+   "size": 1906716,
+   "sha256": "9c76d954ddfc51dc13b9d71a9e62241898aa63e9c88e8fe570e83318155bf8ec"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "a17c06ed9c44c4a72c0fe5071dda15481418ddeef89cc0acc4e504dcbd33efe7"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/sounds.hot",
+   "size": 1464336,
+   "sha256": "7ee7b9d655788e82047fbbcd42e593aa8d393f3f7a427989e35ae7f0da2919cd"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/sounds.lst",
+   "size": 519,
+   "sha256": "c9c75bc461e57ba098286589dcfc099416001a3eb9a96192433f79cfafc859e6"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/textures.hot",
+   "size": 31921152,
+   "sha256": "643412e428527f94c98cceda91252821b2adf529b7d14ded374d124a9633bb2c"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/textures.lst",
+   "size": 24087,
+   "sha256": "2c4c09c93933a9a141562049b20558dd2fc3365a114c1c7fd4d1368094df7fd0"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/verts.lst",
+   "size": 118,
+   "sha256": "0039b84ccbbd2f63fda3d743af24c408726b12f8e575a3f94bda514c0785f898"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/world.hot",
+   "size": 2115796,
+   "sha256": "87bddbb1c89ffa34f3050107cde449c8bdc06b44a2883c613ae94c942f114aec"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_captainsroom/world.lst",
+   "size": 119,
+   "sha256": "f388b0b86843aadca6ad51fc3cb4e5e30f12b11d1fd6408e5a04a9496eb1adf0"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/anims.lst",
+   "size": 3508,
+   "sha256": "4f8ccf12cb9f28c7935f32b98bcf5cee0d8a22712259ac6ea557e8a0bda6f95d"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/data.lst",
+   "size": 163,
+   "sha256": "82f238370e88801d001677b2a7e8a14a8e1c2d0b7179087a852109954ade4e32"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/models.lst",
+   "size": 2192,
+   "sha256": "ed9db71ceadc00dae222c8671cc1501852c9844b8f2b5bd18f34afd12e18831c"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/modelsAndAnims.hot",
+   "size": 2476672,
+   "sha256": "e96dee03fea46840ef679900f3bcfbe8c0e042a11d14c182f6ccb484beac2531"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/modelsAndAnims.lst",
+   "size": 117,
+   "sha256": "c38ca4f6dca4e75364cb984c6b50e0f2c5934c6c93187bdf8feee0d64c3d3807"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/sounds.hot",
+   "size": 4882716,
+   "sha256": "9e585e3869de7e7db8cdd2e9e75dccf9b17cde295aeb85fa623e4676d4dfb253"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/sounds.lst",
+   "size": 1110,
+   "sha256": "3f8da712366c08248240a3ac41ebbd22964563d216df6db73bbe3c8a56446ef7"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/textures.hot",
+   "size": 29521152,
+   "sha256": "b8638d69920d82d5dccf93ea7372d03b86aa28af0d13a6fe356244f7bf60c0ae"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/textures.lst",
+   "size": 26459,
+   "sha256": "1c5755173425de8a35daea016ad6612c340ee98b4978ac78eb01a13a3bf48ec4"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/verts.lst",
+   "size": 171,
+   "sha256": "18f9a0bdf88311ce25c051207e2e4ef16deb4aa67d6398d6f31c5dfe4fcabda9"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/world.hot",
+   "size": 3801404,
+   "sha256": "ef19e01b5371ae48b4036475f8f3dd1f91ad440320d7679152d0eff6e76b68fb"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_frontporch/world.lst",
+   "size": 115,
+   "sha256": "b843b88a379779192cddb0459a6c456e45b9603a65b5aff5b079f44228e5450b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/anims.lst",
+   "size": 1395,
+   "sha256": "4886acc00be5be0c6fc4ee9b73615e134e69437fda7ded56b7693dfae9e2cfd0"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/data.lst",
+   "size": 178,
+   "sha256": "95db10ef2dbba2bc96055be86aaff08d113cd32dc8842cc63fbbe4cf60123108"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/models.lst",
+   "size": 1341,
+   "sha256": "e7c4ec5a31e0e490aadc43186b48966ab4d00227bc357ce8e89fc05a29ff02a3"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/modelsAndAnims.hot",
+   "size": 355060,
+   "sha256": "4fbdd34418f7ab0e93c297f6a6435e989db83b2777dd1db12ac4275b53d5f538"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/modelsAndAnims.lst",
+   "size": 127,
+   "sha256": "273a4d621c196a6fc8644dfbd3cec3f70e094d169021d3e73a12bcded62e75a7"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/sounds.hot",
+   "size": 1429632,
+   "sha256": "c3ff623400d959dd1432df3f7e7c8b9c574880288d35049eb8191c2086e5cf77"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/sounds.lst",
+   "size": 319,
+   "sha256": "30f6aac2eeb13eb3a937e310d5141d4b16b80a33cd6fda19a8b83a94af548129"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/textures.hot",
+   "size": 30708096,
+   "sha256": "f6f2c88300095f33117374896afb7366a94d0bc5da823605faf32d8475ac56dc"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/textures.lst",
+   "size": 26214,
+   "sha256": "ca094ee90ac6fb0e252efbca0df083a5098cb8acf7556774cbcc5be49cae30a7"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/verts.lst",
+   "size": 186,
+   "sha256": "7c92ccc493da4f87495f552b9136f67905b1944d7b3b56a3f7913e8d6518a97f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/world.hot",
+   "size": 3373276,
+   "sha256": "84525298509ad3061f601bcd3d359dcc070629df9da1922aeba9162b4a7aa262"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_glowberrytangle/world.lst",
+   "size": 125,
+   "sha256": "172ac9d6ac0947e2ff9383cf698cb9bd11133cfff76c7213b33278a5276ba3d6"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/anims.lst",
+   "size": 566,
+   "sha256": "68d12e98353a702de1c3673e5ce6adc8711a5369e6ea6e435e6d4bbf814c40a8"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/data.lst",
+   "size": 157,
+   "sha256": "60445a7ec217c2c5f8af9c8d597a36813c8367ceb68664d2fdd8db6a2369fd42"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/models.lst",
+   "size": 246,
+   "sha256": "53fa7073803118c64543d3614e70f293220434d6010c7a234873a5716f400372"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/modelsAndAnims.hot",
+   "size": 141744,
+   "sha256": "4f8e6e46f9b98749ff639ff49be6e41725459e4b2f8c81c23076bd4c183b2007"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/modelsAndAnims.lst",
+   "size": 113,
+   "sha256": "ce5633eba6854fcaf9fb5054413baa8019b91e341823c28e63f6867c0f6e8a94"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/sounds.hot",
+   "size": 4293036,
+   "sha256": "c5dbdc210c9098fc2dee871fb746e2f7819fe285645affd8ee4620075327d7ba"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/sounds.lst",
+   "size": 1319,
+   "sha256": "5acabbd7b758ff6fdb5a28bff37de27996f5477f76fbb1fe15bc1c7dd619d9ba"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/textures.hot",
+   "size": 32782208,
+   "sha256": "a3c43430537e48a22681fa9d0a957674c95ddcbc800a9facca5f1b6b77c6e15f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/textures.lst",
+   "size": 27963,
+   "sha256": "0411b08d76d293713ef076b7572d1c55dc29a72541dda7df84e27439c326b019"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/verts.lst",
+   "size": 165,
+   "sha256": "23a3909bc7e04afbb14d6dbfc124c7e90371d77f07d996c5520ac31176c2ef90"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/world.hot",
+   "size": 2517388,
+   "sha256": "51d70af62aeaece4833734e5657b187ab68399b18564a88bec5be9184e4c0f86"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_playroom/world.lst",
+   "size": 111,
+   "sha256": "39d0d979ad98f55f1506b815f4171557322e6f511da841904bfcc86509ff681b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/animatedTextures.hot",
+   "size": 972,
+   "sha256": "4bf65012b21afd6ea1967821e56e11014fd7273c73c97a6c10ceac802bf07c21"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/animatedTextures.lst",
+   "size": 264,
+   "sha256": "880b76ca2f389c72c7ac78f1619a021a5bff44b5a888fa62280dc2b14d1bba02"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/anims.lst",
+   "size": 1516,
+   "sha256": "764c55ae869e85c67a91ed713a09c1395d89844dfed2e3e49518554f2842f23f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/data.lst",
+   "size": 169,
+   "sha256": "3bc0fd6161df7f143215d4e0b7c183571f5d540cc40a61fb12ddb25a7037141f"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/models.lst",
+   "size": 1393,
+   "sha256": "41e0f5511f0e543d540e8a0e9f61b442b4d7c962e8432d383b7f84ed8ee5b9f6"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/modelsAndAnims.hot",
+   "size": 493256,
+   "sha256": "7b077d1050b8bca1d8816fced880e8c2d7ba21fc22e389251bc716fe0d4523e5"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/modelsAndAnims.lst",
+   "size": 121,
+   "sha256": "e42cd38542ade3c75bca4b00abe4333e1bd8de3a3e8685ba9d2d30e05732f51b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/sounds.hot",
+   "size": 3360528,
+   "sha256": "b7502e2c9f83cf61567d643fc0f62dc05f86fdb2914d77aefe67bba057ba7e07"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/sounds.lst",
+   "size": 715,
+   "sha256": "21f8fa261fd47faadb2fc97b890e16b595e926b9a18a3fd0f1cb1bb92d2a5880"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/textures.hot",
+   "size": 24801792,
+   "sha256": "eda84f176f528360c0641f1558e491ce45aefb3f6826ca90570008bc57124708"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/textures.lst",
+   "size": 28030,
+   "sha256": "de6ecc8364d6139d4f59c11156dd767beaa22174b4747865d256ea9cae5dc0c8"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/verts.lst",
+   "size": 118,
+   "sha256": "9e613a9d44056ee8e352416c5f524a1b5fc831bedc78d86b0d25d089f281f177"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/world.hot",
+   "size": 1899712,
+   "sha256": "eb17d31e61488e5d81f00958b8bae6749c5241b671a34892463a23c004f07c48"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tintoyterror/world.lst",
+   "size": 119,
+   "sha256": "7000df3077ecb06f11d7626c1e35ec05aeeeda61af60b855d7dedcf7311be399"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/animatedTextures.hot",
+   "size": 512,
+   "sha256": "c5f848962db2475f0d2361fbd1fe3a6595e83b234a08fd37aef706299a8608b3"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/animatedTextures.lst",
+   "size": 136,
+   "sha256": "fc047d6aeade08a929f413b1677090a40713b0ed0cefc964f1cac5e215b271ab"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/anims.lst",
+   "size": 1738,
+   "sha256": "3ec23b1b0bc9a80f337cf20c531b13e7254566e653552023ac61d0583cb9aa95"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/data.lst",
+   "size": 166,
+   "sha256": "34289403a801693032d47542d301e2da9f4e23faf8fbc063beb6e5ecd517176e"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/models.lst",
+   "size": 877,
+   "sha256": "ea9bae66a3390372fa087efa17a658f7519febce7312c5066aa4ab8477be8cc9"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/modelsAndAnims.hot",
+   "size": 1137408,
+   "sha256": "84b62145526f632e4df39cc96ce4bff05b76362a98016bbc76f148831084846d"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/modelsAndAnims.lst",
+   "size": 119,
+   "sha256": "c327e50461e399e1271ea70296b290fe6627bd43dd3de9bd6b45234714a6ef56"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/sounds.hot",
+   "size": 2844612,
+   "sha256": "37bc73819944f533026a84eba5b856a1c72e3d2dace61b450aa073b6f7a7ef45"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/sounds.lst",
+   "size": 831,
+   "sha256": "9402f30dcd8f5b410419a738d8e2004177887ff8c72353a5cda384cbe96a5adc"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/textures.hot",
+   "size": 34173824,
+   "sha256": "e959b328b274d196b62fdfc4581138ecbe6cf4ccf0a740d6123f15aec5f7d7cd"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/textures.lst",
+   "size": 26738,
+   "sha256": "472b166bd474a78dfbbbcad1c6f9cda896a08292eee9efc864c13c6955401d41"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/verts.lst",
+   "size": 174,
+   "sha256": "24c008aff6b3b2e28bc18ea103ba7e9746e2411a7d9c4187ed1b4ef5231a5d9b"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/world.hot",
+   "size": 1928280,
+   "sha256": "6211af5d91026bb8a7bb29204abad4147a4b69158521ff037fb5cf9bebc6fb35"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/area_tumblerroom/world.lst",
+   "size": 117,
+   "sha256": "5fd92340b8566699b72c4c28ec586f947215648bbe00697676b8b1caf6c90f98"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/anims.lst",
+   "size": 12692,
+   "sha256": "7585357d7622a04f9282561c7eb10b1768d3e61fd6c078776fc44d5beb663349"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/models.lst",
+   "size": 2613,
+   "sha256": "653256c2381d0d9733818d513ad0d9199dbeeb4bf8e25c8508cc0ebc6a3239da"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/modelsAndAnims.hot",
+   "size": 5183540,
+   "sha256": "493bd040d8829445b7cb357e08eeb334b6238853efbef0009b531fdd165d538c"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/modelsAndAnims.lst",
+   "size": 99,
+   "sha256": "448aa59eeef79c705edb3b32ba29741a36aa2e07f25c6727662f4fbf3ae1591d"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/sounds.hot",
+   "size": 15992964,
+   "sha256": "a0f373b4b8b9da462727bbcbc5f5807725e9614d5d53de8d52efb9788cc26e72"
+  },
+  {
+   "path": "vincedata/levels/manorhouse/common/sounds.lst",
+   "size": 10034,
+   "sha256": "93071bad793740ce9eb795b01f037838920e465589e7bf53076c43b6fb2c951a"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/anims.lst",
+   "size": 1043,
+   "sha256": "c6c303355269169a69e3e209c9be06cb9b7295ef5191f6aab269bccf1be1a1e4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/data.lst",
+   "size": 163,
+   "sha256": "fafa28c59cbc4e0f930485f8ffdf2e484d0368fd6e46f8a70bc78a8a2655efc9"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/models.lst",
+   "size": 691,
+   "sha256": "af6d45003ecd42236e6ba1bdf0be079843cdebeddf33c2c8068b0186e48eb3c5"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/modelsAndAnims.hot",
+   "size": 181516,
+   "sha256": "241492ab8a1f34753b875c695ccced334cca380885986e424eddb7e3772336e1"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/modelsAndAnims.lst",
+   "size": 109,
+   "sha256": "47bf23b64620ab5e0842625741f68c67d3ca8ed00545340e3fc470bccb5db25c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/sounds.hot",
+   "size": 1413252,
+   "sha256": "959f23cc498500ae8bfa5cfc81d191433a4f1d9ce5f29c0436e49638e9275c8c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/sounds.lst",
+   "size": 468,
+   "sha256": "cb10efa36ec1dbd5861ffba73a34c268317987de172e3014d0fdb1087bc6579b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/textures.hot",
+   "size": 33285888,
+   "sha256": "d6b15d61f71c5ea7e08a98b77a939801d2ccaa46f698703594f666d9912a75ae"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/textures.lst",
+   "size": 25044,
+   "sha256": "d5f1e1a6ea40a3efb48b811ea41846f7727efbb9802898198780274eacfd767a"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/verts.lst",
+   "size": 114,
+   "sha256": "7b7e9060bc1a0b4b7ae20c789876027ffd4711a948bfd83e6cec072b706a717a"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/world.hot",
+   "size": 3917212,
+   "sha256": "3b27295a9629a7a728991e731af23a3bd7a0f564541b50f812a8a5547372b375"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_basketcase/world.lst",
+   "size": 107,
+   "sha256": "735f458f9ae1f52fff911f9576635bd2afb17154761445a3bf2bca56121a7ad3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/anims.lst",
+   "size": 824,
+   "sha256": "0218904f65a99655436969e6adf00cf0372ac4740b31f68bb2e01a8b821528cf"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/data.lst",
+   "size": 163,
+   "sha256": "988e7dbd63eb9e96da729e8cb3c9ac307e5d12addfb9e71b03eefe72e676eb6e"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/models.lst",
+   "size": 466,
+   "sha256": "fe55173fd37bc31615f59d55702915178ca1176b6f53ac25f62f28726f6ef892"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/modelsAndAnims.hot",
+   "size": 575704,
+   "sha256": "fe9f76b3933124998a6111f562976339e8eb004ca786f6b0f55268865d84cd99"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/modelsAndAnims.lst",
+   "size": 109,
+   "sha256": "9542cfd51d787e630218f630c7394d8101b1c1e65e10cc15905efd69b861baad"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/sounds.hot",
+   "size": 3228120,
+   "sha256": "c54437989dc9f57cfe3756052efe61e236a85eb9898371c8025ae5fd5c6b388c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/sounds.lst",
+   "size": 811,
+   "sha256": "f875f0ad4db5da9d85f1bd693a6ffe42cc1c8a37cd8ae876ceac108b6feaf0af"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/textures.hot",
+   "size": 24862464,
+   "sha256": "8031bf3c3d6a154a443244acce8dcdce4046d953a6f8aa660eef8639d3c6c24c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/textures.lst",
+   "size": 27718,
+   "sha256": "4f6a32caf0cc1324c14ee21563286ecd270cc837849c830908884f3e31f9fd78"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/verts.lst",
+   "size": 114,
+   "sha256": "089c4540ea37d5150908604aa572c403e0374d3db07c428cfdb3fbcea85ee36c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/world.hot",
+   "size": 1971252,
+   "sha256": "ebc3f42d8835e63503f450cd7b15024cd4be98d9edb31cc318c23833917ff7b3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_maintunnel/world.lst",
+   "size": 107,
+   "sha256": "d3c99f5ae6309fcff2439579c3a700cc69e77474123cf3ad99b55f145af7277b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/anims.lst",
+   "size": 1306,
+   "sha256": "df81340a991b7193f9f164b38e09d556b7d6c38727a13e3d995c289818390f4e"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/data.lst",
+   "size": 172,
+   "sha256": "6d16f9be0c834c70f7b59b32e080b1737cd8c1d8b3183bb95963dcb42dcec1af"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/models.lst",
+   "size": 1336,
+   "sha256": "c514f3058c6b27f6764718a2345ec47487dedcf7163b258c1aa2c231aa4612e3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/modelsAndAnims.hot",
+   "size": 154584,
+   "sha256": "fda82d01c7bcf8d167c8984e238a49cfa030bb52de03c3a61bfd607af7056769"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/modelsAndAnims.lst",
+   "size": 115,
+   "sha256": "243b72099c9662552b934537c502799af7c68448a9b8c6a4f5415a0c9d6b0218"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/sounds.hot",
+   "size": 2606904,
+   "sha256": "520a30b139a47dc6043f3004ef3bdba267408c3c2484de07772727dbab3fe443"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/sounds.lst",
+   "size": 624,
+   "sha256": "baa6f6ab9968a8eaaf7c7bab34298316a41b8703606ff14dbae6f2d22276edd8"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/textures.hot",
+   "size": 26721792,
+   "sha256": "521d449f099547a46e8107e11d15c6776afcbf8d7ac8ec72c39c01978ee4e962"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/textures.lst",
+   "size": 27318,
+   "sha256": "f1e13fe9d1bcffb189c7cd0fc37fd48f25365b68f2bfe690d5053b5b629bf873"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/verts.lst",
+   "size": 120,
+   "sha256": "4da3d147284c4114a863b953c570606168f47a334709cebc32c065110bc02b14"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/world.hot",
+   "size": 2783940,
+   "sha256": "56f9827157fc865537b757b26ae2a6b329fae2d9c1e9c8e5695a779ab912ef3b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_propellerroom/world.lst",
+   "size": 113,
+   "sha256": "1fdb618017b68db7f2d19e4bc5d524d3fa34f18923af3fe7171068ee0609ac13"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/anims.lst",
+   "size": 2974,
+   "sha256": "db7dae64d04e5491a7fe356e2f9902e5739bb97164cb986e003996608468b73b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/data.lst",
+   "size": 160,
+   "sha256": "517db2bd5efd28346960713ea8c258f52faaa975ac12fffd5a6b7f8b657fce6b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/models.lst",
+   "size": 1645,
+   "sha256": "2e46573b5a7e1d8bdbff4651afe493b1758683a61afb226de3cd1fb68e2a78f3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/modelsAndAnims.hot",
+   "size": 1270660,
+   "sha256": "6fc916f9a038c7db383e597e4708601abee5e13d465de133b8d6c2e24805d822"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/modelsAndAnims.lst",
+   "size": 107,
+   "sha256": "56ecd93624242b67cbb88ab76e7de61e11b223d8fc691d81c5921a975167f254"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/sounds.hot",
+   "size": 3156336,
+   "sha256": "00fbb2949c84d10a22e5135ba058775da90ae6eaae92de6e448a26650ac1d678"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/sounds.lst",
+   "size": 1153,
+   "sha256": "403158e09df70877bde9548beb8e884bc7d85d77545e212ba06a7b9a0b3e9d12"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/textures.hot",
+   "size": 22193536,
+   "sha256": "5dd78ea543f5feca9dee9baba2b4e8e59659df2cd044d98c8c9b561e4bbcbccd"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/textures.lst",
+   "size": 22895,
+   "sha256": "dafa495ea313d305c76e4e36ea9d414bd4f08a3bc1146a2593b38fa43abeef86"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/verts.lst",
+   "size": 112,
+   "sha256": "3feb5eb69d7b1403d388b0acaeda96e9d698e1cb045541e6ccfce2f3a02bbf6e"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/world.hot",
+   "size": 2354160,
+   "sha256": "eb157256174ddd1aae0fabf4553606ac4994f24a0756ce3d73527d131702cf57"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_rocketlab/world.lst",
+   "size": 105,
+   "sha256": "5a209ca9a5ff3fad94e20cb73738e3df4fb52fc1d950ed87d7863b0da44c6fcd"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/animatedTextures.hot",
+   "size": 828,
+   "sha256": "8d03bbe1495bba8329f618cdf2e4e317f92224a73bf30280c3613ee8d8766eea"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/animatedTextures.lst",
+   "size": 224,
+   "sha256": "435d2cd02ab55194661cac3423a2f1512bc1a12f9476c9c89b27143ddfe675e4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/anims.lst",
+   "size": 782,
+   "sha256": "29d179b318f289129ae29065be240c6dca8522fe7b83dc5a1a0adad897904165"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/data.lst",
+   "size": 166,
+   "sha256": "6b28339175a46bd474b5c4a049fa97b142b9441d815e7d29c6248dccf4388052"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/models.lst",
+   "size": 662,
+   "sha256": "1842f4d23990de7ab7665c13a31977a6c48240afe70be337b5dc9e0d28be8ae2"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/modelsAndAnims.hot",
+   "size": 121236,
+   "sha256": "85eb526b057d7cfb0623cef7af91360e3fcea820fa3150a2cf69fde43be76075"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/modelsAndAnims.lst",
+   "size": 111,
+   "sha256": "7ab012b8b4b08239a11a9614aa70778660f8af29c272a3590cc1a061a8182fbd"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/sounds.hot",
+   "size": 686700,
+   "sha256": "c441658320bcef8464101a47d71c727f5c7e1985b79cb487d140f9bb735b5db6"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/sounds.lst",
+   "size": 380,
+   "sha256": "a10da6c2e9ddb72360b3abe04aa1214d78d46f3128a35b5bb7c919a51b6b2251"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/textures.hot",
+   "size": 25661824,
+   "sha256": "830c9d2de09faf7adaa8072320c46c81b4b340f7c528b169a4cdee5c0efa9426"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/textures.lst",
+   "size": 27107,
+   "sha256": "f7c410df66d5f9f72f0e45c540c69bbfd587b0f49d512cbbace8618e60564861"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/verts.lst",
+   "size": 116,
+   "sha256": "ad797c4e71c583c97c21bbfab4b00902abd8904f8618c4149237be0214e425d6"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/world.hot",
+   "size": 2990472,
+   "sha256": "45c08e6b140188b33e6326918a3fb00392ac90ac1c17870907c16ae67e49a925"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_stealthroom/world.lst",
+   "size": 109,
+   "sha256": "bdcf789982583396bf9ba677126e3ee320eeaa9dd70d28cf7b878609cb1d40d4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/anims.lst",
+   "size": 650,
+   "sha256": "7b8530eb95c297866162ade35be1c7ddb4eb4c7fb06490e7517a9cf3e06687d3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/data.lst",
+   "size": 163,
+   "sha256": "51a24c37b2b9918831400d8cb5b8e7dab95f71061f38340f93522a673e21378e"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/models.lst",
+   "size": 475,
+   "sha256": "d134cb5ac3343c6cd95c906e6f706cc16c0f286e629d7573791296cf9c3c2c05"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/modelsAndAnims.hot",
+   "size": 1051248,
+   "sha256": "0e1f842904f484a80cea32936c77abddb7f2652167eead49a9a66838bd384dce"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/modelsAndAnims.lst",
+   "size": 109,
+   "sha256": "0911a1c4a200cac586494ae24aea4849ab4ff410e50e63b401cf42fc60f16cf8"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/sounds.hot",
+   "size": 2468448,
+   "sha256": "ebbbaef9d08b13a85ce11f27cbf6def9955e0f78455d1f7020d3d55ddf844a12"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/sounds.lst",
+   "size": 785,
+   "sha256": "3cc0e3826841e1e27d936aba9646602edf7ceee6013a980a28a16ef1d4e964e4"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/textures.hot",
+   "size": 19089024,
+   "sha256": "560d1275bf16fc61afe6cc03ef2116033e83228aae5414352361591058b18c3c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/textures.lst",
+   "size": 21365,
+   "sha256": "1711855c38499a750a1f7b435b947ea2ee44d7ce1c195dd49234f16c6dfe2566"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/verts.lst",
+   "size": 114,
+   "sha256": "ec830104038590a47687440ef3cdcfdf38990a839fa1b5dc34b7f16ae1888711"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/world.hot",
+   "size": 3150668,
+   "sha256": "4acb837f132ff3c63791a1ebabeb3a63a06812d5a5c3cb8b911aba25f15b4448"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_throttleup/world.lst",
+   "size": 107,
+   "sha256": "80769878d225f3200107cb642c7ea47a9579fbc22ef057861320286a840f6cb6"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/anims.lst",
+   "size": 7150,
+   "sha256": "4c5a6a3486898a3e4944b5aed81491397d3e958e08cb17250dfafe8ae0c2c7bd"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/data.lst",
+   "size": 172,
+   "sha256": "71e28a1353f26984357febde7edc0f4467b5bb8606319d8618a2d403160dcdb8"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/models.lst",
+   "size": 1145,
+   "sha256": "4fd29510753fde735b1fde4358051c51d52ceb7893cc13e5128d584a33b0b845"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/modelsAndAnims.hot",
+   "size": 3267208,
+   "sha256": "67b3805b74105976a794e8c4506dba84fadba4328706821fe5310f8dbd9d21f3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/modelsAndAnims.lst",
+   "size": 115,
+   "sha256": "ab65aaf869ca3411d690673f2f3da7307bf230162a80b5c737187d0203fa030c"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/sounds.hot",
+   "size": 4379616,
+   "sha256": "01c53a314d5f0771fef2e8c2c855f77b9fed7b2544be88ea647bd4b7371c88ef"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/sounds.lst",
+   "size": 1924,
+   "sha256": "2b709a7fdf7385bcdbf9b7e59dceac28ade10e98a33f678d0218960aa2ae8896"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/textures.hot",
+   "size": 29240192,
+   "sha256": "5a89ca249e12a3320646789d4ec5490fa45df8fd192958468de2e47cf612dad3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/textures.lst",
+   "size": 26900,
+   "sha256": "785e65d58a5d158b5159e69bb473079874efacc8a65ccf9661cd4845e91f7fa3"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/verts.lst",
+   "size": 120,
+   "sha256": "96cd9cf08c12d80bd4ce3973c498aa38ac4b78d699ba5c0e62f71a0b9b9d20c7"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/world.hot",
+   "size": 4420216,
+   "sha256": "0036c3627a3096343e4fbe7ce58a758169a2f25342ab6467ba2cb18391b82821"
+  },
+  {
+   "path": "vincedata/levels/sewers/area_wrathofjanice/world.lst",
+   "size": 113,
+   "sha256": "1b17ff94985ac36809114a967935af6c0e7a2e2d4dce36a7d6c22df4735b815b"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/anims.lst",
+   "size": 12724,
+   "sha256": "6d663d670c25ed8ed79c557de147a71b549a1c885070b67c4b2c6b254195c6c2"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/models.lst",
+   "size": 2328,
+   "sha256": "5c799f6098e7b0408864bc223edf5ad5886f0e89f276248d7044cb947dbe8e4f"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/modelsAndAnims.hot",
+   "size": 5166188,
+   "sha256": "e791e66565bedbc9680e3156adc238a0a8ceafca1ef585d01212f736fa758e35"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/modelsAndAnims.lst",
+   "size": 91,
+   "sha256": "346117ff632d15689eb6acca5e59b03d8559ca985bb57a2c6d5cbf211246ef87"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/sounds.hot",
+   "size": 16347708,
+   "sha256": "481838e07cef69bb7c8bdf3f6b25f526537805df6911275a4ff69cf8e29bdd32"
+  },
+  {
+   "path": "vincedata/levels/sewers/common/sounds.lst",
+   "size": 10386,
+   "sha256": "15ca6e06e4f4b734a245094ddc2b49b529d1b26a1a22b747e5833dcc519c9082"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/animatedTextures.hot",
+   "size": 356,
+   "sha256": "9ba10e3cf2a0cc21a3bd02c0f6e55d8644383395c2c0329c9d7f96854984c73b"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/animatedTextures.lst",
+   "size": 92,
+   "sha256": "fafdf84cd68d6af306ca3491dd3d42ad56b4b8b8b49c9c33881d169c1103c81f"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/anims.lst",
+   "size": 11955,
+   "sha256": "15775ae8164d81639f4497d510bc01bb15a1d817ad950a22ca6dd87188b0a3f3"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/data.lst",
+   "size": 163,
+   "sha256": "94dc3009795e2b0838b767a7afce59ef66208489b8e187e26f1885c49db9054b"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/models.lst",
+   "size": 2044,
+   "sha256": "fed4ce19140399250a43c5e077e88114da8aec3cc4712333bc1160443692f5c8"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/modelsAndAnims.hot",
+   "size": 5346688,
+   "sha256": "db67a56aa12cc387b0ee7350e380667cde7a0e006bbaa4f2a09abc4bf497e3ec"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/modelsAndAnims.lst",
+   "size": 117,
+   "sha256": "e000157c1960f396d775636ff65feb2e71451723291c4e6b8fc6409d2fee482f"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/particles.hot",
+   "size": 667756,
+   "sha256": "2f4b2f0df7db79478dd83ded983e9a2f053c8df79538a62e48b0c9d1dad3ae78"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/particles.lst",
+   "size": 17680,
+   "sha256": "ccdfa054cc6fceb94d8c12012a5fd6e234b5dc88d5de0dca60929a4768357da6"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/sounds.hot",
+   "size": 8827272,
+   "sha256": "d784f315de334732180735d1fe6505e3fb3676153ac40b7ccccd63e0d8a33f0d"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/sounds.lst",
+   "size": 6474,
+   "sha256": "b31c37419b34575b6f305125b538d92c5d79fc2a15a4789b524019dc915d184a"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/textures.hot",
+   "size": 58244736,
+   "sha256": "a43287939bee8f9121cd56801d2e08d1ffcc8430b0d2f9193681ef6d382f6591"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/textures.lst",
+   "size": 30531,
+   "sha256": "af48cc60125ed3211583ef9968eed8ac8686b12fb8e34012cc2ddd38161a395e"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/verts.lst",
+   "size": 114,
+   "sha256": "aa2979a7073a50ab46f09c75ba23f27e7125f9df4c65ef193e8b175c2d6a3cbb"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/world.hot",
+   "size": 4325688,
+   "sha256": "f96aec23ac2efb5927b5e0328167da20a78e7cce472efd8c13a1de339e7d8ef4"
+  },
+  {
+   "path": "vincedata/levels/voodooshop/area_voodooshop/world.lst",
+   "size": 115,
+   "sha256": "eea2d6cb27add4984b4c7f6b15a792a2d3cb58afbafee04a3941bf40068ba638"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_basketcase.dds",
+   "size": 699192,
+   "sha256": "445932bec46501d4108da0da199d300eafeb440acfc9a6d0e47d3e09e153c372"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_belowdecks.dds",
+   "size": 699192,
+   "sha256": "7cd679f8628a5b592e1d75b3c5ca61bf95bef328942b76a0f92c2f9faa9cfe4d"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_bigpig.dds",
+   "size": 699192,
+   "sha256": "557d6203235fb871c03c5bd6e5e9996cb7f0468be4c8c727a235729095734ff6"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_boltroidbattle.dds",
+   "size": 699192,
+   "sha256": "f4f303238255594231d4ded140e2e12588f7a3802452433abd4da2b31d41f0ce"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_bumpercarbumpoff.dds",
+   "size": 699192,
+   "sha256": "b2f546e8c79049e30ab16149981d01371b991be5d4d97fa4050154e29b65aee6"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_captainsroom.dds",
+   "size": 699192,
+   "sha256": "b85c4b2c63a9675d388e82561eeea5b066c9be8ca907ac43f5cffebc41f5ff02"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_courtyard.dds",
+   "size": 699192,
+   "sha256": "b38e2c4cd9b55b3f812f932cbdaa96285b2927b16d1f5e3ccea8bb9699d55895"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_crawdadjimmys.dds",
+   "size": 699192,
+   "sha256": "79b9b77c12bc8d85a2e18b6b2953ebd0217e3805e47d22913241c9fc51dd78f7"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_earthwoodandwater.dds",
+   "size": 699192,
+   "sha256": "6f7ba4f35894d8daac6eeb6eb2dad9408e45078a9f5b119958dfddb4ceb5678e"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_frontporch.dds",
+   "size": 699192,
+   "sha256": "f2a0b6ff3fad12888ff6756b59c97b6226709399e678c173717f35fdc29458df"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_gatekeeperjam.dds",
+   "size": 699192,
+   "sha256": "71e0d79a04667f6729a246d1d8c9b95bcd1c9ad0fd6efed3bc894ffd232a7993"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_glowberrytangle.dds",
+   "size": 699192,
+   "sha256": "e77e3727d37c9f8e5b76796fa82505e776465e2885c87ccda4c57f7e6ed0fdca"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_gwistlethorpemausoleum.dds",
+   "size": 699192,
+   "sha256": "39927b76e7cf9634a9f2a3bbdb1cd38a8cca2406e08e856bb13d1598622c1337"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_houseomirrors.dds",
+   "size": 699192,
+   "sha256": "7ab4897a7016ba8cd91232ae7082f62c9969f1fa90ca3e259daadfa432c8ce40"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_hurricanehannah.dds",
+   "size": 699192,
+   "sha256": "e2d4785a805630d29d9ff61c930b408194230ceb727a62cf47b1d80818c12ddd"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_insidekosmobot.dds",
+   "size": 699192,
+   "sha256": "5af7034d7ecdcb22832fe284f1b7b852e7e0e3f8eecb590646dae5386abe3348"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_jeanlafittesship.dds",
+   "size": 699192,
+   "sha256": "b5bdade22aab53fc99c3f39c6c075b3c252def0b53c502de7499ce58ae9aeed8"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_jimmysfanboat.dds",
+   "size": 699192,
+   "sha256": "481dd48a4f63844f6abc4d5f9b5fd176833a47eece89464ff8ca96abc07a5939"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_landorides.dds",
+   "size": 699192,
+   "sha256": "d9ae7ff0ad68eabce9186bed0137afa3dd8e1ffc0b481684b453d9f30ee1d7ee"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_mainstreet.dds",
+   "size": 699192,
+   "sha256": "4191363ca2d0d5118e83cc6d62abc1592f328f96902b344f05187ff9fd20bd9e"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_maintunnel.dds",
+   "size": 699192,
+   "sha256": "a9fd1041e61ce91722db841403b83f35e00126004f576acdf0f03a53e55ac3fb"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_midway.dds",
+   "size": 699192,
+   "sha256": "182b51971ccf8962a893508cd207a73a65dad0240b790fd0cd48c8d5729ab758"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_museum.dds",
+   "size": 699192,
+   "sha256": "d11db171c3e35253a917db2f475bca78b0731163b7d03e429adef4d1533e0303"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_playroom.dds",
+   "size": 699192,
+   "sha256": "adac3925e78a03a224717b5b01803ab0253ad0d9587278022b61f394cbf1fc06"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_propellerroom.dds",
+   "size": 699192,
+   "sha256": "68c3a8c1ead6dc48680e1f33fe72255525cd2d6e28c88d94c2dfb601bb0944f8"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_ratracerodeo.dds",
+   "size": 699192,
+   "sha256": "259da7e220a9ba244e6d0b83d3834509c88ed8ff253148f1abbca758260ae2c5"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_rocketlab.dds",
+   "size": 699192,
+   "sha256": "facfb6064b2af1e8367ed3d833ae059a9ef91ae3242adf344adf34a8fbcd1bb7"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_sarcophagushustle.dds",
+   "size": 699192,
+   "sha256": "564e825751ac71ab40f22395136b6b33766c8e58c52aa7709fb20a62c6466bb3"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_scarehouse.dds",
+   "size": 699192,
+   "sha256": "396df8418f333f30da2159419ef8bf88c095d8b190921764b2609b7432b364ab"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_stealthroom.dds",
+   "size": 699192,
+   "sha256": "abc381de010782927ccf3dcd74c3ba6111a87794babbf5e21fa8ccfa184a6477"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_thebogwallow.dds",
+   "size": 699192,
+   "sha256": "ef99f010e922994e7f882b4beccde3ea9c3c5e9c4f10ca70e2605ad1a7bf2673"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_thesausageworks.dds",
+   "size": 699192,
+   "sha256": "54290af54eb2efe061bdedb767df37b17b301d16eef5b85cc98eca94771bb3c5"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_thesquare.dds",
+   "size": 699192,
+   "sha256": "96d9a02b3c4c12ca97708f0c271576a0d949310e1bc129e6ca61c28d52104274"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_throttleup.dds",
+   "size": 699192,
+   "sha256": "1bd5064289b72de21d2d2aa342999f4d126d7b1d49e7ff1d39240ef148ae60c8"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_tintoyterror.dds",
+   "size": 699192,
+   "sha256": "f10b1b711aed6f080af9ee290936ab02600cd8484d0f8085fd4d5d186d793daf"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_tumblerroom.dds",
+   "size": 699192,
+   "sha256": "c205c004457888977d161f29e439f9959bc147bebd7d89ed09061a67dede6084"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_voodooshop.dds",
+   "size": 699192,
+   "sha256": "ad4f5f9f170cc910ca6c55ea88c636edf9fbeeb18829f5d70e023011b2a68bce"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_wrathofjanice.dds",
+   "size": 699192,
+   "sha256": "f716a3f5cbcabdfdd5981df047fb465b6989702e26c98f6059de127694f4e1a9"
+  },
+  {
+   "path": "vincedata/loadscreens/loadscreen_zombieguidancecounselor.dds",
+   "size": 699192,
+   "sha256": "81a663309e2bc16b337acb09de9931f584804e8338a8160a8e43bdccf8613b12"
+  },
+  {
+   "path": "vincedata/localization.tdf",
+   "size": 696,
+   "sha256": "4695d65d7790ac9fef744d99ef5941388e2c39014d4bc37ad61ead14438d8c94"
+  },
+  {
+   "path": "vincedata/mainstreet.tdf",
+   "size": 125,
+   "sha256": "c401460e3dbd8ead25986dabbe1835fba0e699fe7ab5579efcab5d339ccaf038"
+  },
+  {
+   "path": "vincedata/maintunnel.tdf",
+   "size": 802,
+   "sha256": "736acaacc43255e592e399bdfa8f14ef43d29917dc6d049f6b69887379f6be72"
+  },
+  {
+   "path": "vincedata/media/beeplogo1080p.dds",
+   "size": 1383240,
+   "sha256": "deb963e400d9cec3b753f34a2cf8067668e0c5b29cd9cf0956d980641f5a7778"
+  },
+  {
+   "path": "vincedata/media/counters.xpr",
+   "size": 262890,
+   "sha256": "bb5bc6a9b7c404992c7c2044efb9cc5cd2d24091ae47393ba6fff684721a8628"
+  },
+  {
+   "path": "vincedata/media/dsbeepfx.bin",
+   "size": 15244,
+   "sha256": "efb0ea7f8b87bad3f93c80570a631c7bb17d99836175917e0802b91272196d5a"
+  },
+  {
+   "path": "vincedata/media/font.xpr",
+   "size": 267292,
+   "sha256": "b0c246587d33899f2e2071e5094fa97dbb1f1908f9bc0c015f9b40087c01a52d"
+  },
+  {
+   "path": "vincedata/media/hints.xpr",
+   "size": 2102300,
+   "sha256": "6d1c3ce034c47089dc8e74456231196e76c2d40ecdb8188f007e44671aef8d79"
+  },
+  {
+   "path": "vincedata/media/loadingstrip.dds",
+   "size": 904,
+   "sha256": "95490365ed8887b00d2b907a7602d6b86a7dbe1056043f2bce1d50454eb82276"
+  },
+  {
+   "path": "vincedata/media/loadingstripdetail.dds",
+   "size": 1680,
+   "sha256": "0a18f73d6d1b1aecd33c49a2a97f1967d049219494aff62c5b8eb269f1cd75a2"
+  },
+  {
+   "path": "vincedata/media/loadsaveanim.dds",
+   "size": 524416,
+   "sha256": "633eb19a7c620a6251e830313e934d036ff3261a7468900d3fddae5d00ec786d"
+  },
+  {
+   "path": "vincedata/media/loadscreen.dds",
+   "size": 43832,
+   "sha256": "6e55707c46239d9b7f927839fa48023ab8a70ec7ec1ab6e97764c942a010da63"
+  },
+  {
+   "path": "vincedata/media/main_white.xpr",
+   "size": 2102300,
+   "sha256": "5807ef289f6f3ca2cb1fea57e5a2376d6e85859df980e8422931c59174ff3db2"
+  },
+  {
+   "path": "vincedata/media/menus.xpr",
+   "size": 2102300,
+   "sha256": "8f1cfae40a315d8b377ddc8f9cfffeccfbe167dd739bd87d70b7a0ffaccc6469"
+  },
+  {
+   "path": "vincedata/media/pausecounters.xpr",
+   "size": 1053724,
+   "sha256": "9feca2c09dfc27a09dd7c88c3f89cb4c385c3a99c9932f0a586212a248e9782e"
+  },
+  {
+   "path": "vincedata/midway.tdf",
+   "size": 877,
+   "sha256": "e96e6b494182e363796f02918e07e8a6dfd7d6175f32688b4a119aac42deba2d"
+  },
+  {
+   "path": "vincedata/movies.tdf",
+   "size": 117,
+   "sha256": "7dfe6c38087350d8edc991a985645fc0bc44efe3d45accb50ed3a4acf37d611f"
+  },
+  {
+   "path": "vincedata/movies/attract001.xmv",
+   "size": 21786624,
+   "sha256": "418f38680910809f95ee7f5da4e8a7d94a2e370a8ad2a552ca65c1b080a96b3c"
+  },
+  {
+   "path": "vincedata/movies/beeplogo.xmv",
+   "size": 2863104,
+   "sha256": "c35db39a9de1cb9c2dd36a91d145c50aebb75ee60dea8eaa6255100445b7ad47"
+  },
+  {
+   "path": "vincedata/movies/mslogo.xmv",
+   "size": 4530176,
+   "sha256": "c57b21074bed7e463a8bcfbf6c78d0aa3c96877a1d83c1da4cc40a02c20d0b21"
+  },
+  {
+   "path": "vincedata/museum.tdf",
+   "size": 390,
+   "sha256": "0668afbda42d22107709e454fbdcb54b1a6ece546e3131bd3d4d1720d6233252"
+  },
+  {
+   "path": "vincedata/music/basketcase.wav",
+   "size": 11597046,
+   "sha256": "7afc089a2f5e19f3c1fe65609afc5b5405204a5186ae23957ae7a45bbe8529a4"
+  },
+  {
+   "path": "vincedata/music/bigpig_music.wav",
+   "size": 11267766,
+   "sha256": "e24b231d7954b8f2628f9f4e4f47d2e81db34816fab0c6f9ecdd01eee2774ff2"
+  },
+  {
+   "path": "vincedata/music/bogwallowmusic.wav",
+   "size": 11769666,
+   "sha256": "8f53912d9730f9882115928bbca6d4ff10f2b6da85e256d3424a221eb4800191"
+  },
+  {
+   "path": "vincedata/music/boltroidmusic.wav",
+   "size": 8556246,
+   "sha256": "1050d73d2a42d3b9c9f07eb7b32e9f642156a46d893a175d6f901ad1687e7a56"
+  },
+  {
+   "path": "vincedata/music/bossbattleplaceholder01.wav",
+   "size": 14472086,
+   "sha256": "c658ceabd3e79038b32a3ecc4e510ce71787a8a1d01e509291c27f6d6ea0bf23"
+  },
+  {
+   "path": "vincedata/music/bumpercarmusic.wav",
+   "size": 11476226,
+   "sha256": "89dc2c23929403f650188c3e3457a8a4f50802bc75af0cd8f1a9b202e79a8170"
+  },
+  {
+   "path": "vincedata/music/captainsrooma.wav",
+   "size": 11737746,
+   "sha256": "eca80b283f8e29525f0c4f1bcc38d3c27f77a827225b713955210ad2d78aa695"
+  },
+  {
+   "path": "vincedata/music/captainsroomb.wav",
+   "size": 11624206,
+   "sha256": "cdd9e0fb3bcaefb8979075a2fb80ade8cd9e86f0797da48bea30ee142c021109"
+  },
+  {
+   "path": "vincedata/music/captainsroommusic.wav",
+   "size": 7001126,
+   "sha256": "473df683c8e8ec98797141854c4c426f4e02180a340e8a312325ae226fc59293"
+  },
+  {
+   "path": "vincedata/music/carnivalentrancecutscene.wav",
+   "size": 23560750,
+   "sha256": "de6722679cfbb9bcced1ead7bb97844f05d211f0c9ac85d982d9d1d72525abe8"
+  },
+  {
+   "path": "vincedata/music/clockpuzzletune.wav",
+   "size": 1406166,
+   "sha256": "13d1c8a2d8dad116a206a2ec981f89bfe30241cb1d65925647df52a779c6d342"
+  },
+  {
+   "path": "vincedata/music/crawdadmusic.wav",
+   "size": 11676146,
+   "sha256": "211e9412c2c5f895aee3bea605e30f5a4da01e53d65dcad3d1d56088378a3395"
+  },
+  {
+   "path": "vincedata/music/creditsclockpuzzletune.wav",
+   "size": 5142012,
+   "sha256": "9921d6742001fd3f2d3f89acb144f8667e7e0f7b1ff4eafe8543ce2b145b6ea1"
+  },
+  {
+   "path": "vincedata/music/creditsvincetheme.wav",
+   "size": 19183400,
+   "sha256": "d09081a231bee0180d37fcd3c65cfe74dbcf807c550947d1cc81c62b2d2edf09"
+  },
+  {
+   "path": "vincedata/music/dollydestruction.wav",
+   "size": 16131118,
+   "sha256": "d8032a78b4bca77893dbbe6aaa0e4c76a5a8f04c0e06ee03ce435871fa3af1f0"
+  },
+  {
+   "path": "vincedata/music/dollygmission.wav",
+   "size": 42508846,
+   "sha256": "7cc855077650a51f65b9326e7d0656ca5d1695f32b712b3de14d41df14a4419b"
+  },
+  {
+   "path": "vincedata/music/dollyprelude.wav",
+   "size": 34649134,
+   "sha256": "2c01157d70379afa9a44e5d3562c2c4dc7cd5b85ed26f5839df49b093540b25b"
+  },
+  {
+   "path": "vincedata/music/dollythanksvince.wav",
+   "size": 29245486,
+   "sha256": "9354cdab6b098e9bd95e2be9224dc210a9229d210b851a1212eaee9771af3d9f"
+  },
+  {
+   "path": "vincedata/music/downtowncryptcity.wav",
+   "size": 12260506,
+   "sha256": "fdf15f6688bcd910572a9b13f51cbad0e402dfacf0f80f0b4ed1305940418d01"
+  },
+  {
+   "path": "vincedata/music/earthwwmusic.wav",
+   "size": 11854506,
+   "sha256": "2a103afd71f8c0add3d759f6ce2ee7734ffdd9b54daaeddc5848b0c158525e8b"
+  },
+  {
+   "path": "vincedata/music/ethelrocketlab.wav",
+   "size": 18138670,
+   "sha256": "ddbbdd237f892b3d459815b7e49f30a72641115d6ba330db07aafd8beb54d967"
+  },
+  {
+   "path": "vincedata/music/ethelslab.wav",
+   "size": 11576046,
+   "sha256": "11aa77fb57d7ba3a33dd7c030b883242bb625ae8ee1c0fb96b62d383f1a46ea5"
+  },
+  {
+   "path": "vincedata/music/fanboatracemusic.wav",
+   "size": 8817206,
+   "sha256": "e64675cf6aae243631bce99164af9a36028a7b505c1a64bd2ddea6581b1f4b3d"
+  },
+  {
+   "path": "vincedata/music/fightingacemusic.wav",
+   "size": 11701066,
+   "sha256": "827b671fc83827d440fee8688be9ae084791f755624c19cf1aca3030d4deebc7"
+  },
+  {
+   "path": "vincedata/music/firstvoodooicon.wav",
+   "size": 11231278,
+   "sha256": "6081af185862003a3d106e333dc4379a1e10845eaab8f9261b651b316308123c"
+  },
+  {
+   "path": "vincedata/music/flamepuzzlesongloop.wav",
+   "size": 707426,
+   "sha256": "4dbcae4e35fc90f59fe5661da8d0c8f2102798fc8ae827574839577071483102"
+  },
+  {
+   "path": "vincedata/music/gatekeeper_intro.wav",
+   "size": 40166446,
+   "sha256": "7284626fa4c96aac801c6c9488e75bca02ef4a00dcf250259e6cb6cced276e2f"
+  },
+  {
+   "path": "vincedata/music/gatekeeperintrodinoboss.wav",
+   "size": 14733358,
+   "sha256": "000be57a2cd33da4a00e07acabe8efc0edd0710a5e6f0da2433479e33e9bb9a4"
+  },
+  {
+   "path": "vincedata/music/gatekeeperjam.wav",
+   "size": 11789966,
+   "sha256": "54912b814e4d3c94903dc3f765b748d853bc64771f38e0689fe9ae54f8cb3a92"
+  },
+  {
+   "path": "vincedata/music/gatekeepernoopen.wav",
+   "size": 12607534,
+   "sha256": "03e813289e1436ef8ef9c89fa2fd10264779b5ca2000edb0bb5e03e3e8129021"
+  },
+  {
+   "path": "vincedata/music/glowberrymusic.wav",
+   "size": 11866826,
+   "sha256": "dfdbec58570153d04453db053a4d753f84cce3db0badc7bd06dceba7c2003f51"
+  },
+  {
+   "path": "vincedata/music/hannadeath.wav",
+   "size": 2645038,
+   "sha256": "566c6e0674f6f69893f47e5ba6afb71d712cd535ffb249d053742a481c326b7b"
+  },
+  {
+   "path": "vincedata/music/hannaprelude.wav",
+   "size": 3514414,
+   "sha256": "7f17b24c12fb815581e775872ee90224eb60403b986785ca6b4b1268d6f6d98e"
+  },
+  {
+   "path": "vincedata/music/hurricanemusic.wav",
+   "size": 8966166,
+   "sha256": "60555a92081a3b0d2cf5aeb3faab809f3d436f6424e575f73d79d8bfd698de8d"
+  },
+  {
+   "path": "vincedata/music/insidekbotmusic.wav",
+   "size": 11669846,
+   "sha256": "c7b5bda194b649fe75f3473dacbdb8878ad69cd42e0fc509a3fa47175ff084df"
+  },
+  {
+   "path": "vincedata/music/janicedefeat.wav",
+   "size": 10746670,
+   "sha256": "9793066977ea6f13d755f24e3ca51862f47d56c1feb563ef0338c458d95e2ba5"
+  },
+  {
+   "path": "vincedata/music/jazzclubjam.wav",
+   "size": 395086,
+   "sha256": "8c09d6ee549362dba00fb61db8ab30f2088554408759a0d6c4c82b064108e176"
+  },
+  {
+   "path": "vincedata/music/jeanlafittemusic.wav",
+   "size": 11673486,
+   "sha256": "9ecea3faf8940863e69fccb1fa8552e42d380dd151b2da757b240deb53f2d7ac"
+  },
+  {
+   "path": "vincedata/music/jimmychallenge.wav",
+   "size": 10226542,
+   "sha256": "f3b8048e6b73f4b1d252df149a37639ec6339d8b247e362b1aa96ade63275fab"
+  },
+  {
+   "path": "vincedata/music/jimmyevilplan.wav",
+   "size": 48962926,
+   "sha256": "7447ffe2bf4563b657aaa90f525c73f1b57bf07bb48af3e7a7a8c13bb187c7b4"
+  },
+  {
+   "path": "vincedata/music/jimmyvictorydance.wav",
+   "size": 705682,
+   "sha256": "45c5dc4920af3694e8aa1f7a1477a288985859cdbb7f3674f2000238204af301"
+  },
+  {
+   "path": "vincedata/music/kosmoappearslor.wav",
+   "size": 17083438,
+   "sha256": "899e5c453ab43db7d0a3b6b2d8657cbb876369e8d4ee1efc5c403604dfdf52e9"
+  },
+  {
+   "path": "vincedata/music/kosmoappearsmaintunnel.wav",
+   "size": 8011822,
+   "sha256": "39a26e5c5254c6ed367b71c3847054f562ec872f014fd32e89434c479d1cba22"
+  },
+  {
+   "path": "vincedata/music/kosmoappearssarhus.wav",
+   "size": 10358326,
+   "sha256": "41c555fb9b6db2dd91f3d264519b13ea8264dbe38e751a40ff61b99430f34ddd"
+  },
+  {
+   "path": "vincedata/music/kosmoappearstumbler.wav",
+   "size": 13443118,
+   "sha256": "59f7fafd8971243677a9aa673887915db2236c7a4292edb3a36b8ed6bfc4be59"
+  },
+  {
+   "path": "vincedata/music/kosmobotprelude.wav",
+   "size": 43439854,
+   "sha256": "ceaefdfd95b05683aeec9b8936a1cdbf428f4ca4283aab6f76e08cb3bfe0926b"
+  },
+  {
+   "path": "vincedata/music/kosmojustdesserts.wav",
+   "size": 99919918,
+   "sha256": "6ac159ce2640e1451265337c0cec78145dcaf25c12d1882669230295be3fe455"
+  },
+  {
+   "path": "vincedata/music/kosmopigcutscene.wav",
+   "size": 12998926,
+   "sha256": "e0852a8d08421e435abdb5a1fabccd5a98f7c37dfbe8cc13088966963320d82b"
+  },
+  {
+   "path": "vincedata/music/landoridesmusic.wav",
+   "size": 11730606,
+   "sha256": "6475d19140b712160d8a8c6f687e7dd0e7d65007c47d1ef95d5a5e3a715bd8b6"
+  },
+  {
+   "path": "vincedata/music/leavingroachfort.wav",
+   "size": 5234734,
+   "sha256": "e6d86a2d7bba3b9512cf310de3eaff556874dd0bd59a713950a2af0067689cb7"
+  },
+  {
+   "path": "vincedata/music/load_screen_edit.wav",
+   "size": 220544,
+   "sha256": "f048618404565d2efc63cefa842968807afdbd03572aafc347a2f74957d7afea"
+  },
+  {
+   "path": "vincedata/music/mainstreet.wav",
+   "size": 11451166,
+   "sha256": "0f1823dd0829bb7aeb68e88a31bbd3f62013bf61f5aa80667b784744747c7999"
+  },
+  {
+   "path": "vincedata/music/maintunnel.wav",
+   "size": 11365486,
+   "sha256": "455499aff3b606b21c99770aa4f8d7db2447216a2cc43a169376638295431801"
+  },
+  {
+   "path": "vincedata/music/mellowaftermath.wav",
+   "size": 14056006,
+   "sha256": "38b8fe287025f98c921699e519c8319ac92ddce1a4f3dffb7001da1b0a1482ef"
+  },
+  {
+   "path": "vincedata/music/midriffmusic.wav",
+   "size": 11578006,
+   "sha256": "653f2ec7e7b884b51d3a564763cb64dee6849fe47711e6948bcfc3067ed6f6fe"
+  },
+  {
+   "path": "vincedata/music/midwaymusic.wav",
+   "size": 11866126,
+   "sha256": "e9d48a45401367fdaee4ed26ff5581dcd2dee6896c655f680402542663aaee08"
+  },
+  {
+   "path": "vincedata/music/mirrorsmusic.wav",
+   "size": 11808446,
+   "sha256": "5578efd5b6e676fd294dd42c18a5a7dce36481f6af7d2baf868caf3c2bba8675"
+  },
+  {
+   "path": "vincedata/music/pigchase.wav",
+   "size": 707426,
+   "sha256": "e19eb1dd5a943d867b141d364c163bb31519db6c08c589d1d35c0fb61dfe01ed"
+  },
+  {
+   "path": "vincedata/music/plangoesawry.wav",
+   "size": 37707310,
+   "sha256": "307f091861a6c1c2c4906deebd6a224c3d93f781a029a6650d6a78ed3455ed7b"
+  },
+  {
+   "path": "vincedata/music/playroommusic.wav",
+   "size": 11466286,
+   "sha256": "7b305f8d84c0e8b2bc4a56c13f2b8112e66d2aafcc35f5342a3b7694d7d58652"
+  },
+  {
+   "path": "vincedata/music/postbosstune.wav",
+   "size": 12348426,
+   "sha256": "81366413492e2eb25b53315d28b5b2ffc67b29b30e7eb892bda31d9b79c32d1a"
+  },
+  {
+   "path": "vincedata/music/proproom.wav",
+   "size": 10779306,
+   "sha256": "13b56fc4e4283e2b0e168b609480e5eed73121fb63826ca89414ccd27c752d80"
+  },
+  {
+   "path": "vincedata/music/ratracedeathcutscene.wav",
+   "size": 10160854,
+   "sha256": "f01c0bdb6ed8eb782c65a4b4e0410a8be2cc1cdebd65f5d5b0e93739d76c9527"
+  },
+  {
+   "path": "vincedata/music/ratracepreludecutscene.wav",
+   "size": 8356846,
+   "sha256": "701655c810d5780fecb96f3944f629921baa927696049827fb9ab0525d72c4c8"
+  },
+  {
+   "path": "vincedata/music/recordditty.wav",
+   "size": 282106,
+   "sha256": "a39db48ec70602ee03ec00f2666e57ed493145d33dc7825ea5c16a9807700717"
+  },
+  {
+   "path": "vincedata/music/reggieprimodiecutscene.wav",
+   "size": 15341158,
+   "sha256": "9e0dc27e84cbd2ab7672c501bd8f29b6d74019ce8f642f27e250e9c89093e2a4"
+  },
+  {
+   "path": "vincedata/music/rocketlab.wav",
+   "size": 11576046,
+   "sha256": "12d67df227a9333091070499210e3a69fca75980cf2c4321e4a08de6fbca8ff5"
+  },
+  {
+   "path": "vincedata/music/rrrmusic.wav",
+   "size": 11495546,
+   "sha256": "24297c5efc029442597606e217d76b44d9145f248ae441e26f4b6dd6e4fc7dee"
+  },
+  {
+   "path": "vincedata/music/sarcohustlemusic.wav",
+   "size": 12124986,
+   "sha256": "3656ca91a954dc10c9dead6b2a9e164322a083812f67f4e99bddeec6a6bc3875"
+  },
+  {
+   "path": "vincedata/music/sausageworksmusic.wav",
+   "size": 11674046,
+   "sha256": "415f677bf8c4671bcba5c6d7eca285d62651765ed3948659c56a13de8866277e"
+  },
+  {
+   "path": "vincedata/music/scarystuffmusic.wav",
+   "size": 11915826,
+   "sha256": "17e2b718af3741fa503e328eccca54d2c8f25cf1841ac2af2f55d47e20e22466"
+  },
+  {
+   "path": "vincedata/music/stealthdeception.wav",
+   "size": 11673486,
+   "sha256": "8c324558a530eea9a4fda07d34ce5f2d09bf71517617c83f60f18b251586c466"
+  },
+  {
+   "path": "vincedata/music/thegatesopen.wav",
+   "size": 6233806,
+   "sha256": "afe207ad8ee8415eb1d6848a367083efa81705def5a57f4b6fb19160354e58f5"
+  },
+  {
+   "path": "vincedata/music/thesquare.wav",
+   "size": 11716466,
+   "sha256": "da0c41cc605405a1bf20d39da07cce1986ea2b1f8f316217d535a94494f5dba5"
+  },
+  {
+   "path": "vincedata/music/throttleup.wav",
+   "size": 14898526,
+   "sha256": "e4b2d32b5416d65da4f3894d3cda30783453ab343a1c7cc1fddd817c1d7b9132"
+  },
+  {
+   "path": "vincedata/music/tintoyterrortune.wav",
+   "size": 10963546,
+   "sha256": "e44b22f088546fd7841c34d6a9e2cd9157f1c526521b07299cec15d14c27e108"
+  },
+  {
+   "path": "vincedata/music/trainingtune01.wav",
+   "size": 11267766,
+   "sha256": "6b424927a07d004aacb45104e5eaaacdd1a00c9af9f5b91153b8149c5c58cd66"
+  },
+  {
+   "path": "vincedata/music/trolley.wav",
+   "size": 3062926,
+   "sha256": "d06e5a4d20941dd64f34bf3ab1a70d56c497566cd3b4e78cd4e57e7afa26a86a"
+  },
+  {
+   "path": "vincedata/music/tumblerroommusic.wav",
+   "size": 11577866,
+   "sha256": "3b9d559ad2d34af385292f8182c0613489e149aeea6f22c1c7b068f91049d349"
+  },
+  {
+   "path": "vincedata/music/vincearrivalfrontporch.wav",
+   "size": 9229150,
+   "sha256": "7777a462665d1bb0f51e0143a3701eb2f687802cfee594550837b2de526e2d1c"
+  },
+  {
+   "path": "vincedata/music/vincebeatsdinocutscene.wav",
+   "size": 13026862,
+   "sha256": "10c6ad5cc987da112aca0c9195ea582b8a5fbccb15b3b71f0f7bc1ef31d85bc6"
+  },
+  {
+   "path": "vincedata/music/vincedropsin.wav",
+   "size": 31739950,
+   "sha256": "7694a6f631c8177f73f9c7456463ef6dc5527156a0fe82ded646362fba4d002a"
+  },
+  {
+   "path": "vincedata/music/vincele01.wav",
+   "size": 71546,
+   "sha256": "41c2a52c7ad3703e8901bba1b44c097762813207df4de9b557868e3d650a6294"
+  },
+  {
+   "path": "vincedata/music/vincele02.wav",
+   "size": 61886,
+   "sha256": "bfd2b13d1925bf9d582a8c29005274e767cc240117f3af54f85c7361cfa654e5"
+  },
+  {
+   "path": "vincedata/music/vincele03.wav",
+   "size": 99406,
+   "sha256": "e60b463a2b5bf82193085cf3f221b4a0006926898ef3ac368c09eaccdc306912"
+  },
+  {
+   "path": "vincedata/music/vincele04.wav",
+   "size": 45786,
+   "sha256": "ae5facb4521d8bf35da3178416a463f12e07841f981666f50c04ec9763d52d8b"
+  },
+  {
+   "path": "vincedata/music/vincemeetsdinocutscene.wav",
+   "size": 25830094,
+   "sha256": "d555e4ae70f483bb40af4b58e15ca719e558bd1878cb7bf6e58ba3a063a2518e"
+  },
+  {
+   "path": "vincedata/music/vincemeetsjimmycutscene.wav",
+   "size": 36691246,
+   "sha256": "2ab60160b45965a58d95794df54be81caa8c5cc5643bacf93b1aa529a041230f"
+  },
+  {
+   "path": "vincedata/music/vincemeetskosmocutscene.wav",
+   "size": 70346926,
+   "sha256": "1acd397c9b5e74a9ea1141321edfde65bb184b137f456249047dc2dbcbd8f6bc"
+  },
+  {
+   "path": "vincedata/music/vincerideschopper.wav",
+   "size": 5419054,
+   "sha256": "7864f926c90cfc18f5ca8e5572e268ca1382d624487ee4672fb0f29edece58ea"
+  },
+  {
+   "path": "vincedata/music/vincesteamrollercutscene.wav",
+   "size": 15701746,
+   "sha256": "5488e3f0ac967c372ff16eac20c82867ea5216f5c1748469ea791423252db677"
+  },
+  {
+   "path": "vincedata/music/vindeath.wav",
+   "size": 227646,
+   "sha256": "654273efb4e7246d13a183ed4f2c398736120eb362734ac7fc4f4a9939ec0ae9"
+  },
+  {
+   "path": "vincedata/music/viniconpu.wav",
+   "size": 121666,
+   "sha256": "0b3abf566191eeba20836f2341c6ce7470240dad048fa1d213496eddfa153d09"
+  },
+  {
+   "path": "vincedata/music/vinjbugpu.wav",
+   "size": 104166,
+   "sha256": "71e6d0a7860e11e897405f0b9056bee0845e9ee384b02b463ca054eb5f052372"
+  },
+  {
+   "path": "vincedata/music/voodooshop.wav",
+   "size": 5945246,
+   "sha256": "8dc64c22245b8bc2472eb9bf5fbe476e4bf26b6cf78afa7c7954243dd94b3e6b"
+  },
+  {
+   "path": "vincedata/music/voodooshopcutscene.wav",
+   "size": 98380846,
+   "sha256": "7a9637a9b49ed34379909afcd76446e3e2b7bee4973d23a60d0ebc11f5df7e3b"
+  },
+  {
+   "path": "vincedata/music/voodooshopmusic.wav",
+   "size": 21728146,
+   "sha256": "cf2ec1bacb940958040a2eb3ccc102dee93e45ba94b4ad39c35f9da92ccbfe84"
+  },
+  {
+   "path": "vincedata/music/wrathofjanice.wav",
+   "size": 11575626,
+   "sha256": "6b41a9acfa33f0bef6176c14e0e3f736207bf466afc437b97a56b5cadc97c10e"
+  },
+  {
+   "path": "vincedata/music/zgcmusic.wav",
+   "size": 11259226,
+   "sha256": "f606f88bff86c833c308aad4e46841628415e9837c59322445163bafa19b94ba"
+  },
+  {
+   "path": "vincedata/progresshints.tdf",
+   "size": 2831,
+   "sha256": "7f2db429ecf3588b491ff3c4bd3290a88fe8aa168de3319f88902bf55b3dc74e"
+  },
+  {
+   "path": "vincedata/propellerroom.tdf",
+   "size": 801,
+   "sha256": "f320c9f39d9e65f8a653cc4ae508af406862673ac89a237cd972258f2c186b1f"
+  },
+  {
+   "path": "vincedata/ratracerodeo.tdf",
+   "size": 803,
+   "sha256": "adf8e25b036ff337d8813bf8ee4a839e8ab663f4a4b58a36be4e4c70d9f8f53a"
+  },
+  {
+   "path": "vincedata/saves/bayou_belowdecks.tdf",
+   "size": 9990,
+   "sha256": "2ae911052f55257401fdee889bab4a6b0bb87cb84418530cc62d6d89ed3a0278"
+  },
+  {
+   "path": "vincedata/saves/bayou_crawdadjimmys.tdf",
+   "size": 25293,
+   "sha256": "4fda6bf1b508d94f3e5c0b25c0986014f380c2082a879f8ba18bc7c35502b011"
+  },
+  {
+   "path": "vincedata/saves/bayou_earthwoodandwater.tdf",
+   "size": 43464,
+   "sha256": "07993960220b403c01f3b6ff1f4cb9a2d176cbcf41ec5e57d069ea0b6759bf3b"
+  },
+  {
+   "path": "vincedata/saves/bayou_hurricanehannah.tdf",
+   "size": 7919,
+   "sha256": "a7cac8d5aee9de17a58e5d00dc165e5d432773a9fa322cf4d55a1884b4be9166"
+  },
+  {
+   "path": "vincedata/saves/bayou_jeanlafittesship.tdf",
+   "size": 24161,
+   "sha256": "c6666a619afe00659e6dfb7b7a995d6671c3d2db68920cbf797156f32520ffe8"
+  },
+  {
+   "path": "vincedata/saves/bayou_jimmysfanboat.tdf",
+   "size": 39202,
+   "sha256": "4aa35c83e501ed53741047090138ab290da60146d712ebbff00ddcd9524e9047"
+  },
+  {
+   "path": "vincedata/saves/bayou_thebogwallow.tdf",
+   "size": 37817,
+   "sha256": "a2e2ef99ac72778ce6fb25de58ad0d068453c9d0b52b83f218cb74abd86f0c24"
+  },
+  {
+   "path": "vincedata/saves/bayou_thesausageworks.tdf",
+   "size": 10317,
+   "sha256": "1fe344a687893d2b8b5a2b4dbd040a9ca5e1cfbff364426e83ca646646d6becf"
+  },
+  {
+   "path": "vincedata/saves/carnival_bumpercarbumpoff.tdf",
+   "size": 15204,
+   "sha256": "da5a97a0ab3c6784afcfe2734d793b470e7aa228fe630f1f628de6f41994cbf4"
+  },
+  {
+   "path": "vincedata/saves/carnival_houseomirrors.tdf",
+   "size": 27555,
+   "sha256": "8607ac5d45714213cea35c676f13a3cb6952b599d00db5e12da287736c84bce7"
+  },
+  {
+   "path": "vincedata/saves/carnival_insidekosmobot.tdf",
+   "size": 19720,
+   "sha256": "07e8efc5c3627e504e5a28af5f1cecd39d084ec7cb996658725aeae5efdd349e"
+  },
+  {
+   "path": "vincedata/saves/carnival_landorides.tdf",
+   "size": 37509,
+   "sha256": "498d750d0e29f876c1507aabed5f0c1b6cfe82179b78247405b9bdd511c33da5"
+  },
+  {
+   "path": "vincedata/saves/carnival_midway.tdf",
+   "size": 26034,
+   "sha256": "00755d8860442a7a3bd3b63c73be3b0dd9463c43c15941fbc8064cceebaf5ad4"
+  },
+  {
+   "path": "vincedata/saves/carnival_scarehouse.tdf",
+   "size": 2735,
+   "sha256": "90a6c0c5ce96e86fd2ba6e9788ba26458f67cb0703e23f1abb2ddee5489cf1c4"
+  },
+  {
+   "path": "vincedata/saves/cryptcity_gatekeeperjam.tdf",
+   "size": 14756,
+   "sha256": "30ea32370e451653aecca3d963962d6159de4880dea7c02404555201a92ea4f3"
+  },
+  {
+   "path": "vincedata/saves/cryptcity_gwistlethorpemausoleum.tdf",
+   "size": 36482,
+   "sha256": "a826d238c1bb50640564813052ac17b191232d9300b2d1846aee2dad221ea9a2"
+  },
+  {
+   "path": "vincedata/saves/cryptcity_ratracerodeo.tdf",
+   "size": 16358,
+   "sha256": "0f5d2ca679ec32fdb84bc908bffaea547f915cb0338e31c8e3c4b2cb011350c4"
+  },
+  {
+   "path": "vincedata/saves/cryptcity_sarcophagushustle.tdf",
+   "size": 35435,
+   "sha256": "54a333574791ad3a028e9436e4df0ce146c9735fbf46f3ee06251a32168273c3"
+  },
+  {
+   "path": "vincedata/saves/cryptcity_zombieguidancecounselor.tdf",
+   "size": 19931,
+   "sha256": "b775edff96bc50f88073fb74877354074035adb5ba1cba6f28ee7246498a456d"
+  },
+  {
+   "path": "vincedata/saves/frenchquarter_bigpig.tdf",
+   "size": 17973,
+   "sha256": "e630ed6b80960020fabf0e8aef35888130100a87c1978fc333d840d141abceed"
+  },
+  {
+   "path": "vincedata/saves/frenchquarter_courtyard.tdf",
+   "size": 17015,
+   "sha256": "bf219a8d492509d9e999618619991cbac7d8d6dac5d6e22ca8fbe8a2155aeaec"
+  },
+  {
+   "path": "vincedata/saves/frenchquarter_mainstreet.tdf",
+   "size": 32524,
+   "sha256": "780140d31cfbb95aef4e205f9e3e96d22b3128098de69def9fc533ea0bdc509c"
+  },
+  {
+   "path": "vincedata/saves/frenchquarter_museum.tdf",
+   "size": 13752,
+   "sha256": "e6e4638617a168918a1271e9520349f4bebb4295270dd9f5775748c15c89c082"
+  },
+  {
+   "path": "vincedata/saves/frenchquarter_thesquare.tdf",
+   "size": 48109,
+   "sha256": "61057fe018363befdae6ae49d6d6a93bb2bb1788506125071001df2c57acfb16"
+  },
+  {
+   "path": "vincedata/saves/initialize.diary",
+   "size": 164730,
+   "sha256": "30a9a07d6452feb3c35e4ef312ed6cb51c20af58329995f507be66ea8bc3c29c"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_boltroidbattle.tdf",
+   "size": 41462,
+   "sha256": "e5f7ab47cdc52c549aa06d0b9630161b0c3f269430ccfac9beaef7c76b333d98"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_captainsroom.tdf",
+   "size": 8763,
+   "sha256": "c571c37fde9cbb1213b75f022eadc7a75f2223ceff346cc93ed1c22d0e6a5fb6"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_frontporch.tdf",
+   "size": 6293,
+   "sha256": "0deaae36486bb7e1341f57e355a9ed71e81df71fb4b3fedda4d950e533c28243"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_glowberrytangle.tdf",
+   "size": 56904,
+   "sha256": "4dabfe0c1ec9e7c32d6def18c089bf7651fcdbbf3cd4f178ccdf213cec8c6c09"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_playroom.tdf",
+   "size": 10332,
+   "sha256": "1c0c7f98259b502baa3d84737a101ce7d0ffa121f0f7df940f4afa91f09209a1"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_tintoyterror.tdf",
+   "size": 24345,
+   "sha256": "34a029062cd569018115a8018aea89d93a09e6fa98ec70f58eda2a2530b9fe7d"
+  },
+  {
+   "path": "vincedata/saves/manorhouse_tumblerroom.tdf",
+   "size": 15419,
+   "sha256": "9891cdb89a94f8ba386c10267cc02c1963fcab50cccd1c0366f6216449a97c0b"
+  },
+  {
+   "path": "vincedata/saves/sewers_basketcase.tdf",
+   "size": 22680,
+   "sha256": "c2f2effc28ac3448ba8aa838b23f95549f2878b7b9b8823d9c851937c7ddccfe"
+  },
+  {
+   "path": "vincedata/saves/sewers_maintunnel.tdf",
+   "size": 10982,
+   "sha256": "4921445af059fbf0ccfeb15dca2d773bc46ff4ad8fee20d75f0918aba62fdead"
+  },
+  {
+   "path": "vincedata/saves/sewers_propellerroom.tdf",
+   "size": 28176,
+   "sha256": "a92f603e421545712d5234e436f35e8d7cb18d17ca83ea3270f9e96c8b348553"
+  },
+  {
+   "path": "vincedata/saves/sewers_rocketlab.tdf",
+   "size": 13468,
+   "sha256": "6891d42d7ae425e53a2bd4e10bae6e1d0b61b35c1ab37a89d3b9488f0255a97b"
+  },
+  {
+   "path": "vincedata/saves/sewers_stealthroom.tdf",
+   "size": 20040,
+   "sha256": "d8c1f96a26b55b7fe87a0e1fe563da6af68005dc35408edefab7aa944f2d9d45"
+  },
+  {
+   "path": "vincedata/saves/sewers_throttleup.tdf",
+   "size": 8476,
+   "sha256": "f2820eca37b0d550facb5f9ac233116620ef21bd75d66732b040a061ea3e0d6c"
+  },
+  {
+   "path": "vincedata/saves/sewers_wrathofjanice.tdf",
+   "size": 6990,
+   "sha256": "03cb112e9805f4bf7d4e81709859541a61a375c98ffd3a0f95ce4ccc6f2e2e0d"
+  },
+  {
+   "path": "vincedata/saves/voodooshop_voodooshop.tdf",
+   "size": 1588,
+   "sha256": "6dce70cf1d6438f61bb8efd0d611c04b2f5ada8a9a462357fa16e6b90a7a2ad4"
+  },
+  {
+   "path": "vincedata/settings.tdf",
+   "size": 20685,
+   "sha256": "f17521ec2cbabe6931a0bb8bae76aa00d31fe53a167e1b513986f83ea5db6595"
+  },
+  {
+   "path": "vincedata/shaders.tdf",
+   "size": 3647,
+   "sha256": "84dd75c4f39fb4e04905ecc123175d7f6f594969c74479c244233bf84c2d366f"
+  },
+  {
+   "path": "vincedata/sourceManifest.lst",
+   "size": 107292,
+   "sha256": "378365681c93021cad1d33cafe91da71de2b48752d2b11c27caffa53d5f98999"
+  },
+  {
+   "path": "vincedata/strings/de/credits.blob",
+   "size": 18872,
+   "sha256": "bd04a1a8a7f76cbc31e116b64eef022719b7861c87d9dd3beef4723f965b7b0f"
+  },
+  {
+   "path": "vincedata/strings/de/systemstrings.blob",
+   "size": 112,
+   "sha256": "636ccf0bf82fb0732e21b465ee9d3cf84a7e1afc3a5dada849a6967f2eb6f175"
+  },
+  {
+   "path": "vincedata/strings/de/vincestrings.blob",
+   "size": 88900,
+   "sha256": "503b2b13065319d1dcad347764b18a01c64127a17941f7c66ef46c7f69eac08e"
+  },
+  {
+   "path": "vincedata/strings/en/credits.blob",
+   "size": 18380,
+   "sha256": "e64ead247a21e222a3e61a48a314e0535a146d7c39e2a416b321696466b1d665"
+  },
+  {
+   "path": "vincedata/strings/en/systemstrings.blob",
+   "size": 112,
+   "sha256": "636ccf0bf82fb0732e21b465ee9d3cf84a7e1afc3a5dada849a6967f2eb6f175"
+  },
+  {
+   "path": "vincedata/strings/en/vincestrings.blob",
+   "size": 82402,
+   "sha256": "c99099735f607c1419a7e46a679713c4dc86947a4088906070c1924b3ab3580a"
+  },
+  {
+   "path": "vincedata/strings/es/credits.blob",
+   "size": 19854,
+   "sha256": "492a3ecaf5e74327582f66dfaed7bb69a5b644a500063c2bd1f255fb66ae9a3f"
+  },
+  {
+   "path": "vincedata/strings/es/systemstrings.blob",
+   "size": 112,
+   "sha256": "636ccf0bf82fb0732e21b465ee9d3cf84a7e1afc3a5dada849a6967f2eb6f175"
+  },
+  {
+   "path": "vincedata/strings/es/vincestrings.blob",
+   "size": 88892,
+   "sha256": "9bc4ef4e8c6cf5808071b95a4106ad8e183d2da1502b3701646f5db4266f3055"
+  },
+  {
+   "path": "vincedata/strings/fr/credits.blob",
+   "size": 20144,
+   "sha256": "9036f5500087d6ba11dfdbf2898ec87ade2b96e5084ff682dee4dfef2ed84daa"
+  },
+  {
+   "path": "vincedata/strings/fr/systemstrings.blob",
+   "size": 112,
+   "sha256": "636ccf0bf82fb0732e21b465ee9d3cf84a7e1afc3a5dada849a6967f2eb6f175"
+  },
+  {
+   "path": "vincedata/strings/fr/vincestrings.blob",
+   "size": 97314,
+   "sha256": "ec6c0ee7d8f8107e4117b46c1db080e13d69f7c4cbc0414a42ac6271e7b3cbb5"
+  },
+  {
+   "path": "vincedata/thebogwallow.tdf",
+   "size": 653,
+   "sha256": "552e3d96dc2cde347491da07ac7590eda58ccb64e01861107e3c59cd9b27eabf"
+  },
+  {
+   "path": "vincedata/thesquare.tdf",
+   "size": 703,
+   "sha256": "c801a3bff24a4cc98c10b954470b43524a0b23cb15f0472ef334b45bfe2250cb"
+  },
+  {
+   "path": "vincedata/tintoyterror.tdf",
+   "size": 824,
+   "sha256": "73c88e7e451bf42efc61656f63587cb64bd0ea4bef16b1317d6409ed78b2a18e"
+  },
+  {
+   "path": "vincedata/trolleymap.tdf",
+   "size": 1307,
+   "sha256": "5ec088e6835f01ede553110e6abf0a1359d107edacd0e6b7a97dadaac0586c07"
+  },
+  {
+   "path": "vincedata/version.tdf",
+   "size": 186,
+   "sha256": "e6da9a0db2ae8646cdebbe8a0c2b90644e56e37dab528d768ec49d6d3761755b"
+  },
+  {
+   "path": "vincedata/viewanim.tdf",
+   "size": 362,
+   "sha256": "a37559a544e09f53e755ceea8d66d801e0c13348c09087a9f26caeb869e90013"
+  },
+  {
+   "path": "vincedata/vincestrings.tdf",
+   "size": 33542,
+   "sha256": "a8a5365cd51b45936b7898e235a2e86c85e21fafb837a4aa62f6e82860b57e84"
+  },
+  {
+   "path": "vincedata/voodooshop.tdf",
+   "size": 1157,
+   "sha256": "48d9ad1eeb8651004b81b331e336167799468bac295e5a5e067668a578eda017"
+  },
+  {
+   "path": "vincedata/wrathofjanice.tdf",
+   "size": 1061,
+   "sha256": "9a0bbe0dc36c34e0573ff2d08eada1873717da3fdc7b5782a2c51e180028151e"
+  },
+  {
+   "path": "vincedata/zombieguidancecounselor.tdf",
+   "size": 264,
+   "sha256": "6690d3d5aeb8e96d9531d2f4b22726155ff949faae18b382a39391a3e115ca35"
+  }
+ ]
+}

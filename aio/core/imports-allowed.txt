@@ -1,0 +1,77 @@
+# AIO core X3DAudio1_7.dll (1.4 T6): every Windows function it imports. aio/build.py dll reads the linked DLL's import
+# table and refuses the build on any import missing here or listed but no longer imported.
+# Format: dll!function, one per line; # starts a comment. Who needs it: F = VinceFix, A = VinceAudio, S = VinceSteam,
+# C = core.c, H = halo.c (1.6 T4). VinceFix's reasons in full: VinceFix/release/github-1.3/imports-allowed.txt.
+
+# Logs and settings: VinceFix.log/.ini, VinceAudio.log/.ini, VinceSteam.log/.ini, in the game folder
+kernel32.dll!CreateFileW                  # F A S
+kernel32.dll!WriteFile                    # F A S
+kernel32.dll!ReadFile                     # A: VinceAudio.ini
+kernel32.dll!CloseHandle                  # F A S
+kernel32.dll!GetFileAttributesW           # A: switch files beside the DLL
+kernel32.dll!GetFileAttributesExW         # F: LiveReload, VinceFix.ini's time and size
+kernel32.dll!GetPrivateProfileStringW     # F: [VinceFix]
+kernel32.dll!GetPrivateProfileIntW        # S: [shimmer]
+kernel32.dll!GetModuleFileNameW           # F A S: the game folder
+kernel32.dll!GetLocalTime                 # F A: log line times
+kernel32.dll!GetCurrentProcessId          # F: log line pid
+kernel32.dll!GetCurrentThreadId           # A: trace lines
+kernel32.dll!GetLastError                 # F: error numbers in the log
+kernel32.dll!GetThreadId                  # F: ignored SetThreadAffinityMask log line
+
+# X3DAudio forwarding (F) and the XAudio2 backend (A): loaded on first use, never in DllMain
+kernel32.dll!GetSystemDirectoryW          # F A: system xaudio2_9.dll / X3DAudio1_7.dll by absolute path
+kernel32.dll!LoadLibraryW                 # F A
+kernel32.dll!GetProcAddress               # F A
+user32.dll!MessageBoxW                    # F: neither system DLL loads, then
+kernel32.dll!ExitProcess                  # F
+ole32.dll!CoInitializeEx                  # A: default-device notifier
+ole32.dll!CoCreateInstance                # A: the notifier's MMDeviceEnumerator
+ole32.dll!CoUninitialize                  # A
+ole32.dll!CoTaskMemFree                   # A
+ole32.dll!PropVariantClear                # A
+
+# Patching the game in memory (its own process only)
+kernel32.dll!GetModuleHandleW             # F A C: Vince.exe and loaded system modules
+kernel32.dll!GetModuleHandleA             # S: Vince.exe
+kernel32.dll!VirtualProtect               # F A S H: an import slot, a call site, a vtable slot; H: trampolines RX
+kernel32.dll!FlushInstructionCache        # F S H: after a code patch
+kernel32.dll!GetCurrentProcess            # F S H
+kernel32.dll!DisableThreadLibraryCalls    # C
+kernel32.dll!GetProcessAffinityMask       # F: thread unpinning
+kernel32.dll!VirtualAlloc                 # H: the trampoline block (RW, then PAGE_EXECUTE_READ)
+kernel32.dll!VirtualFree                  # H: the block, on a failed install
+kernel32.dll!VirtualQuery                 # H: guarded reads (SpookyPS9, check sites, render nodes)
+
+# Threads, locks, memory
+kernel32.dll!CreateThread                 # F: LiveReload watcher; A
+kernel32.dll!WaitForSingleObject          # F A
+kernel32.dll!WaitForMultipleObjects       # A
+kernel32.dll!CreateEventW                 # A
+kernel32.dll!SetEvent                     # A
+kernel32.dll!Sleep                        # F A
+kernel32.dll!AcquireSRWLockExclusive      # F: settings hand-over to the render thread
+kernel32.dll!ReleaseSRWLockExclusive      # F
+kernel32.dll!TryAcquireSRWLockShared      # F
+kernel32.dll!ReleaseSRWLockShared         # F
+kernel32.dll!InitializeCriticalSection    # A
+kernel32.dll!EnterCriticalSection         # A
+kernel32.dll!LeaveCriticalSection         # A
+kernel32.dll!GetProcessHeap               # A
+kernel32.dll!HeapAlloc                    # A
+kernel32.dll!HeapFree                     # A
+
+# Frame timing (F: present hold, frame cap; A, S: clocks)
+kernel32.dll!QueryPerformanceCounter      # F A S
+kernel32.dll!QueryPerformanceFrequency    # F A S
+kernel32.dll!CreateWaitableTimerExW       # F
+kernel32.dll!SetWaitableTimer             # F
+user32.dll!MonitorFromWindow              # F: the game's display refresh rate
+user32.dll!GetMonitorInfoW                # F
+user32.dll!EnumDisplaySettingsW           # F
+
+# LiveReload watcher, setup report, DPI (F)
+kernel32.dll!FindFirstChangeNotificationW # F
+kernel32.dll!FindNextChangeNotification   # F
+kernel32.dll!GetSystemPowerStatus         # F: power: log line
+user32.dll!SetProcessDPIAware             # F: DPI on Windows before 10 1703

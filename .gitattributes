@@ -1,0 +1,2 @@
+# Keep every file's bytes exactly as committed: the build checks sources by sha256, so no line-ending conversion.
+* -text

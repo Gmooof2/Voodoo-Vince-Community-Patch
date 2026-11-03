@@ -1,0 +1,34 @@
+{
+ "derived": [
+  {
+   "path": "ultrawide/pointsprite_vs_fixed.bin",
+   "stock": "Vince.exe"
+  },
+  {
+   "path": "VinceSpookyFix/fix/SpookyVS_fixed.bin",
+   "stock": "Vince.exe"
+  },
+  {
+   "path": "Vincematerialchange/build_roach_shell.py",
+   "stock": "Vince.exe"
+  },
+  {
+   "path": "VinceSkinTexture/textures/vinceskin.dds",
+   "stock": "vincedata/levels/bayou/area_belowdecks/textures.hot"
+  },
+  {
+   "path": "VinceSkinTexture/textures/vinceskinn.1.00.dds",
+   "stock": "vincedata/levels/bayou/area_belowdecks/textures.hot"
+  },
+  {
+   "path": "Vincesmokefix/patchset.json",
+   "stock": "Vince.exe",
+   "encoding": "hex"
+  },
+  {
+   "path": "Xaudio2 rework/patches/VoodooVince_StereoMusicFix.bat",
+   "stock": "Vince.exe",
+   "encoding": "hex"
+  }
+ ]
+}
