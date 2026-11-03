@@ -21,7 +21,7 @@ get the original game back exactly as it was.
 ### 🔊 Sound
 - Stereo fix, and audio device caching fixing stutters.
 - Sound survives an audio device change and no longer cuts out.
-- The power icon sound plays again (percentage chance of it not working).
+- The power icon pickup sound plays again (percentage chance of it not activating).
 - Volume is set to half by default (adjustable in Settings).
 - The loud Kosmobot fan and the Land o' Rides cat noises are turned down.
 
